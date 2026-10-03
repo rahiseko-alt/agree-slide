@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "guide": {
+    "id": "my-guide",
+    "titleKey": "guide.title",
+    "descriptionKey": "guide.description",
+    "slides": [
+      {
+        "id": "first",
+        "layout": "intro",
+        "titleKey": "first.title",
+        "bodyKey": "first.body",
+        "icon": "file",
+        "animation": "slide",
+        "staggerMs": 180,
+        "action": {
+          "type": "documents",
+          "labelKey": "first.action"
+        }
+      }
+    ],
+    "documents": [
+      {
+        "id": "application",
+        "titleKey": "document.title",
+        "descriptionKey": "document.body",
+        "kind": "pdf",
+        "href": "./documents/sample.pdf"
+      }
+    ]
+  },
+  "locales": {
+    "ja": {
+      "languageName": "日本語",
+      "guide.title": "ご案内",
+      "guide.description": "必要な情報を確認しましょう。",
+      "first.title": "最初に確認すること",
+      "first.body": "ここに説明を入れます。",
+      "first.action": "必要書類を見る",
+      "document.title": "申請書",
+      "document.body": "記入前に内容を確認してください。"
+    },
+    "en": {
+      "languageName": "English",
+      "guide.title": "Your guide",
+      "guide.description": "Check the information you need.",
+      "first.title": "Before you start",
+      "first.body": "Your explanation goes here.",
+      "first.action": "View documents",
+      "document.title": "Application form",
+      "document.body": "Check the contents before filling it out."
+    }
+  }
+}

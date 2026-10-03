@@ -1,0 +1,23 @@
+{
+  "id": "welcome-guide",
+  "titleKey": "guide.title",
+  "descriptionKey": "guide.description",
+  "slides": [
+    { "id": "welcome", "eyebrowKey": "slide.welcome.label", "titleKey": "slide.welcome.title", "bodyKey": "slide.welcome.body", "layout": "intro", "icon": "sparkles", "animation": "slide" },
+    { "id": "language", "eyebrowKey": "slide.language.label", "titleKey": "slide.language.title", "bodyKey": "slide.language.body", "layout": "cards", "icon": "globe", "animation": "scale", "items": [
+      { "titleKey": "slide.language.item1.title", "bodyKey": "slide.language.item1.body", "icon": "globe" },
+      { "titleKey": "slide.language.item2.title", "bodyKey": "slide.language.item2.body", "icon": "layers" }
+    ] },
+    { "id": "steps", "eyebrowKey": "slide.steps.label", "titleKey": "slide.steps.title", "bodyKey": "slide.steps.body", "layout": "steps", "icon": "hand", "animation": "slide", "staggerMs": 220, "items": [
+      { "titleKey": "slide.steps.item1.title", "bodyKey": "slide.steps.item1.body", "icon": "play" },
+      { "titleKey": "slide.steps.item2.title", "bodyKey": "slide.steps.item2.body", "icon": "file" },
+      { "titleKey": "slide.steps.item3.title", "bodyKey": "slide.steps.item3.body", "icon": "check" }
+    ] },
+    { "id": "documents", "eyebrowKey": "slide.documents.label", "titleKey": "slide.documents.title", "bodyKey": "slide.documents.body", "layout": "intro", "icon": "file", "animation": "fade", "action": { "type": "documents", "labelKey": "slide.documents.action" } },
+    { "id": "complete", "eyebrowKey": "slide.complete.label", "titleKey": "slide.complete.title", "bodyKey": "slide.complete.body", "layout": "finish", "icon": "check", "animation": "scale", "action": { "type": "documents", "labelKey": "slide.documents.action" } }
+  ],
+  "documents": [
+    { "id": "sample", "titleKey": "document.sample.title", "descriptionKey": "document.sample.body", "kind": "pdf", "href": "./documents/sample.pdf" },
+    { "id": "help", "titleKey": "document.help.title", "descriptionKey": "document.help.body", "kind": "web", "href": "https://developer.mozilla.org/ja/docs/Web" }
+  ]
+}
