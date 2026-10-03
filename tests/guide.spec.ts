@@ -1,7 +1,17 @@
 import { test, expect } from '@playwright/test';
 import fs from 'node:fs';
 const template = JSON.parse(fs.readFileSync('public/templates/guide.bundle.json', 'utf8'));
+const playbackFixture = JSON.parse(fs.readFileSync('public/templates/contract-demo.bundle.json', 'utf8'));
+const published = JSON.parse(fs.readFileSync('src/content/published.bundle.json', 'utf8'));
 const jsonFile = (data: unknown) => ({ name: 'guide.bundle.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(data)) });
+
+// Player regressions use stable content; published productions can change independently.
+test.beforeEach(async ({ page }) => {
+  await page.goto('/#/studio');
+  await page.locator('input[accept="application/json,.json"]').setInputFiles(jsonFile(playbackFixture));
+  await expect(page).toHaveURL(/guide\/welcome$/);
+  await expect(page.locator('article[data-slide-id="welcome"]')).toBeVisible();
+});
 
 test('playback pauses motion, reveals items in order and resumes', async ({ page }) => {
   await page.goto('/#/guide/steps');
@@ -99,6 +109,20 @@ test('keyboard and swipe navigation advance exactly one slide', async ({ page })
   await expect(page).toHaveURL(/guide\/steps$/); await expect(page.locator('article[data-slide-id="steps"]')).toBeVisible();
 });
 
+test('player toolbar opens documents from any scene and returns after refresh', async ({ page }) => {
+  await page.goto('/#/guide/language');
+  const documents = page.locator('.player-documents');
+  await expect(documents).toBeVisible();
+  const bounds = await documents.boundingBox();
+  expect(bounds!.x + bounds!.width).toBeLessThanOrEqual(page.viewportSize()!.width);
+  expect(bounds!.y + bounds!.height).toBeLessThanOrEqual(page.viewportSize()!.height);
+  await documents.click();
+  await expect(page).toHaveURL(/documents\?from=language$/);
+  await page.reload();
+  await page.getByRole('link', { name: '説明に戻る', exact: true }).first().click();
+  await expect(page.locator('article[data-slide-id="language"]')).toBeVisible();
+});
+
 test('valid JSON imports, persists, exports and resets', async ({ page }) => {
   const custom = structuredClone(template); custom.guide.id = 'custom'; custom.locales.ja['guide.title'] = '投入テスト'; custom.guide.slides = [custom.guide.slides[0],custom.guide.slides[3]];
   await page.goto('/#/studio'); await page.locator('input[type="file"][accept="application/json,.json"]').setInputFiles(jsonFile(custom));
@@ -106,7 +130,7 @@ test('valid JSON imports, persists, exports and resets', async ({ page }) => {
   await page.reload(); await expect(page).toHaveTitle(/投入テスト/);
   await page.goto('/#/studio'); const downloadPromise = page.waitForEvent('download'); await page.getByRole('button', { name: '設定JSONを書き出す', exact: true }).click();
   const download = await downloadPromise; const stream = await download.createReadStream(); const chunks: Buffer[] = []; for await (const chunk of stream!) chunks.push(chunk); const exported = JSON.parse(Buffer.concat(chunks).toString()); expect(exported.guide.id).toBe('custom'); expect(exported.guide.slides).toHaveLength(2);
-  page.on('dialog', dialog => dialog.accept()); await page.getByRole('button', { name: 'サンプルに戻す', exact: true }).click(); await expect(page.getByRole('heading', { name: '契約前のご案内', exact: true })).toBeVisible();
+  page.on('dialog', dialog => dialog.accept()); await page.getByRole('button', { name: 'サンプルに戻す', exact: true }).click(); await expect(page.getByRole('heading', { name: published.locales.ja[published.guide.titleKey], exact: true })).toBeVisible();
 });
 
 test('invalid JSON and unsafe links preserve existing content', async ({ page }) => {

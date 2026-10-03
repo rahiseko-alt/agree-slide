@@ -2,7 +2,7 @@ import { useCallback, useContext, useEffect, useRef, useState, type ComponentTyp
 import { Deck, DeckContext, Slide, type DeckProps } from 'spectacle';
 import { Navigate, Link, useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowLeft, ArrowRight, List, RotateCcw, RotateCw, Play, Pause } from 'lucide-react';
+import { ArrowLeft, ArrowRight, List, RotateCcw, RotateCw, Play, Pause, FileText } from 'lucide-react';
 import { useGuide } from '../state';
 import { SlideContent } from '../components/SlideContent';
 import { Modal } from '../components/Modal';
@@ -65,7 +65,7 @@ export function Guide() {
     <div className="page-heading"><div><div className="eyebrow">AGREE SLIDE</div><h2>{t(bundle.guide.titleKey)}</h2></div><Link className="text-link" to={`/documents?from=${slides[index].id}`}>{t('ui.documents')}<ArrowRight size={17} /></Link></div>
     <p className="orientation-note"><RotateCw size={18} />{t('ui.rotate')}</p><div className="guide-grid"><aside className="guide-sidebar"><div className="aside-label">{t('ui.contents')}<span>{String(slides.length).padStart(2, '0')}</span></div>{list}<div className="sidebar-note"><span className="small-dot" />{t('ui.reading')}</div></aside>
       <div className="guide-player">
-        <div className="player-toolbar"><button className="text-button mobile-contents" onClick={() => setContents(true)}><List size={18} />{t('ui.contents')}</button><span className="player-step">{t('ui.step')} {String(index + 1).padStart(2, '0')} <span>/ {String(slides.length).padStart(2, '0')}</span></span><button className="icon-button" aria-label={t('ui.replay')} onClick={replaySlide}><RotateCw size={18} /></button><div className="landscape-language"><LanguageSelector /></div></div>
+        <div className="player-toolbar"><button className="text-button mobile-contents" onClick={() => setContents(true)}><List size={18} />{t('ui.contents')}</button><span className="player-step">{t('ui.step')} {String(index + 1).padStart(2, '0')} <span>/ {String(slides.length).padStart(2, '0')}</span></span><Link className="icon-button player-documents" to={`/documents?from=${encodeURIComponent(current.id)}`} aria-label={t('ui.documents')} title={t('ui.documents')}><FileText size={18} /></Link><button className="icon-button" aria-label={t('ui.replay')} onClick={replaySlide}><RotateCw size={18} /></button><div className="landscape-language"><LanguageSelector /></div></div>
         <div className="deck-frame" onClickCapture={e => { if ((e.target as HTMLElement).closest('a')) playback.setPlaying(false); }} onTouchStartCapture={e => {
           e.stopPropagation(); if ((e.target as HTMLElement).closest('button,a,dialog')) { touch.current = null; return; }
           touch.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };

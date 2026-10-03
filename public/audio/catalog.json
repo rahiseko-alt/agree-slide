@@ -160,6 +160,646 @@
       "fingerprint": "88e7151ccfaf58cee8fc5f6ef2d1f1097ca9ea4acc5014b172452b080d08fd31",
       "rate": "-5%",
       "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/welcome.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "24c1b4080615241a7cb527b40b8cd94d8ed5622ff1339948de0b4f2990a115d2",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/welcome.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "56c2c4cc9bd434fbf28f1994fe798ce7c01c8451bee93c72de0b0d17a10518ac",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/welcome.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "ac7efeccf63c63ac74c5cd7415cc2d2295cc8ece30b1945f30dfae8a53d2cbfe",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/value.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "316ab6dc3412d63fc6ee2c6fe322431143d2843bc063b023a6182b1d3d518671",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/welcome.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "edbdb9a2947fd43a956332357e59feb54ca2e54a6dd1f3f640e621d792bb8454",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/value.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "9e13a9fec9606f52284c2751df8c050b20b830a4258af8f3aed4f51a5251daaa",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/value.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "154193b56627497dac35912d3c0e1a2fc6668c88d2b6b631a98c46a6b834bdcb",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/cost.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "7fc7a47214fc39bbd24850dad2b94b687b9a3e3620c91a7c300cafa873fd82cf",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/cost.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "e788c93cecac3aea96f7e95587a8c854d928bb39feed9c6086d4aa611bf57318",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/value.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "b923b607732a4a9d4b90503da51ca7075329e61a2bea13da064eb413134cfc46",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/cost.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "52368d65220d3f7c84114d2797bdd0497e030496b5a353dc668058a0930a71ba",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/setup.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "49030cdd77b5d614a08c8d6a31cf52a1f3af6c19d7611be98f042fa5c7878050",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/cost.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "a2c57f2d9c7f9b6373bc292519b8cc2a0faaa1ce422eac0cce52c89d5789a7b2",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/setup.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "34ea906521c691f4252c24433cbb8dc899b978b4f40ec5a18d3d21c370b48b7c",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/setup.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "5ce0acc2549f868774e4f91d5b6965d9eb753a70c7712c8a7f363caf8afffb05",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/incognito.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "e939de41e4fdf9ad72e645bf493e827c658d29e4d1c849af5dc93066481b3add",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/incognito.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "d4bdf72fb48a57fa03c0f8f321468aba33d247c6aab2e3a82cd76596cf13ede8",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/setup.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "fc7583d87a74fb5d846e7fbffd8830e1193c39bf857be5229d054fa9ac5ce844",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/incognito.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "2a39061c862be0a100ce0e79a8e45f63a351ae51a78b86ed64daba7b5a8afd5d",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/register.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "22b1f63a34f9c940ac41941c0c551e020cc5f7cbdd925dd17be667b00e5ec005",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/incognito.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "5fb7587271fbefddf0b7f808b3b32cc4eadd9f40e3b6f668b15775984a252b20",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/register.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "4e8f4587fa574481d46cdc23743b3b2100dc119809ea1cec6074ee1e50a57033",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/register.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "2991d4bc3677027811b403e0e1c0323509f352f837ca7a44fee36667aacef94f",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/exam-day.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "4f482965c3dc923e09f1c11cbfb5c2a1dd8fef3dc5011210e99cf74e72286a0f",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/register.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "11007a96b140f8a3493368db141ccdb3c9efca7b0397b089272f60d54ad0f0d8",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/exam-day.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "1a4208f5bbaf3cdab54f33df3cf3d94741e8064eb9adfefe3ae76d5812ca335c",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/exam-day.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "96f444a58bec903a0b9e41bcbb13303b0465b00ace8adaa12f66794e78a836cf",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/format.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "e30812959414fcdd2ed58c902e0c90f144978e868aa8a9d27f836ab8cde0cea9",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/exam-day.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "816ec391e341ea12768fe92506cde3f3a4207bc111138ddfc76c9cf17d0df60e",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/format.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "9297b15c4e20c0ca11df20a62acacb46ea63f76135b0b39ef79e9e26e4afc9c6",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/format.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "9730ed795c019df10018b90a43fa147fa73f1b61652399e47eb351ffa87ffb4a",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/reasoning.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "110b0084c8b8d616db2c3a1387d90f720fa5790b80d4364fb3a84ffeb526523e",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/reasoning.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "116b766031f9376ad9d313154ca78e16bf407b8ef68842bdb2ba52f1714258a0",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/reasoning.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "ae065a00e2b07129d7efedd8d619adc3ed010ac7df76a1ec87960daad222fdd5",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/format.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "8757365e053532c53ea250b7356a3b3924077b7979f8e0eec2611f5cec3a523b",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/themes-work.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "28263f65ed20c2fe3d390ae2839a3ce5e1db3fedd7c638429af980cb1a473e2a",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/reasoning.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "b5f5300a393daa25ba01d4c865ba64f12bae15ed32ca3eb581e5e5f7b1f3dba6",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/themes-work.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "71a5b62b1f41aecd5030f75c0b5c60d8a0848ca703cc4be1302315ec4e1d4f49",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/themes-work.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "10a7f3262df4c64e67a1aea8153987f09a46f179b14cc03f5c878fecb0fff169",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/themes-access.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "6653d7bc8b298dfb8dbfca554b4229fe4c01881632aca082f588b33b23ea5837",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/themes-access.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "68ead3e7f74958798de61c4851a011cd1232042d0c46243623672791b57087a3",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/themes-access.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "bfa8574ca27ba1f6ee79c1f18bde0537a9750893adea1b2d339d38bbfa69eea1",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/themes-work.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "581ae2aac0b3c4eb0005542aa13af89137f64c80aaee178456f79db93982d08d",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/meet-chat.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "7af03923250f3ca61dc82f6b95f40fe0e4a7cfa11581100b884e4d2eccc44271",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/themes-access.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "8eedb5c4751cee648ba6efdfdab2d12c523a3dbc51a73ab0a81ca117766dfb71",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/meet-chat.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "3d53912c727d570802d5d70a638e61053efa42c40fea7f69f8646d41c9dfdef6",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/meet-chat.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "5f378ac89da6d7f8fef2bb0c1094a32c6f98e8b778cc34a7669ce8955bdadf16",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/classroom-forms.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "ceb0c1c822a6f44e75f5be86b03ec4ee3b03f9c93ae54616ee6a258e380c99a2",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/meet-chat.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "28ba12f29c3b806b9638953ec855d59270c727b66300f98862f4b029f5ed279f",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/classroom-forms.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "ae3406f5147804e44749b3feaf5aef1b463f271f8f832b201ca7a00eb72d8cd5",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/classroom-forms.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "d5a11fc9abedcdd4075e8b624f272ecb944fddc9d5cbbd70ba4901e9521817cf",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/docs-drive.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "070b3234e85039aa75363a0ef9eeecf5d623902b6646334ac54400fb48796aa4",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/classroom-forms.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "56cb5c13894ca1fb7e186383b130206591a3551bd983fe53f02119b07cd6c4f9",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/docs-drive.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "36dab8ad369b37cdf5b5b5fa9bb329d0168fc86bfb3d40e20456b0a6ea48e1ae",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/docs-drive.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "f484d3bcd569a8a0094174cf0bec244296061f30bdf610eefa3de8e8924a0f2b",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/lab-classroom.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "885fce794c2c39d5422d856bd85e0768854ae7beabcfb908d5c5cc8523379c20",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/docs-drive.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "7ee113a88c16283839ba3dc7aeefba9211f12d00d738c45fb3d54e15e6a3cb0e",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/lab-classroom.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "287d8b14f63aebc98a06ba683173bd734741bd956645a8cf0bd568667a6479b5",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/lab-classroom.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "47221a6ed20903415bf4218ee7e2af67e5c209f20203cef778671a768c6bae07",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/lab-drive.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "c1d65ce2e64b61f9143fd07017f0db620512b673866eadb5aecaa388f1a3efc5",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/lab-drive.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "444260bdba5fa4a2cd67a60b4a0340cf38daafdf64b7ab92bcf84b4fd1cd23a5",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/lab-classroom.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "f4b21b62a88a0944e5bf2ee3945e1555867a65b34cea641366899fd480b75a73",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/lab-drive.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "c4bc186c3dd92fecad92a2b353f04ac1e4e87d35464a7887655af51ea7ad5e1e",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/lab-forms.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "9b9005f01277071c3b0779df963ba9fd1b9ee28b614f575095b6cda8bcc9562d",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/lab-forms.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "d7059080aa2a8f81e97417cfa8b27e85d65973ad7ae2f16ae5fa7ad239ca5d4a",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/lab-drive.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "5e62fa94606ea471c9bcf2c91fba38b10c5983e3c4668758a2c63a034a99652b",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/lab-forms.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "73c9b87454e36f680d1dff19ca3ecc0052cacf54eb286306c09bbfd64a05e606",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/study-cycle.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "21d4b0ff01e0ff31afcea9c6364ae1c33db5d73fa30c536b67f10d664d0e159f",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/lab-forms.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "0a148d3582f33b73663db9df5dd4f0e61ec5221650f84584b8c3ef6d04bdbc12",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/study-cycle.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "37e13c1df089128e2dd05c57351833b539aad3d4423ab61a68f0acaeccbadfd8",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/study-cycle.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "22521df45936d4d65d36fff6ffa6e8554137e0c5bb1b11b0a6c0aec17799a200",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/review.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "1255bbeb90aac830d0ea959e4c61a952d562f42a53cd7b878020d9764558c618",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/review.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "db18162544181e1732458c72c2adc5803009ab351e1d97745e5621b4cd3b11ea",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/study-cycle.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "3c6913a8c9b5fa19f657afbb7f7343c069c65bb9c28e9d21c3ea55a5be93cf83",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/review.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "4a8b9ed8aec89256015f9977eca4fadb6b8cb91aead38943f877caad757be22e",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ja/next.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "2cdd5f03abfea94b1d1c0ab4a6b0b26639b116ef0de713ca41b653b8c7c45421",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/review.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "aba38a0ffc5a7f59ae392a6e6a6491670ea4c7756cbb432e82141d8c2f0fc55b",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/en/next.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "5556f23466ecf1905d8f847e6f68ead3f5a493b0c54dbd494917c125cac399a2",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/ne/next.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "776acf4b4408a5d48d880574d8da0c981053792e9bd37697679c99250bdb43a7",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/google-educator-level1/vi/next.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "80ecf03cc2f930cc3a53fcc33bf3ef263530c77dcac79bfb90067659b39f80a9",
+      "rate": "-5%",
+      "style": "neutral business narration"
     }
   }
 }

@@ -1,0 +1,1497 @@
+{
+  "id": "google-educator-level1",
+  "title": {
+    "ja": "Google 認定教育者 Level 1 攻略ガイド",
+    "en": "Google Certified Educator Level 1 guide",
+    "ne": "Google प्रमाणित शिक्षक Level 1 मार्गदर्शिका",
+    "vi": "Hướng dẫn Google Certified Educator Level 1"
+  },
+  "description": {
+    "ja": "受験準備、ツールの使い分け、実技対策を音声と動きで学ぶガイドです。",
+    "en": "An animated, narrated guide to preparation, tool selection and hands-on practice.",
+    "ne": "तयारी, साधन छनोट र व्यावहारिक अभ्यासका लागि आवाजसहितको चलायमान मार्गदर्शिका।",
+    "vi": "Hướng dẫn có hoạt ảnh và thuyết minh về chuẩn bị thi, chọn công cụ và thực hành."
+  },
+  "slides": [
+    {
+      "id": "welcome",
+      "pattern": "intro",
+      "title": {
+        "ja": "Google 認定教育者\nLevel 1 攻略ガイド",
+        "en": "Google Certified Educator\nLevel 1 guide",
+        "ne": "Google प्रमाणित शिक्षक\nLevel 1 मार्गदर्शिका",
+        "vi": "Hướng dẫn Google\nCertified Educator Level 1"
+      },
+      "body": {
+        "ja": "教育現場での実践力を、資格で証明する。受験準備から学習の進め方まで確認しましょう。",
+        "en": "Demonstrate practical teaching skills. Explore exam preparation and a focused study plan.",
+        "ne": "शिक्षणको व्यावहारिक सीप प्रमाणित गर्नुहोस्। परीक्षा तयारी र अध्ययन योजना बुझौँ।",
+        "vi": "Chứng minh kỹ năng giảng dạy thực tế. Cùng tìm hiểu cách chuẩn bị và học tập."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.1",
+      "items": [],
+      "illustration": {
+        "assetId": "doodles-sitting-reading",
+        "alt": {
+          "ja": "学習する人物のイラスト",
+          "en": "Illustration of a person studying",
+          "ne": "अध्ययन गरिरहेको व्यक्तिको चित्र",
+          "vi": "Minh họa người đang học"
+        }
+      },
+      "narration": {
+        "script": {
+          "ja": "Google 認定教育者、レベルワンの攻略ガイドです。教育現場での実践スキルを証明するために、資格の特徴、受験準備、ツールの使い分け、学習の進め方を順番に確認しましょう。",
+          "en": "Google Certified Educator Level 1 guide. Demonstrate practical teaching skills. Explore exam preparation and a focused study plan.",
+          "ne": "Google प्रमाणित शिक्षक Level 1 मार्गदर्शिका. शिक्षणको व्यावहारिक सीप प्रमाणित गर्नुहोस्। परीक्षा तयारी र अध्ययन योजना बुझौँ।",
+          "vi": "Hướng dẫn Google Certified Educator Level 1. Chứng minh kỹ năng giảng dạy thực tế. Cùng tìm hiểu cách chuẩn bị và học tập."
+        },
+        "audio": {
+          "en": "./audio/google-educator-level1/en/welcome.mp3",
+          "ja": "./audio/google-educator-level1/ja/welcome.mp3",
+          "ne": "./audio/google-educator-level1/ne/welcome.mp3",
+          "vi": "./audio/google-educator-level1/vi/welcome.mp3"
+        }
+      }
+    },
+    {
+      "id": "value",
+      "pattern": "cards",
+      "title": {
+        "ja": "資格が証明する\n3つの価値",
+        "en": "Three reasons\nto get certified",
+        "ne": "प्रमाणपत्रका\nतीन महत्त्व",
+        "vi": "Ba giá trị\ncủa chứng nhận"
+      },
+      "body": {
+        "ja": "知識に加えて、授業で使える実践力を示します。",
+        "en": "Show both knowledge and the ability to apply it in teaching.",
+        "ne": "ज्ञानसँगै कक्षामा प्रयोग गर्ने क्षमता देखाउनुहोस्।",
+        "vi": "Thể hiện kiến thức và khả năng áp dụng trong lớp học."
+      },
+      "icon": "shield",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.2",
+      "items": [
+        {
+          "title": {
+            "ja": "実践重視",
+            "en": "Practical skills",
+            "ne": "व्यावहारिक सीप",
+            "vi": "Kỹ năng thực tế"
+          },
+          "body": {
+            "ja": "目的に合うツールを選び、操作する。",
+            "en": "Choose and use the right tool.",
+            "ne": "उद्देश्यअनुसार साधन छानेर चलाउनुहोस्।",
+            "vi": "Chọn và dùng công cụ phù hợp."
+          },
+          "icon": "hand"
+        },
+        {
+          "title": {
+            "ja": "証明書とバッジ",
+            "en": "Certificate and badge",
+            "ne": "प्रमाणपत्र र ब्याज",
+            "vi": "Chứng chỉ và huy hiệu"
+          },
+          "body": {
+            "ja": "合格後、履歴書や署名欄に活用。",
+            "en": "Add it to your résumé or email.",
+            "ne": "उत्तीर्ण भएपछि विवरण वा इमेल हस्ताक्षरमा प्रयोग गर्नुहोस्।",
+            "vi": "Dùng trong hồ sơ hoặc chữ ký email."
+          },
+          "icon": "file"
+        },
+        {
+          "title": {
+            "ja": "継続的な学び",
+            "en": "Continued learning",
+            "ne": "निरन्तर सिकाइ",
+            "vi": "Học tập liên tục"
+          },
+          "body": {
+            "ja": "有効期間は3年間。スキルを更新する。",
+            "en": "Valid for three years.",
+            "ne": "तीन वर्ष मान्य। सीप अद्यावधिक राख्नुहोस्।",
+            "vi": "Hiệu lực ba năm. Tiếp tục học."
+          },
+          "icon": "sparkles"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "資格が証明する 3つの価値。 知識に加えて、授業で使える実践力を示します。。 実践重視。 目的に合うツールを選び、操作する。。 証明書とバッジ。 合格後、履歴書や署名欄に活用。。 継続的な学び。 有効期間は3年間。スキルを更新する。",
+          "en": "Three reasons to get certified. Show both knowledge and the ability to apply it in teaching.. Practical skills. Choose and use the right tool for the task.. Certificate and badge. Use the award on your résumé or email signature.. Continued learning. Valid for three years. Keep skills up to date.",
+          "ne": "प्रमाणपत्रका तीन महत्त्व. ज्ञानसँगै कक्षामा प्रयोग गर्ने क्षमता देखाउनुहोस्।. व्यावहारिक सीप. उद्देश्यअनुसार साधन छानेर चलाउनुहोस्।. प्रमाणपत्र र ब्याज. उत्तीर्ण भएपछि विवरण वा इमेल हस्ताक्षरमा प्रयोग गर्नुहोस्।. निरन्तर सिकाइ. तीन वर्ष मान्य। सीप अद्यावधिक राख्नुहोस्।",
+          "vi": "Ba giá trị của chứng nhận. Thể hiện kiến thức và khả năng áp dụng trong lớp học.. Kỹ năng thực tế. Chọn và sử dụng công cụ phù hợp.. Chứng chỉ và huy hiệu. Dùng trong hồ sơ hoặc chữ ký email.. Học tập liên tục. Có hiệu lực ba năm. Cập nhật kỹ năng."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/value.mp3",
+          "en": "./audio/google-educator-level1/en/value.mp3",
+          "ne": "./audio/google-educator-level1/ne/value.mp3",
+          "vi": "./audio/google-educator-level1/vi/value.mp3"
+        }
+      }
+    },
+    {
+      "id": "cost",
+      "pattern": "quote",
+      "title": {
+        "ja": "日本語で、\n無料の受験へ。",
+        "en": "Free exam\nin Japanese.",
+        "ne": "जापानी भाषामा\nनिःशुल्क परीक्षा।",
+        "vi": "Thi bằng tiếng Nhật,\nkhông mất phí."
+      },
+      "body": {
+        "ja": "公式案内は「無償・3年間有効」。古い料金情報ではなく、登録時の最新案内を確認しましょう。",
+        "en": "The official page lists free certification, valid for three years. Check current registration details.",
+        "ne": "आधिकारिक पृष्ठमा निःशुल्क र तीन वर्ष मान्य भनिएको छ। दर्ताको नवीनतम जानकारी हेर्नुहोस्।",
+        "vi": "Trang chính thức ghi miễn phí, hiệu lực ba năm. Kiểm tra thông tin mới nhất khi đăng ký."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.2–3; official certifications page checked 2026-10-04 JST",
+      "items": [],
+      "illustration": {
+        "assetId": "doodles-reading",
+        "alt": {
+          "ja": "学習する人物のイラスト",
+          "en": "Illustration of a person studying",
+          "ne": "अध्ययन गरिरहेको व्यक्तिको चित्र",
+          "vi": "Minh họa người đang học"
+        }
+      },
+      "narration": {
+        "script": {
+          "ja": "日本語版は無料で受験できます。二〇二六年十月四日に確認した公式案内でも、レベルワンは無償、有効期間は三年間とされています。古い記事にある十ドルという料金ではなく、登録時の最新案内を確認してください。",
+          "en": "Take the exam in Japanese, for free.. The official page lists free certification, valid for three years. Check current registration details.",
+          "ne": "जापानी भाषामा निःशुल्क परीक्षा।. आधिकारिक पृष्ठमा निःशुल्क र तीन वर्ष मान्य भनिएको छ। दर्ताको नवीनतम जानकारी हेर्नुहोस्।",
+          "vi": "Thi bằng tiếng Nhật, không mất phí.. Trang chính thức ghi miễn phí, hiệu lực ba năm. Kiểm tra thông tin mới nhất khi đăng ký."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/cost.mp3",
+          "en": "./audio/google-educator-level1/en/cost.mp3",
+          "ne": "./audio/google-educator-level1/ne/cost.mp3",
+          "vi": "./audio/google-educator-level1/vi/cost.mp3"
+        }
+      }
+    },
+    {
+      "id": "setup",
+      "pattern": "cards",
+      "title": {
+        "ja": "受験前に\n環境を整える",
+        "en": "Prepare your\nexam environment",
+        "ne": "परीक्षाअघि\nवातावरण तयार गर्नुहोस्",
+        "vi": "Chuẩn bị\nmôi trường thi"
+      },
+      "body": {
+        "ja": "実技を行えるパソコンで、ログインと接続を確認します。",
+        "en": "Use a computer suitable for hands-on tasks. Check access and connectivity.",
+        "ne": "व्यावहारिक काम गर्न मिल्ने कम्प्युटरमा लगइन र जडान जाँच्नुहोस्।",
+        "vi": "Dùng máy tính làm được bài thực hành. Kiểm tra đăng nhập và kết nối."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.4",
+      "items": [
+        {
+          "title": {
+            "ja": "Google アカウント",
+            "en": "Google account",
+            "ne": "Google खाता",
+            "vi": "Tài khoản Google"
+          },
+          "body": {
+            "ja": "ログインできることを事前に確認。",
+            "en": "Check sign-in before the exam.",
+            "ne": "परीक्षाअघि लगइन गर्न सकिन्छ कि जाँच्नुहोस्।",
+            "vi": "Kiểm tra đăng nhập trước khi thi."
+          },
+          "icon": "person"
+        },
+        {
+          "title": {
+            "ja": "最新の Chrome",
+            "en": "Updated Chrome",
+            "ne": "अद्यावधिक Chrome",
+            "vi": "Chrome mới nhất"
+          },
+          "body": {
+            "ja": "ブラウザを最新の状態にする。",
+            "en": "Keep your browser up to date.",
+            "ne": "ब्राउजर नवीनतम संस्करणमा राख्नुहोस्।",
+            "vi": "Cập nhật trình duyệt."
+          },
+          "icon": "globe"
+        },
+        {
+          "title": {
+            "ja": "PC と安定した回線",
+            "en": "Computer and connection",
+            "ne": "कम्प्युटर र स्थिर जडान",
+            "vi": "Máy tính và mạng ổn định"
+          },
+          "body": {
+            "ja": "ラボを操作できる環境を用意。",
+            "en": "Prepare a reliable lab setup.",
+            "ne": "ल्याबका काम गर्न भरपर्दो वातावरण बनाउनुहोस्।",
+            "vi": "Môi trường ổn định cho thực hành."
+          },
+          "icon": "layers"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "受験前に 環境を整える。 実技を行えるパソコンで、ログインと接続を確認します。。 Google アカウント。 ログインできることを事前に確認。。 最新の Chrome。 ブラウザを最新の状態にする。。 PC と安定した回線。 ラボを操作できる環境を用意。",
+          "en": "Prepare your exam environment. Use a computer suitable for hands-on tasks. Check access and connectivity.. Google account. Verify that you can sign in before the exam.. Updated Chrome. Update your browser to the latest version.. Computer and connection. Prepare a reliable setup for lab tasks.",
+          "ne": "परीक्षाअघि वातावरण तयार गर्नुहोस्. व्यावहारिक काम गर्न मिल्ने कम्प्युटरमा लगइन र जडान जाँच्नुहोस्।. Google खाता. परीक्षाअघि लगइन गर्न सकिन्छ कि जाँच्नुहोस्।. अद्यावधिक Chrome. ब्राउजर नवीनतम संस्करणमा राख्नुहोस्।. कम्प्युटर र स्थिर जडान. ल्याबका काम गर्न भरपर्दो वातावरण बनाउनुहोस्।",
+          "vi": "Chuẩn bị môi trường thi. Dùng máy tính làm được bài thực hành. Kiểm tra đăng nhập và kết nối.. Tài khoản Google. Kiểm tra khả năng đăng nhập trước khi thi.. Chrome mới nhất. Cập nhật trình duyệt lên bản mới nhất.. Máy tính và mạng ổn định. Chuẩn bị môi trường ổn định cho bài thực hành."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/setup.mp3",
+          "en": "./audio/google-educator-level1/en/setup.mp3",
+          "ne": "./audio/google-educator-level1/ne/setup.mp3",
+          "vi": "./audio/google-educator-level1/vi/setup.mp3"
+        }
+      }
+    },
+    {
+      "id": "incognito",
+      "pattern": "compare",
+      "title": {
+        "ja": "アカウントの混在を\n防ぎましょう",
+        "en": "Keep exam accounts\nseparate",
+        "ne": "परीक्षाका खाताहरू\nअलग राख्नुहोस्",
+        "vi": "Tránh nhầm lẫn\ngiữa các tài khoản"
+      },
+      "body": {
+        "ja": "資料ではシークレットウィンドウを推奨。学校の制限や利用可能なアカウントも事前に確認します。",
+        "en": "The source recommends an incognito window. Check school restrictions and usable accounts in advance.",
+        "ne": "स्रोतले इन्कग्निटो विन्डो सिफारिस गर्छ। विद्यालयका प्रतिबन्ध र प्रयोगयोग्य खाता पहिले जाँच्नुहोस्।",
+        "vi": "Tài liệu khuyên dùng cửa sổ ẩn danh. Kiểm tra hạn chế của trường và tài khoản dùng được."
+      },
+      "icon": "shield",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.4",
+      "items": [
+        {
+          "title": {
+            "ja": "通常のウィンドウ",
+            "en": "Regular window",
+            "ne": "सामान्य विन्डो",
+            "vi": "Cửa sổ thông thường"
+          },
+          "body": {
+            "ja": "学校・個人のログイン状態が残ることがあります。",
+            "en": "School or personal sign-in sessions may remain active.",
+            "ne": "विद्यालय वा व्यक्तिगत खाताको लगइन बाँकी हुन सक्छ।",
+            "vi": "Có thể còn phiên đăng nhập trường học hoặc cá nhân."
+          },
+          "icon": "person"
+        },
+        {
+          "title": {
+            "ja": "シークレット",
+            "en": "Incognito window",
+            "ne": "इन्कग्निटो विन्डो",
+            "vi": "Cửa sổ ẩn danh"
+          },
+          "body": {
+            "ja": "試験用のログインを分けて操作します。",
+            "en": "Use a separate sign-in session for the exam.",
+            "ne": "परीक्षाका लागि अलग लगइन सत्र प्रयोग गर्नुहोस्।",
+            "vi": "Dùng phiên đăng nhập riêng cho kỳ thi."
+          },
+          "icon": "shield"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "アカウントの混在を 防ぎましょう。 資料ではシークレットウィンドウを推奨。学校の制限や利用可能なアカウントも事前に確認します。。 通常のウィンドウ。 学校・個人のログイン状態が残ることがあります。。 シークレット。 試験用のログインを分けて操作します。",
+          "en": "Keep exam accounts separate. The source recommends an incognito window. Check school restrictions and usable accounts in advance.. Regular window. School or personal sign-in sessions may remain active.. Incognito window. Use a separate sign-in session for the exam.",
+          "ne": "परीक्षाका खाताहरू अलग राख्नुहोस्. स्रोतले इन्कग्निटो विन्डो सिफारिस गर्छ। विद्यालयका प्रतिबन्ध र प्रयोगयोग्य खाता पहिले जाँच्नुहोस्।. सामान्य विन्डो. विद्यालय वा व्यक्तिगत खाताको लगइन बाँकी हुन सक्छ।. इन्कग्निटो विन्डो. परीक्षाका लागि अलग लगइन सत्र प्रयोग गर्नुहोस्।",
+          "vi": "Tránh nhầm lẫn giữa các tài khoản. Tài liệu khuyên dùng cửa sổ ẩn danh. Kiểm tra hạn chế của trường và tài khoản dùng được.. Cửa sổ thông thường. Có thể còn phiên đăng nhập trường học hoặc cá nhân.. Cửa sổ ẩn danh. Dùng phiên đăng nhập riêng cho kỳ thi."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/incognito.mp3",
+          "en": "./audio/google-educator-level1/en/incognito.mp3",
+          "ne": "./audio/google-educator-level1/ne/incognito.mp3",
+          "vi": "./audio/google-educator-level1/vi/incognito.mp3"
+        }
+      }
+    },
+    {
+      "id": "register",
+      "pattern": "steps",
+      "title": {
+        "ja": "登録までの\n3ステップ",
+        "en": "Three steps\nto registration",
+        "ne": "दर्तासम्मका\nतीन चरण",
+        "vi": "Ba bước\nđến đăng ký"
+      },
+      "body": {
+        "ja": "公式の登録ページから、Level 1 と日本語を選びます。",
+        "en": "On the official registration page, choose Level 1 and Japanese.",
+        "ne": "आधिकारिक दर्ता पृष्ठमा Level 1 र जापानी छान्नुहोस्।",
+        "vi": "Trên trang đăng ký chính thức, chọn Level 1 và tiếng Nhật."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.5",
+      "items": [
+        {
+          "title": {
+            "ja": "1 ログイン",
+            "en": "1 Sign in",
+            "ne": "१ लगइन",
+            "vi": "1 Đăng nhập"
+          },
+          "body": {
+            "ja": "Google アカウントでログイン。",
+            "en": "Sign in with your Google account.",
+            "ne": "Google खाताबाट लगइन गर्नुहोस्।",
+            "vi": "Đăng nhập bằng tài khoản Google."
+          },
+          "icon": "person"
+        },
+        {
+          "title": {
+            "ja": "2 Level 1 を選ぶ",
+            "en": "2 Choose Level 1",
+            "ne": "२ Level 1 छान्नुहोस्",
+            "vi": "2 Chọn Level 1"
+          },
+          "body": {
+            "ja": "認定ページで対象の試験を選択。",
+            "en": "Select the certification exam.",
+            "ne": "प्रमाणीकरण परीक्षा छान्नुहोस्।",
+            "vi": "Chọn kỳ thi chứng nhận."
+          },
+          "icon": "check"
+        },
+        {
+          "title": {
+            "ja": "3 日本語を選ぶ",
+            "en": "3 Choose Japanese",
+            "ne": "३ जापानी छान्नुहोस्",
+            "vi": "3 Chọn tiếng Nhật"
+          },
+          "body": {
+            "ja": "表示された案内に従って登録。",
+            "en": "Follow the instructions to register.",
+            "ne": "दर्ताका लागि देखाइएका निर्देशन पालना गर्नुहोस्।",
+            "vi": "Làm theo hướng dẫn để đăng ký."
+          },
+          "icon": "globe"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "登録までの 3ステップ。 公式の登録ページから、Level 1 と日本語を選びます。。 1 ログイン。 Google アカウントでログイン。。 2 Level 1 を選ぶ。 認定ページで対象の試験を選択。。 3 日本語を選ぶ。 表示された案内に従って登録。",
+          "en": "Three steps to registration. On the official registration page, choose Level 1 and Japanese.. 1 Sign in. Sign in with your Google account.. 2 Choose Level 1. Select the certification exam.. 3 Choose Japanese. Follow the instructions to register.",
+          "ne": "दर्तासम्मका तीन चरण. आधिकारिक दर्ता पृष्ठमा Level 1 र जापानी छान्नुहोस्।. १ लगइन. Google खाताबाट लगइन गर्नुहोस्।. २ Level 1 छान्नुहोस्. प्रमाणीकरण परीक्षा छान्नुहोस्।. ३ जापानी छान्नुहोस्. दर्ताका लागि देखाइएका निर्देशन पालना गर्नुहोस्।",
+          "vi": "Ba bước đến đăng ký. Trên trang đăng ký chính thức, chọn Level 1 và tiếng Nhật.. 1 Đăng nhập. Đăng nhập bằng tài khoản Google.. 2 Chọn Level 1. Chọn kỳ thi chứng nhận.. 3 Chọn tiếng Nhật. Làm theo hướng dẫn để đăng ký."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/register.mp3",
+          "en": "./audio/google-educator-level1/en/register.mp3",
+          "ne": "./audio/google-educator-level1/ne/register.mp3",
+          "vi": "./audio/google-educator-level1/vi/register.mp3"
+        }
+      }
+    },
+    {
+      "id": "exam-day",
+      "pattern": "steps",
+      "title": {
+        "ja": "準備・受験・\n結果の確認へ",
+        "en": "Prepare, take the exam,\ncheck the result",
+        "ne": "तयारी, परीक्षा\nर नतिजा",
+        "vi": "Chuẩn bị, thi\nvà xem kết quả"
+      },
+      "body": {
+        "ja": "登録後は公式資料で準備。結果通知の時期は、受験時の案内を確認してください。",
+        "en": "Prepare with official materials after registering. Check the exam instructions for result timing.",
+        "ne": "दर्तापछि आधिकारिक सामग्रीबाट तयारी गर्नुहोस्। नतिजाको समय परीक्षा निर्देशनमा हेर्नुहोस्।",
+        "vi": "Sau đăng ký, ôn bằng tài liệu chính thức. Xem hướng dẫn kỳ thi để biết thời gian trả kết quả."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.5",
+      "items": [
+        {
+          "title": {
+            "ja": "公式資料で準備",
+            "en": "Prepare with guides",
+            "ne": "मार्गदर्शिकाबाट तयारी",
+            "vi": "Ôn tài liệu chính thức"
+          },
+          "body": {
+            "ja": "試験ガイドとタスクカードを確認。",
+            "en": "Review the exam guide and task cards.",
+            "ne": "परीक्षा मार्गदर्शिका र टास्क कार्ड हेर्नुहोस्।",
+            "vi": "Xem hướng dẫn thi và thẻ nhiệm vụ."
+          },
+          "icon": "file"
+        },
+        {
+          "title": {
+            "ja": "試験を受ける",
+            "en": "Take the exam",
+            "ne": "परीक्षा दिनुहोस्",
+            "vi": "Làm bài thi"
+          },
+          "body": {
+            "ja": "知識と実際の操作を確かめます。",
+            "en": "Demonstrate knowledge and hands-on skills.",
+            "ne": "ज्ञान र व्यावहारिक सीप देखाउनुहोस्।",
+            "vi": "Thể hiện kiến thức và kỹ năng thực hành."
+          },
+          "icon": "pen"
+        },
+        {
+          "title": {
+            "ja": "メールで結果確認",
+            "en": "Check your email",
+            "ne": "इमेलमा नतिजा हेर्नुहोस्",
+            "vi": "Kiểm tra email"
+          },
+          "body": {
+            "ja": "資料の目安は3営業日以内。最新案内を優先。",
+            "en": "Source estimate: within 3 business days. Follow current instructions.",
+            "ne": "स्रोतको अनुमान: ३ कार्यदिनभित्र। नवीनतम निर्देशन मान्नुहोस्।",
+            "vi": "Tài liệu nêu khoảng 3 ngày làm việc. Ưu tiên hướng dẫn mới nhất."
+          },
+          "icon": "check"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "準備・受験・ 結果の確認へ。 登録後は公式資料で準備。結果通知の時期は、受験時の案内を確認してください。。 公式資料で準備。 試験ガイドとタスクカードを確認。。 試験を受ける。 知識と実際の操作を確かめます。。 メールで結果確認。 資料の目安は3営業日以内。最新案内を優先。",
+          "en": "Prepare, take the exam, check the result. Prepare with official materials after registering. Check the exam instructions for result timing.. Prepare with guides. Review the exam guide and task cards.. Take the exam. Demonstrate knowledge and hands-on skills.. Check your email. Source estimate: within 3 business days. Follow current instructions.",
+          "ne": "तयारी, परीक्षा र नतिजा. दर्तापछि आधिकारिक सामग्रीबाट तयारी गर्नुहोस्। नतिजाको समय परीक्षा निर्देशनमा हेर्नुहोस्।. मार्गदर्शिकाबाट तयारी. परीक्षा मार्गदर्शिका र टास्क कार्ड हेर्नुहोस्।. परीक्षा दिनुहोस्. ज्ञान र व्यावहारिक सीप देखाउनुहोस्।. इमेलमा नतिजा हेर्नुहोस्. स्रोतको अनुमान: ३ कार्यदिनभित्र। नवीनतम निर्देशन मान्नुहोस्।",
+          "vi": "Chuẩn bị, thi và xem kết quả. Sau đăng ký, ôn bằng tài liệu chính thức. Xem hướng dẫn kỳ thi để biết thời gian trả kết quả.. Ôn tài liệu chính thức. Xem hướng dẫn thi và thẻ nhiệm vụ.. Làm bài thi. Thể hiện kiến thức và kỹ năng thực hành.. Kiểm tra email. Tài liệu nêu khoảng 3 ngày làm việc. Ưu tiên hướng dẫn mới nhất."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/exam-day.mp3",
+          "en": "./audio/google-educator-level1/en/exam-day.mp3",
+          "ne": "./audio/google-educator-level1/ne/exam-day.mp3",
+          "vi": "./audio/google-educator-level1/vi/exam-day.mp3"
+        }
+      }
+    },
+    {
+      "id": "format",
+      "pattern": "compare",
+      "title": {
+        "ja": "知識と操作、\n2つの視点で準備",
+        "en": "Prepare for knowledge\nand hands-on tasks",
+        "ne": "ज्ञान र व्यावहारिक\nकामको तयारी",
+        "vi": "Chuẩn bị kiến thức\nvà thực hành"
+      },
+      "body": {
+        "ja": "37問・3シナリオは資料内の実施例です。毎回固定の数ではありません。",
+        "en": "The source gives an example of 37 questions and 3 scenarios. These counts are not guaranteed.",
+        "ne": "स्रोतमा ३७ प्रश्न र ३ परिदृश्यको उदाहरण छ। यी संख्या सधैँ निश्चित होइनन्।",
+        "vi": "37 câu hỏi và 3 tình huống là ví dụ trong tài liệu, không phải số lượng cố định."
+      },
+      "icon": "layers",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.6",
+      "items": [
+        {
+          "title": {
+            "ja": "選択式問題",
+            "en": "Multiple-choice questions",
+            "ne": "बहुविकल्पीय प्रश्न",
+            "vi": "Câu hỏi trắc nghiệm"
+          },
+          "body": {
+            "ja": "機能・ツールの選択・教育場面の判断。",
+            "en": "Features, tool selection and teaching decisions.",
+            "ne": "सुविधा, साधन छनोट र शिक्षण निर्णय।",
+            "vi": "Tính năng, chọn công cụ, xử lý tình huống dạy học."
+          },
+          "icon": "check"
+        },
+        {
+          "title": {
+            "ja": "ラボ実技",
+            "en": "Hands-on lab",
+            "ne": "व्यावहारिक ल्याब",
+            "vi": "Bài thực hành"
+          },
+          "body": {
+            "ja": "用意された Workspace 環境で課題を完成。",
+            "en": "Complete tasks in the provided Workspace environment.",
+            "ne": "दिइएको Workspace वातावरणमा काम पूरा गर्नुहोस्।",
+            "vi": "Hoàn thành nhiệm vụ trong môi trường Workspace được cấp."
+          },
+          "icon": "hand"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "知識と操作、 2つの視点で準備。 37問・3シナリオは資料内の実施例です。毎回固定の数ではありません。。 選択式問題。 機能・ツールの選択・教育場面の判断。。 ラボ実技。 用意された Workspace 環境で課題を完成。",
+          "en": "Prepare for knowledge and hands-on tasks. The source gives an example of 37 questions and 3 scenarios. These counts are not guaranteed.. Multiple-choice questions. Features, tool selection and teaching decisions.. Hands-on lab. Complete tasks in the provided Workspace environment.",
+          "ne": "ज्ञान र व्यावहारिक कामको तयारी. स्रोतमा ३७ प्रश्न र ३ परिदृश्यको उदाहरण छ। यी संख्या सधैँ निश्चित होइनन्।. बहुविकल्पीय प्रश्न. सुविधा, साधन छनोट र शिक्षण निर्णय।. व्यावहारिक ल्याब. दिइएको Workspace वातावरणमा काम पूरा गर्नुहोस्।",
+          "vi": "Chuẩn bị kiến thức và thực hành. 37 câu hỏi và 3 tình huống là ví dụ trong tài liệu, không phải số lượng cố định.. Câu hỏi trắc nghiệm. Tính năng, chọn công cụ, xử lý tình huống dạy học.. Bài thực hành. Hoàn thành nhiệm vụ trong môi trường Workspace được cấp."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/format.mp3",
+          "ne": "./audio/google-educator-level1/ne/format.mp3",
+          "en": "./audio/google-educator-level1/en/format.mp3",
+          "vi": "./audio/google-educator-level1/vi/format.mp3"
+        }
+      }
+    },
+    {
+      "id": "reasoning",
+      "pattern": "steps",
+      "title": {
+        "ja": "機能名よりも、\n目的から考える",
+        "en": "Choose by purpose,\nnot feature names.",
+        "ne": "सुविधाको नामभन्दा\nउद्देश्यबाट सोच्नुहोस्",
+        "vi": "Bắt đầu từ mục tiêu,\nrồi chọn công cụ"
+      },
+      "body": {
+        "ja": "「この場面で何を実現したいか」を言葉にしてから、ツールを選びます。",
+        "en": "Name the goal, then choose the tool.",
+        "ne": "परिस्थितिमा के हासिल गर्ने हो बुझेर साधन छान्नुहोस्।",
+        "vi": "Xác định điều cần đạt trong tình huống, rồi chọn công cụ."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.7",
+      "items": [
+        {
+          "title": {
+            "ja": "場面を読む",
+            "en": "Read the scenario",
+            "ne": "परिस्थिति पढ्नुहोस्",
+            "vi": "Đọc tình huống"
+          },
+          "body": {
+            "ja": "誰が、どこで、何をするのか。",
+            "en": "Who does what, and where?",
+            "ne": "कसले, कहाँ, के गर्ने हो?",
+            "vi": "Ai làm gì, ở đâu?"
+          },
+          "icon": "person"
+        },
+        {
+          "title": {
+            "ja": "目的を決める",
+            "en": "Identify the goal",
+            "ne": "उद्देश्य पहिचान गर्नुहोस्",
+            "vi": "Xác định mục tiêu"
+          },
+          "body": {
+            "ja": "配布・共同編集・会話などを整理。",
+            "en": "Distribution, collaboration or conversation.",
+            "ne": "वितरण, सहकार्य वा संवाद छुट्याउनुहोस्।",
+            "vi": "Phân biệt phát tài liệu, cộng tác hay giao tiếp."
+          },
+          "icon": "check"
+        },
+        {
+          "title": {
+            "ja": "最適なツールへ",
+            "en": "Choose the right tool",
+            "ne": "उपयुक्त साधन छान्नुहोस्",
+            "vi": "Chọn công cụ phù hợp"
+          },
+          "body": {
+            "ja": "目的に合う機能を選びます。",
+            "en": "Match the tool to the goal.",
+            "ne": "साधनलाई अपेक्षित नतिजासँग मिलाउनुहोस्।",
+            "vi": "Ghép công cụ với kết quả cần đạt."
+          },
+          "icon": "arrow"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "機能名よりも、 目的から考える。 「この場面で何を実現したいか」を言葉にしてから、ツールを選びます。。 場面を読む。 誰が、どこで、何をするのか。。 目的を決める。 配布・共同編集・会話などを整理。。 最適なツールへ。 目的に合う機能を選びます。",
+          "en": "Start with the goal, not the feature name. Describe what you want to achieve in the situation, then select the tool.. Read the scenario. Who is doing what, and where?. Identify the goal. Identify distribution, collaboration or communication.. Choose the right tool. Match the tool to the intended outcome.",
+          "ne": "सुविधाको नामभन्दा उद्देश्यबाट सोच्नुहोस्. परिस्थितिमा के हासिल गर्ने हो बुझेर साधन छान्नुहोस्।. परिस्थिति पढ्नुहोस्. कसले, कहाँ, के गर्ने हो?. उद्देश्य पहिचान गर्नुहोस्. वितरण, सहकार्य वा संवाद छुट्याउनुहोस्।. उपयुक्त साधन छान्नुहोस्. साधनलाई अपेक्षित नतिजासँग मिलाउनुहोस्।",
+          "vi": "Bắt đầu từ mục tiêu, rồi chọn công cụ. Xác định điều cần đạt trong tình huống, rồi chọn công cụ.. Đọc tình huống. Ai làm gì, ở đâu?. Xác định mục tiêu. Phân biệt phát tài liệu, cộng tác hay giao tiếp.. Chọn công cụ phù hợp. Ghép công cụ với kết quả cần đạt."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/reasoning.mp3",
+          "en": "./audio/google-educator-level1/en/reasoning.mp3",
+          "ne": "./audio/google-educator-level1/ne/reasoning.mp3",
+          "vi": "./audio/google-educator-level1/vi/reasoning.mp3"
+        }
+      }
+    },
+    {
+      "id": "themes-work",
+      "pattern": "cards",
+      "title": {
+        "ja": "選択式の重点\n使い分けと共有",
+        "en": "Key topics:\ntool choice and sharing",
+        "ne": "मुख्य विषय:\nसाधन र साझेदारी",
+        "vi": "Chủ đề trọng tâm:\ncông cụ và chia sẻ"
+      },
+      "body": {
+        "ja": "機能の暗記に偏らず、適した使い方を整理しましょう。",
+        "en": "Focus on appropriate use, not just memorizing features.",
+        "ne": "सुविधा कण्ठ पार्ने मात्र होइन, उचित प्रयोग बुझ्नुहोस्।",
+        "vi": "Hiểu cách dùng phù hợp."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.7",
+      "items": [
+        {
+          "title": {
+            "ja": "ツールの使い分け",
+            "en": "Tool selection",
+            "ne": "साधन छनोट",
+            "vi": "Chọn công cụ"
+          },
+          "body": {
+            "ja": "Classroom と Sites などの目的の違い。",
+            "en": "Different purposes of tools such as Classroom and Sites.",
+            "ne": "Classroom र Sites जस्ता साधनका फरक उद्देश्य।",
+            "vi": "Classroom, Sites: mục đích khác nhau."
+          },
+          "icon": "layers"
+        },
+        {
+          "title": {
+            "ja": "共同作業",
+            "en": "Collaboration",
+            "ne": "सहकार्य",
+            "vi": "Cộng tác"
+          },
+          "body": {
+            "ja": "リアルタイム編集とコメント。",
+            "en": "Real-time editing and comments.",
+            "ne": "वास्तविक समयमा सम्पादन र टिप्पणी।",
+            "vi": "Chỉnh sửa trực tiếp và nhận xét."
+          },
+          "icon": "person"
+        },
+        {
+          "title": {
+            "ja": "共有権限",
+            "en": "Sharing permissions",
+            "ne": "साझेदारी अनुमति",
+            "vi": "Quyền chia sẻ"
+          },
+          "body": {
+            "ja": "閲覧者・編集者・コピーの制限。",
+            "en": "Viewer, editor and copy restrictions.",
+            "ne": "दर्शक, सम्पादक र प्रतिलिपि प्रतिबन्ध।",
+            "vi": "Quyền xem, sửa và hạn chế sao chép."
+          },
+          "icon": "shield"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "選択式の重点 使い分けと共有。 機能の暗記に偏らず、適した使い方を整理しましょう。。 ツールの使い分け。 Classroom と Sites などの目的の違い。。 共同作業。 リアルタイム編集とコメント。。 共有権限。 閲覧者・編集者・コピーの制限。",
+          "en": "Key topics: tool choice and sharing. Focus on appropriate use, not just memorizing features.. Tool selection. Different purposes of tools such as Classroom and Sites.. Collaboration. Real-time editing and comments.. Sharing permissions. Viewer, editor and copy restrictions.",
+          "ne": "मुख्य विषय: साधन र साझेदारी. सुविधा कण्ठ पार्ने मात्र होइन, उचित प्रयोग बुझ्नुहोस्।. साधन छनोट. Classroom र Sites जस्ता साधनका फरक उद्देश्य।. सहकार्य. वास्तविक समयमा सम्पादन र टिप्पणी।. साझेदारी अनुमति. दर्शक, सम्पादक र प्रतिलिपि प्रतिबन्ध।",
+          "vi": "Chủ đề trọng tâm: công cụ và chia sẻ. Hiểu cách dùng phù hợp, thay vì chỉ ghi nhớ tính năng.. Chọn công cụ. Mục đích khác nhau của Classroom, Sites và các công cụ khác.. Cộng tác. Chỉnh sửa thời gian thực và nhận xét.. Quyền chia sẻ. Người xem, người chỉnh sửa và hạn chế sao chép."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/themes-work.mp3",
+          "ne": "./audio/google-educator-level1/ne/themes-work.mp3",
+          "en": "./audio/google-educator-level1/en/themes-work.mp3",
+          "vi": "./audio/google-educator-level1/vi/themes-work.mp3"
+        }
+      }
+    },
+    {
+      "id": "themes-access",
+      "pattern": "cards",
+      "title": {
+        "ja": "選択式の重点\n伝える・支える",
+        "en": "Key topics:\ncommunication and access",
+        "ne": "मुख्य विषय:\nसंवाद र पहुँच",
+        "vi": "Chủ đề trọng tâm:\ngiao tiếp và hỗ trợ"
+      },
+      "body": {
+        "ja": "授業に参加しやすく、資料を見つけやすい環境を考えます。",
+        "en": "Think about participation, access and easy file discovery.",
+        "ne": "सहभागिता, पहुँच र सजिलो फाइल खोजबारे सोच्नुहोस्।",
+        "vi": "Tạo môi trường dễ tham gia và dễ tìm tài liệu."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.7",
+      "items": [
+        {
+          "title": {
+            "ja": "コミュニケーション",
+            "en": "Communication",
+            "ne": "संवाद",
+            "vi": "Giao tiếp"
+          },
+          "body": {
+            "ja": "Meet・Chat・Gmail の役割。",
+            "en": "Roles of Meet, Chat and Gmail.",
+            "ne": "Meet, Chat र Gmail का भूमिका।",
+            "vi": "Vai trò của Meet, Chat và Gmail."
+          },
+          "icon": "globe"
+        },
+        {
+          "title": {
+            "ja": "アクセシビリティ",
+            "en": "Accessibility",
+            "ne": "पहुँचयोग्यता",
+            "vi": "Khả năng tiếp cận"
+          },
+          "body": {
+            "ja": "字幕・翻訳・ChromeVox。",
+            "en": "Captions, translation and ChromeVox.",
+            "ne": "उपशीर्षक, अनुवाद र ChromeVox।",
+            "vi": "Phụ đề, dịch và ChromeVox."
+          },
+          "icon": "hand"
+        },
+        {
+          "title": {
+            "ja": "ファイル整理",
+            "en": "File organization",
+            "ne": "फाइल व्यवस्थापन",
+            "vi": "Sắp xếp tệp"
+          },
+          "body": {
+            "ja": "Drive の共有フォルダを活用。",
+            "en": "Use shared folders in Drive.",
+            "ne": "Drive का साझा फोल्डर प्रयोग गर्नुहोस्।",
+            "vi": "Sử dụng thư mục chia sẻ trong Drive."
+          },
+          "icon": "file"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "選択式の重点 伝える・支える。 授業に参加しやすく、資料を見つけやすい環境を考えます。。 コミュニケーション。 Meet・Chat・Gmail の役割。。 アクセシビリティ。 字幕・翻訳・ChromeVox。。 ファイル整理。 Drive の共有フォルダを活用。",
+          "en": "Key topics: communication and access. Think about participation, access and easy file discovery.. Communication. Roles of Meet, Chat and Gmail.. Accessibility. Captions, translation and ChromeVox.. File organization. Use shared folders in Drive.",
+          "ne": "मुख्य विषय: संवाद र पहुँच. सहभागिता, पहुँच र सजिलो फाइल खोजबारे सोच्नुहोस्।. संवाद. Meet, Chat र Gmail का भूमिका।. पहुँचयोग्यता. उपशीर्षक, अनुवाद र ChromeVox।. फाइल व्यवस्थापन. Drive का साझा फोल्डर प्रयोग गर्नुहोस्।",
+          "vi": "Chủ đề trọng tâm: giao tiếp và hỗ trợ. Tạo môi trường dễ tham gia và dễ tìm tài liệu.. Giao tiếp. Vai trò của Meet, Chat và Gmail.. Khả năng tiếp cận. Phụ đề, dịch và ChromeVox.. Sắp xếp tệp. Sử dụng thư mục chia sẻ trong Drive."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/themes-access.mp3",
+          "en": "./audio/google-educator-level1/en/themes-access.mp3",
+          "ne": "./audio/google-educator-level1/ne/themes-access.mp3",
+          "vi": "./audio/google-educator-level1/vi/themes-access.mp3"
+        }
+      }
+    },
+    {
+      "id": "meet-chat",
+      "pattern": "compare",
+      "title": {
+        "ja": "今すぐ話す？\n後でメッセージ？",
+        "en": "Talk live\nor message later?",
+        "ne": "अहिले कुरा गर्ने कि\nपछि सन्देश पठाउने?",
+        "vi": "Trao đổi trực tiếp\nhay nhắn tin?"
+      },
+      "body": {
+        "ja": "同じ時間に集まるなら Meet。時間をずらして連絡するなら Chat。",
+        "en": "Use Meet to gather at the same time. Use Chat for messages across schedules.",
+        "ne": "एकै समयमा भेला हुन Meet। फरक समयमा सन्देशका लागि Chat।",
+        "vi": "Dùng Meet khi cùng tham gia một lúc. Dùng Chat để nhắn tin khác thời điểm."
+      },
+      "icon": "globe",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.8",
+      "items": [
+        {
+          "title": {
+            "ja": "Google Meet",
+            "en": "Google Meet",
+            "ne": "Google Meet",
+            "vi": "Google Meet"
+          },
+          "body": {
+            "ja": "同期型の双方向授業・会議。",
+            "en": "Live, two-way classes and meetings.",
+            "ne": "प्रत्यक्ष, दोहोरो कक्षा र बैठक।",
+            "vi": "Lớp học và cuộc họp tương tác trực tiếp."
+          },
+          "icon": "person"
+        },
+        {
+          "title": {
+            "ja": "Google Chat",
+            "en": "Google Chat",
+            "ne": "Google Chat",
+            "vi": "Google Chat"
+          },
+          "body": {
+            "ja": "非同期のチャット・短い連絡。",
+            "en": "Asynchronous chat and quick messages.",
+            "ne": "असमकालिक कुराकानी र छोटा सन्देश।",
+            "vi": "Trò chuyện không đồng bộ và thông báo ngắn."
+          },
+          "icon": "pen"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "今すぐ話す？ 後でメッセージ？。 同じ時間に集まるなら Meet。時間をずらして連絡するなら Chat。。 Google Meet。 同期型の双方向授業・会議。。 Google Chat。 非同期のチャット・短い連絡。",
+          "en": "Talk live or message later?. Use Meet to gather at the same time. Use Chat for messages across schedules.. Google Meet. Live, two-way classes and meetings.. Google Chat. Asynchronous chat and quick messages.",
+          "ne": "अहिले कुरा गर्ने कि पछि सन्देश पठाउने?. एकै समयमा भेला हुन Meet। फरक समयमा सन्देशका लागि Chat।. Google Meet. प्रत्यक्ष, दोहोरो कक्षा र बैठक।. Google Chat. असमकालिक कुराकानी र छोटा सन्देश।",
+          "vi": "Trao đổi trực tiếp hay nhắn tin?. Dùng Meet khi cùng tham gia một lúc. Dùng Chat để nhắn tin khác thời điểm.. Google Meet. Lớp học và cuộc họp tương tác trực tiếp.. Google Chat. Trò chuyện không đồng bộ và thông báo ngắn."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/meet-chat.mp3",
+          "en": "./audio/google-educator-level1/en/meet-chat.mp3",
+          "ne": "./audio/google-educator-level1/ne/meet-chat.mp3",
+          "vi": "./audio/google-educator-level1/vi/meet-chat.mp3"
+        }
+      }
+    },
+    {
+      "id": "classroom-forms",
+      "pattern": "compare",
+      "title": {
+        "ja": "課題を集める？\n回答を集める？",
+        "en": "Collect assignments\nor responses?",
+        "ne": "असाइनमेन्ट कि\nउत्तर सङ्कलन गर्ने?",
+        "vi": "Thu bài tập\nhay câu trả lời?"
+      },
+      "body": {
+        "ja": "学習課題の流れは Classroom。アンケートや自動採点は Forms。",
+        "en": "Use Classroom for assignment workflows. Use Forms for surveys and auto-grading.",
+        "ne": "असाइनमेन्टका लागि Classroom। सर्वेक्षण र स्वचालित मूल्याङ्कनका लागि Forms।",
+        "vi": "Classroom quản lý bài tập. Forms dùng cho khảo sát và chấm điểm tự động."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.8",
+      "items": [
+        {
+          "title": {
+            "ja": "Google Classroom",
+            "en": "Google Classroom",
+            "ne": "Google Classroom",
+            "vi": "Google Classroom"
+          },
+          "body": {
+            "ja": "課題を配布し、提出物を回収。",
+            "en": "Distribute assignments and collect submissions.",
+            "ne": "असाइनमेन्ट दिनुहोस् र बुझाएका काम सङ्कलन गर्नुहोस्।",
+            "vi": "Giao bài tập và thu bài nộp."
+          },
+          "icon": "file"
+        },
+        {
+          "title": {
+            "ja": "Google Forms",
+            "en": "Google Forms",
+            "ne": "Google Forms",
+            "vi": "Google Forms"
+          },
+          "body": {
+            "ja": "アンケートと自動採点クイズ。",
+            "en": "Surveys and automatically graded quizzes.",
+            "ne": "सर्वेक्षण र स्वचालित अङ्क दिने क्विज।",
+            "vi": "Khảo sát và câu đố chấm điểm tự động."
+          },
+          "icon": "check"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "課題を集める？ 回答を集める？。 学習課題の流れは Classroom。アンケートや自動採点は Forms。。 Google Classroom。 課題を配布し、提出物を回収。。 Google Forms。 アンケートと自動採点クイズ。",
+          "en": "Collect assignments or responses?. Use Classroom for assignment workflows. Use Forms for surveys and auto-grading.. Google Classroom. Distribute assignments and collect submissions.. Google Forms. Surveys and automatically graded quizzes.",
+          "ne": "असाइनमेन्ट कि उत्तर सङ्कलन गर्ने?. असाइनमेन्टका लागि Classroom। सर्वेक्षण र स्वचालित मूल्याङ्कनका लागि Forms।. Google Classroom. असाइनमेन्ट दिनुहोस् र बुझाएका काम सङ्कलन गर्नुहोस्।. Google Forms. सर्वेक्षण र स्वचालित अङ्क दिने क्विज।",
+          "vi": "Thu bài tập hay câu trả lời?. Classroom quản lý bài tập. Forms dùng cho khảo sát và chấm điểm tự động.. Google Classroom. Giao bài tập và thu bài nộp.. Google Forms. Khảo sát và câu đố chấm điểm tự động."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/classroom-forms.mp3",
+          "en": "./audio/google-educator-level1/en/classroom-forms.mp3",
+          "ne": "./audio/google-educator-level1/ne/classroom-forms.mp3",
+          "vi": "./audio/google-educator-level1/vi/classroom-forms.mp3"
+        }
+      }
+    },
+    {
+      "id": "docs-drive",
+      "pattern": "compare",
+      "title": {
+        "ja": "一緒に作る？\n安全に保管する？",
+        "en": "Create together\nor organize safely?",
+        "ne": "सँगै बनाउने कि\nसुरक्षित राख्ने?",
+        "vi": "Cùng tạo nội dung\nhay lưu trữ an toàn?"
+      },
+      "body": {
+        "ja": "共同編集は Docs・Slides。教材の整理と共有は Drive。",
+        "en": "Use Docs and Slides to collaborate. Use Drive to organize and share materials.",
+        "ne": "सहकार्यका लागि Docs र Slides। सामग्री मिलाउन र साझा गर्न Drive।",
+        "vi": "Docs và Slides để cộng tác. Drive để sắp xếp và chia sẻ tài liệu."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.8",
+      "items": [
+        {
+          "title": {
+            "ja": "Docs / Slides",
+            "en": "Docs / Slides",
+            "ne": "Docs / Slides",
+            "vi": "Docs / Slides"
+          },
+          "body": {
+            "ja": "文章・プレゼンをリアルタイム共同編集。",
+            "en": "Co-edit documents and presentations in real time.",
+            "ne": "कागजात र प्रस्तुति वास्तविक समयमा सँगै सम्पादन गर्नुहोस्।",
+            "vi": "Cùng chỉnh sửa tài liệu, bài trình bày theo thời gian thực."
+          },
+          "icon": "pen"
+        },
+        {
+          "title": {
+            "ja": "Google Drive",
+            "en": "Google Drive",
+            "ne": "Google Drive",
+            "vi": "Google Drive"
+          },
+          "body": {
+            "ja": "教材を共有フォルダで一元管理。",
+            "en": "Manage teaching materials in shared folders.",
+            "ne": "शिक्षण सामग्री साझा फोल्डरमा व्यवस्थापन गर्नुहोस्।",
+            "vi": "Quản lý tài liệu giảng dạy trong thư mục chia sẻ."
+          },
+          "icon": "shield"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "一緒に作る？ 安全に保管する？。 共同編集は Docs・Slides。教材の整理と共有は Drive。。 Docs / Slides。 文章・プレゼンをリアルタイム共同編集。。 Google Drive。 教材を共有フォルダで一元管理。",
+          "en": "Create together or organize safely?. Use Docs and Slides to collaborate. Use Drive to organize and share materials.. Docs / Slides. Co-edit documents and presentations in real time.. Google Drive. Manage teaching materials in shared folders.",
+          "ne": "सँगै बनाउने कि सुरक्षित राख्ने?. सहकार्यका लागि Docs र Slides। सामग्री मिलाउन र साझा गर्न Drive।. Docs / Slides. कागजात र प्रस्तुति वास्तविक समयमा सँगै सम्पादन गर्नुहोस्।. Google Drive. शिक्षण सामग्री साझा फोल्डरमा व्यवस्थापन गर्नुहोस्।",
+          "vi": "Cùng tạo nội dung hay lưu trữ an toàn?. Docs và Slides để cộng tác. Drive để sắp xếp và chia sẻ tài liệu.. Docs / Slides. Cùng chỉnh sửa tài liệu, bài trình bày theo thời gian thực.. Google Drive. Quản lý tài liệu giảng dạy trong thư mục chia sẻ."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/docs-drive.mp3",
+          "ne": "./audio/google-educator-level1/ne/docs-drive.mp3",
+          "en": "./audio/google-educator-level1/en/docs-drive.mp3",
+          "vi": "./audio/google-educator-level1/vi/docs-drive.mp3"
+        }
+      }
+    },
+    {
+      "id": "lab-classroom",
+      "pattern": "cards",
+      "title": {
+        "ja": "実技の準備\nClassroom",
+        "en": "Lab practice:\nClassroom",
+        "ne": "व्यावहारिक तयारी:\nClassroom",
+        "vi": "Luyện thực hành:\nClassroom"
+      },
+      "body": {
+        "ja": "クリック順より、指定された完成状態にできることが大切です。",
+        "en": "Create the requested result. Don’t just memorize clicks.",
+        "ne": "क्लिकको क्रम कण्ठ पार्नुभन्दा मागिएको अन्तिम अवस्था बनाउनुहोस्।",
+        "vi": "Tập trung tạo đúng trạng thái cuối, thay vì chỉ nhớ thứ tự nhấp."
+      },
+      "icon": "hand",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.9",
+      "items": [
+        {
+          "title": {
+            "ja": "課題と添付",
+            "en": "Assignments and files",
+            "ne": "असाइनमेन्ट र फाइल",
+            "vi": "Bài tập và tệp đính kèm"
+          },
+          "body": {
+            "ja": "課題を作成し、資料を添付。",
+            "en": "Create and attach materials.",
+            "ne": "असाइनमेन्ट बनाएर सामग्री जोड्नुहोस्।",
+            "vi": "Tạo bài tập và đính kèm tài liệu."
+          },
+          "icon": "file"
+        },
+        {
+          "title": {
+            "ja": "生徒ごとのコピー",
+            "en": "Individual copies",
+            "ne": "हरेक विद्यार्थीलाई प्रति",
+            "vi": "Bản sao cho từng học sinh"
+          },
+          "body": {
+            "ja": "各生徒にコピーを作成する設定。",
+            "en": "Make one copy for each student.",
+            "ne": "हरेक विद्यार्थीलाई प्रतिलिपि दिने सेटिङ।",
+            "vi": "Cài đặt tạo bản sao cho mỗi học sinh."
+          },
+          "icon": "person"
+        },
+        {
+          "title": {
+            "ja": "トピックと期限",
+            "en": "Topics and due dates",
+            "ne": "विषय र म्याद",
+            "vi": "Chủ đề và hạn nộp"
+          },
+          "body": {
+            "ja": "分類と提出期限を設定。",
+            "en": "Set topics and due dates.",
+            "ne": "वर्गीकरण र बुझाउने म्याद तोक्नुहोस्।",
+            "vi": "Đặt cách phân loại và thời hạn nộp."
+          },
+          "icon": "check"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "実技の準備 Classroom。 クリック順より、指定された完成状態にできることが大切です。。 課題と添付。 課題を作成し、資料を添付。。 生徒ごとのコピー。 各生徒にコピーを作成する設定。。 トピックと期限。 分類と提出期限を設定。",
+          "en": "Hands-on practice: Classroom. Focus on achieving the requested final state, rather than memorizing clicks.. Assignments and files. Create an assignment and attach materials.. Individual copies. Set a copy to be made for each student.. Topics and due dates. Set organization and submission deadlines.",
+          "ne": "व्यावहारिक तयारी: Classroom. क्लिकको क्रम कण्ठ पार्नुभन्दा मागिएको अन्तिम अवस्था बनाउनुहोस्।. असाइनमेन्ट र फाइल. असाइनमेन्ट बनाएर सामग्री जोड्नुहोस्।. हरेक विद्यार्थीलाई प्रति. हरेक विद्यार्थीलाई प्रतिलिपि दिने सेटिङ।. विषय र म्याद. वर्गीकरण र बुझाउने म्याद तोक्नुहोस्।",
+          "vi": "Luyện thực hành: Classroom. Tập trung tạo đúng trạng thái cuối, thay vì chỉ nhớ thứ tự nhấp.. Bài tập và tệp đính kèm. Tạo bài tập và đính kèm tài liệu.. Bản sao cho từng học sinh. Cài đặt tạo bản sao cho mỗi học sinh.. Chủ đề và hạn nộp. Đặt cách phân loại và thời hạn nộp."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/lab-classroom.mp3",
+          "en": "./audio/google-educator-level1/en/lab-classroom.mp3",
+          "ne": "./audio/google-educator-level1/ne/lab-classroom.mp3",
+          "vi": "./audio/google-educator-level1/vi/lab-classroom.mp3"
+        }
+      }
+    },
+    {
+      "id": "lab-drive",
+      "pattern": "cards",
+      "title": {
+        "ja": "実技の準備\nDocs / Drive",
+        "en": "Hands-on practice:\nDocs / Drive",
+        "ne": "व्यावहारिक तयारी:\nDocs / Drive",
+        "vi": "Luyện thực hành:\nDocs / Drive"
+      },
+      "body": {
+        "ja": "共有する相手と権限、ファイルの置き場所を確認します。",
+        "en": "Check who has access, their permissions and where files are stored.",
+        "ne": "पहुँच पाउने व्यक्ति, अनुमति र फाइलको स्थान जाँच्नुहोस्।",
+        "vi": "Kiểm tra người được chia sẻ, quyền và vị trí lưu tệp."
+      },
+      "icon": "hand",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.9",
+      "items": [
+        {
+          "title": {
+            "ja": "共有権限",
+            "en": "Sharing permissions",
+            "ne": "साझेदारी अनुमति",
+            "vi": "Quyền chia sẻ"
+          },
+          "body": {
+            "ja": "閲覧者と編集者を使い分ける。",
+            "en": "Assign viewer or editor access appropriately.",
+            "ne": "दर्शक वा सम्पादक अनुमति उचित रूपमा दिनुहोस्।",
+            "vi": "Phân quyền người xem hoặc chỉnh sửa phù hợp."
+          },
+          "icon": "shield"
+        },
+        {
+          "title": {
+            "ja": "コメント",
+            "en": "Comments",
+            "ne": "टिप्पणी",
+            "vi": "Nhận xét"
+          },
+          "body": {
+            "ja": "コメントとメンションを使う。",
+            "en": "Use comments and mentions.",
+            "ne": "टिप्पणी र मेन्सन प्रयोग गर्नुहोस्।",
+            "vi": "Sử dụng nhận xét và nhắc tên."
+          },
+          "icon": "pen"
+        },
+        {
+          "title": {
+            "ja": "フォルダ整理",
+            "en": "Folder organization",
+            "ne": "फोल्डर व्यवस्थापन",
+            "vi": "Sắp xếp thư mục"
+          },
+          "body": {
+            "ja": "フォルダを作り、ファイルを移動。",
+            "en": "Create folders and move files.",
+            "ne": "फोल्डर बनाएर फाइल सार्नुहोस्।",
+            "vi": "Tạo thư mục và di chuyển tệp."
+          },
+          "icon": "file"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "実技の準備 Docs / Drive。 共有する相手と権限、ファイルの置き場所を確認します。。 共有権限。 閲覧者と編集者を使い分ける。。 コメント。 コメントとメンションを使う。。 フォルダ整理。 フォルダを作り、ファイルを移動。",
+          "en": "Hands-on practice: Docs / Drive. Check who has access, their permissions and where files are stored.. Sharing permissions. Assign viewer or editor access appropriately.. Comments. Use comments and mentions.. Folder organization. Create folders and move files.",
+          "ne": "व्यावहारिक तयारी: Docs / Drive. पहुँच पाउने व्यक्ति, अनुमति र फाइलको स्थान जाँच्नुहोस्।. साझेदारी अनुमति. दर्शक वा सम्पादक अनुमति उचित रूपमा दिनुहोस्।. टिप्पणी. टिप्पणी र मेन्सन प्रयोग गर्नुहोस्।. फोल्डर व्यवस्थापन. फोल्डर बनाएर फाइल सार्नुहोस्।",
+          "vi": "Luyện thực hành: Docs / Drive. Kiểm tra người được chia sẻ, quyền và vị trí lưu tệp.. Quyền chia sẻ. Phân quyền người xem hoặc chỉnh sửa phù hợp.. Nhận xét. Sử dụng nhận xét và nhắc tên.. Sắp xếp thư mục. Tạo thư mục và di chuyển tệp."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/lab-drive.mp3",
+          "en": "./audio/google-educator-level1/en/lab-drive.mp3",
+          "ne": "./audio/google-educator-level1/ne/lab-drive.mp3",
+          "vi": "./audio/google-educator-level1/vi/lab-drive.mp3"
+        }
+      }
+    },
+    {
+      "id": "lab-forms",
+      "pattern": "cards",
+      "title": {
+        "ja": "実技の準備\nForms / Sheets",
+        "en": "Hands-on practice:\nForms / Sheets",
+        "ne": "व्यावहारिक तयारी:\nForms / Sheets",
+        "vi": "Luyện thực hành:\nForms / Sheets"
+      },
+      "body": {
+        "ja": "クイズ設定から回答先まで、一連の操作を練習します。",
+        "en": "Practice the full workflow from quiz settings to the response destination.",
+        "ne": "क्विज सेटिङदेखि उत्तरको गन्तव्यसम्म अभ्यास गर्नुहोस्।",
+        "vi": "Luyện toàn bộ quy trình từ cài đặt câu đố đến nơi lưu câu trả lời."
+      },
+      "icon": "hand",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.9",
+      "items": [
+        {
+          "title": {
+            "ja": "クイズと正解",
+            "en": "Quiz and answer key",
+            "ne": "क्विज र सही उत्तर",
+            "vi": "Câu đố và đáp án"
+          },
+          "body": {
+            "ja": "クイズ化し、正解を設定。",
+            "en": "Enable quiz mode and set the answer key.",
+            "ne": "क्विज मोड राखेर सही उत्तर तोक्नुहोस्।",
+            "vi": "Bật chế độ câu đố và đặt đáp án."
+          },
+          "icon": "check"
+        },
+        {
+          "title": {
+            "ja": "共同編集者",
+            "en": "Collaborators",
+            "ne": "सहसम्पादक",
+            "vi": "Người cộng tác"
+          },
+          "body": {
+            "ja": "一緒に編集する人を追加。",
+            "en": "Add people who can edit together.",
+            "ne": "सँगै सम्पादन गर्ने व्यक्ति थप्नुहोस्।",
+            "vi": "Thêm người có thể cùng chỉnh sửa."
+          },
+          "icon": "person"
+        },
+        {
+          "title": {
+            "ja": "回答先",
+            "en": "Response destination",
+            "ne": "उत्तरको गन्तव्य",
+            "vi": "Nơi lưu câu trả lời"
+          },
+          "body": {
+            "ja": "回答を保存する Sheets を設定。",
+            "en": "Choose the spreadsheet that stores responses.",
+            "ne": "उत्तर भण्डारण गर्ने स्प्रेडसिट छान्नुहोस्।",
+            "vi": "Chọn bảng tính lưu các câu trả lời."
+          },
+          "icon": "file"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "実技の準備 Forms / Sheets。 クイズ設定から回答先まで、一連の操作を練習します。。 クイズと正解。 クイズ化し、正解を設定。。 共同編集者。 一緒に編集する人を追加。。 回答先。 回答を保存する Sheets を設定。",
+          "en": "Hands-on practice: Forms / Sheets. Practice the full workflow from quiz settings to the response destination.. Quiz and answer key. Enable quiz mode and set the answer key.. Collaborators. Add people who can edit together.. Response destination. Choose the spreadsheet that stores responses.",
+          "ne": "व्यावहारिक तयारी: Forms / Sheets. क्विज सेटिङदेखि उत्तरको गन्तव्यसम्म अभ्यास गर्नुहोस्।. क्विज र सही उत्तर. क्विज मोड राखेर सही उत्तर तोक्नुहोस्।. सहसम्पादक. सँगै सम्पादन गर्ने व्यक्ति थप्नुहोस्।. उत्तरको गन्तव्य. उत्तर भण्डारण गर्ने स्प्रेडसिट छान्नुहोस्।",
+          "vi": "Luyện thực hành: Forms / Sheets. Luyện toàn bộ quy trình từ cài đặt câu đố đến nơi lưu câu trả lời.. Câu đố và đáp án. Bật chế độ câu đố và đặt đáp án.. Người cộng tác. Thêm người có thể cùng chỉnh sửa.. Nơi lưu câu trả lời. Chọn bảng tính lưu các câu trả lời."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/lab-forms.mp3",
+          "en": "./audio/google-educator-level1/en/lab-forms.mp3",
+          "ne": "./audio/google-educator-level1/ne/lab-forms.mp3",
+          "vi": "./audio/google-educator-level1/vi/lab-forms.mp3"
+        }
+      }
+    },
+    {
+      "id": "study-cycle",
+      "pattern": "steps",
+      "title": {
+        "ja": "学習を\nひと巡りさせる",
+        "en": "Build a\nstudy cycle",
+        "ne": "अध्ययनको\nचक्र बनाउनुहोस्",
+        "vi": "Xây dựng\nchu trình học"
+      },
+      "body": {
+        "ja": "全体像 → 状況判断 → 実技。その後、弱点を補って繰り返します。",
+        "en": "Overview, scenario decisions, hands-on practice. Then address weaknesses and repeat.",
+        "ne": "समग्र बुझाइ, परिस्थिति निर्णय, व्यावहारिक अभ्यास। त्यसपछि कमजोरी सुधारेर दोहोर्‍याउनुहोस्।",
+        "vi": "Nắm tổng quan, xử lý tình huống, thực hành. Sau đó khắc phục điểm yếu và lặp lại."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.10",
+      "items": [
+        {
+          "title": {
+            "ja": "全体像をつかむ",
+            "en": "Get the overview",
+            "ne": "समग्र बुझ्नुहोस्",
+            "vi": "Nắm tổng quan"
+          },
+          "body": {
+            "ja": "資格と試験の目的を整理。",
+            "en": "Understand the certification and exam goals.",
+            "ne": "प्रमाणपत्र र परीक्षाका उद्देश्य बुझ्नुहोस्।",
+            "vi": "Hiểu mục tiêu chứng nhận và kỳ thi."
+          },
+          "icon": "layers"
+        },
+        {
+          "title": {
+            "ja": "状況判断を練習",
+            "en": "Practice decisions",
+            "ne": "निर्णयको अभ्यास",
+            "vi": "Luyện xử lý tình huống"
+          },
+          "body": {
+            "ja": "目的に合うツールを選ぶ練習。",
+            "en": "Practice choosing tools for a purpose.",
+            "ne": "उद्देश्यअनुसार साधन छान्ने अभ्यास गर्नुहोस्।",
+            "vi": "Luyện chọn công cụ theo mục tiêu."
+          },
+          "icon": "check"
+        },
+        {
+          "title": {
+            "ja": "実際に操作する",
+            "en": "Practice hands-on",
+            "ne": "आफैँ प्रयोग गर्नुहोस्",
+            "vi": "Thực hành thao tác"
+          },
+          "body": {
+            "ja": "公式タスクカードで完成状態を作る。",
+            "en": "Use official task cards to practice outcomes.",
+            "ne": "आधिकारिक टास्क कार्डबाट नतिजा बनाउने अभ्यास गर्नुहोस्।",
+            "vi": "Dùng thẻ nhiệm vụ chính thức để luyện tạo kết quả."
+          },
+          "icon": "hand"
+        }
+      ],
+      "narration": {
+        "script": {
+          "ja": "学習を ひと巡りさせる。 全体像 → 状況判断 → 実技。その後、弱点を補って繰り返します。。 全体像をつかむ。 資格と試験の目的を整理。。 状況判断を練習。 目的に合うツールを選ぶ練習。。 実際に操作する。 公式タスクカードで完成状態を作る。",
+          "en": "Build a study cycle. Overview, scenario decisions, hands-on practice. Then address weaknesses and repeat.. Get the overview. Understand the certification and exam goals.. Practice decisions. Practice choosing tools for a purpose.. Practice hands-on. Use official task cards to practice outcomes.",
+          "ne": "अध्ययनको चक्र बनाउनुहोस्. समग्र बुझाइ, परिस्थिति निर्णय, व्यावहारिक अभ्यास। त्यसपछि कमजोरी सुधारेर दोहोर्‍याउनुहोस्।. समग्र बुझ्नुहोस्. प्रमाणपत्र र परीक्षाका उद्देश्य बुझ्नुहोस्।. निर्णयको अभ्यास. उद्देश्यअनुसार साधन छान्ने अभ्यास गर्नुहोस्।. आफैँ प्रयोग गर्नुहोस्. आधिकारिक टास्क कार्डबाट नतिजा बनाउने अभ्यास गर्नुहोस्।",
+          "vi": "Xây dựng chu trình học. Nắm tổng quan, xử lý tình huống, thực hành. Sau đó khắc phục điểm yếu và lặp lại.. Nắm tổng quan. Hiểu mục tiêu chứng nhận và kỳ thi.. Luyện xử lý tình huống. Luyện chọn công cụ theo mục tiêu.. Thực hành thao tác. Dùng thẻ nhiệm vụ chính thức để luyện tạo kết quả."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/study-cycle.mp3",
+          "en": "./audio/google-educator-level1/en/study-cycle.mp3",
+          "ne": "./audio/google-educator-level1/ne/study-cycle.mp3",
+          "vi": "./audio/google-educator-level1/vi/study-cycle.mp3"
+        }
+      }
+    },
+    {
+      "id": "review",
+      "pattern": "quote",
+      "title": {
+        "ja": "弱点を見つけて、\nもう一度。",
+        "en": "Find weak points.\nPractice again.",
+        "ne": "कमजोरी खोज्नुहोस्।\nफेरि अभ्यास गर्नुहोस्।",
+        "vi": "Tìm điểm yếu.\nLuyện tập lại."
+      },
+      "body": {
+        "ja": "AIチャットへ「共有権限の問題を出して」「Meet と Chat の違いは？」と聞き、実操作で確かめましょう。",
+        "en": "Ask an AI chat for sharing-permission questions or Meet versus Chat differences. Verify by using the tools.",
+        "ne": "AI च्याटसँग साझेदारी अनुमतिको प्रश्न वा Meet र Chat को फरक सोध्नुहोस्। साधन प्रयोग गरेर जाँच्नुहोस्।",
+        "vi": "Hỏi AI về quyền chia sẻ hoặc sự khác nhau giữa Meet và Chat. Kiểm chứng bằng thao tác thực tế."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.10",
+      "items": [],
+      "illustration": {
+        "assetId": "doodles-reading",
+        "alt": {
+          "ja": "学習する人物のイラスト",
+          "en": "Illustration of a person studying",
+          "ne": "अध्ययन गरिरहेको व्यक्तिको चित्र",
+          "vi": "Minh họa người đang học"
+        }
+      },
+      "narration": {
+        "script": {
+          "ja": "学習サイクルの最後は、弱点の補強です。AIチャットに、共有権限の問題を出して、あるいは、Meet と Chat の違いは、と質問する方法が紹介されています。答えを読んだら、実際のツールと公式資料でも確かめて、もう一度練習しましょう。",
+          "en": "Find weak points. Practice again.. Ask an AI chat for sharing-permission questions or Meet versus Chat differences. Verify by using the tools.",
+          "ne": "कमजोरी खोज्नुहोस्। फेरि अभ्यास गर्नुहोस्।. AI च्याटसँग साझेदारी अनुमतिको प्रश्न वा Meet र Chat को फरक सोध्नुहोस्। साधन प्रयोग गरेर जाँच्नुहोस्।",
+          "vi": "Tìm điểm yếu. Luyện tập lại.. Hỏi AI về quyền chia sẻ hoặc sự khác nhau giữa Meet và Chat. Kiểm chứng bằng thao tác thực tế."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/review.mp3",
+          "en": "./audio/google-educator-level1/en/review.mp3",
+          "ne": "./audio/google-educator-level1/ne/review.mp3",
+          "vi": "./audio/google-educator-level1/vi/review.mp3"
+        }
+      }
+    },
+    {
+      "id": "next",
+      "pattern": "finish",
+      "title": {
+        "ja": "準備ができたら、\n公式ページへ。",
+        "en": "Ready? Go to the\nofficial registration.",
+        "ne": "तयार भएपछि\nआधिकारिक दर्तामा जानुहोस्।",
+        "vi": "Sẵn sàng? Đến trang\nđăng ký chính thức."
+      },
+      "body": {
+        "ja": "Google アカウントでログインし、日本語を選択。最新の試験案内を確認して進めましょう。",
+        "en": "Sign in with Google and choose Japanese. Check the latest exam instructions before proceeding.",
+        "ne": "Google बाट लगइन गरी जापानी छान्नुहोस्। अघि बढ्नुअघि नवीनतम परीक्षा निर्देशन हेर्नुहोस्।",
+        "vi": "Đăng nhập bằng Google và chọn tiếng Nhật. Xem hướng dẫn thi mới nhất trước khi tiếp tục."
+      },
+      "icon": "person",
+      "animation": "slide",
+      "durationSeconds": 16,
+      "revealEverySeconds": 1.5,
+      "source": "Google_認定教育者_Level_1_完全攻略ガイド.pdf p.11",
+      "items": [],
+      "illustration": {
+        "assetId": "doodles-strolling",
+        "alt": {
+          "ja": "学習する人物のイラスト",
+          "en": "Illustration of a person studying",
+          "ne": "अध्ययन गरिरहेको व्यक्तिको चित्र",
+          "vi": "Minh họa người đang học"
+        }
+      },
+      "narration": {
+        "script": {
+          "ja": "ここまでで、資格の概要、受験準備、ツールの使い分け、実技対策、学習の進め方を確認しました。準備ができたら、公式登録ページを開き、Google アカウントでログインして日本語を選んでください。最新の案内を確認しながら進めましょう。",
+          "en": "Ready? Go to the official registration.. Sign in with Google and choose Japanese. Check the latest exam instructions before proceeding.",
+          "ne": "तयार भएपछि आधिकारिक दर्तामा जानुहोस्।. Google बाट लगइन गरी जापानी छान्नुहोस्। अघि बढ्नुअघि नवीनतम परीक्षा निर्देशन हेर्नुहोस्।",
+          "vi": "Sẵn sàng? Đến trang đăng ký chính thức.. Đăng nhập bằng Google và chọn tiếng Nhật. Xem hướng dẫn thi mới nhất trước khi tiếp tục."
+        },
+        "audio": {
+          "ja": "./audio/google-educator-level1/ja/next.mp3",
+          "en": "./audio/google-educator-level1/en/next.mp3",
+          "ne": "./audio/google-educator-level1/ne/next.mp3",
+          "vi": "./audio/google-educator-level1/vi/next.mp3"
+        }
+      },
+      "action": {
+        "type": "link",
+        "label": {
+          "ja": "公式登録ページを開く",
+          "en": "Open official registration",
+          "ne": "आधिकारिक दर्ता खोल्नुहोस्",
+          "vi": "Mở trang đăng ký chính thức"
+        },
+        "href": "https://educertifications.google/registration/1?lang=ja"
+      }
+    }
+  ],
+  "documents": [
+    {
+      "id": "source-pdf",
+      "title": {
+        "ja": "元資料：完全攻略ガイド",
+        "en": "Source: complete study guide",
+        "ne": "मूल सामग्री: पूर्ण मार्गदर्शिका",
+        "vi": "Tài liệu gốc: hướng dẫn đầy đủ"
+      },
+      "description": {
+        "ja": "アップロードされた11ページのPDF。閲覧・ダウンロードできます。",
+        "en": "The supplied 11-page PDF. View or download it.",
+        "ne": "दिइएको ११ पृष्ठको PDF। हेर्न वा डाउनलोड गर्न सकिन्छ।",
+        "vi": "PDF 11 trang được cung cấp. Có thể xem hoặc tải xuống."
+      },
+      "kind": "pdf",
+      "href": "./documents/google-educator-level1.pdf"
+    },
+    {
+      "id": "official-certifications",
+      "title": {
+        "ja": "Google 公式：認定資格の案内",
+        "en": "Google: official certifications",
+        "ne": "Google: आधिकारिक प्रमाणपत्र",
+        "vi": "Google: thông tin chứng nhận chính thức"
+      },
+      "description": {
+        "ja": "最新の資格情報、試験ガイドとタスクカードへの入口。",
+        "en": "Current certification information and links to the exam guide and task cards.",
+        "ne": "नवीनतम प्रमाणपत्र जानकारी, परीक्षा मार्गदर्शिका र टास्क कार्डका लिङ्क।",
+        "vi": "Thông tin chứng nhận mới nhất, liên kết hướng dẫn thi và thẻ nhiệm vụ."
+      },
+      "kind": "web",
+      "href": "https://edu.google.com/intl/ALL_jp/learning-center/certifications/"
+    },
+    {
+      "id": "official-registration",
+      "title": {
+        "ja": "Google 公式：Level 1 登録",
+        "en": "Google: Level 1 registration",
+        "ne": "Google: Level 1 दर्ता",
+        "vi": "Google: đăng ký Level 1"
+      },
+      "description": {
+        "ja": "日本語版の公式登録ページを別タブで開きます。",
+        "en": "Open the official Japanese registration page in a new tab.",
+        "ne": "आधिकारिक जापानी दर्ता पृष्ठ नयाँ ट्याबमा खोल्नुहोस्।",
+        "vi": "Mở trang đăng ký tiếng Nhật chính thức trong tab mới."
+      },
+      "kind": "web",
+      "href": "https://educertifications.google/registration/1?lang=ja"
+    }
+  ]
+}

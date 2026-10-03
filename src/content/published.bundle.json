@@ -1,7 +1,7 @@
 {
   "version": 1,
   "guide": {
-    "id": "contract-orientation-demo",
+    "id": "google-educator-level1",
     "titleKey": "guide.title",
     "descriptionKey": "guide.description",
     "slides": [
@@ -11,322 +11,1401 @@
         "bodyKey": "scene.welcome.body",
         "layout": "intro",
         "icon": "person",
-        "animation": "scale",
+        "animation": "slide",
         "staggerMs": 160,
         "playback": {
-          "durationMs": 14000,
-          "revealEveryMs": 1800,
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
           "pauseAfter": false
         },
         "items": [],
         "illustration": {
-          "src": "./illustrations/sitting.png",
+          "src": "./illustrations/sitting-reading.png",
           "altKey": "scene.welcome.alt"
         },
         "narration": {
           "textKey": "scene.welcome.narration",
           "audio": {
-            "en": "./audio/contract-orientation-demo/en/welcome.mp3",
-            "ja": "./audio/contract-orientation-demo/ja/welcome.mp3",
-            "ne": "./audio/contract-orientation-demo/ne/welcome.mp3",
-            "vi": "./audio/contract-orientation-demo/vi/welcome.mp3"
+            "en": "./audio/google-educator-level1/en/welcome.mp3",
+            "ja": "./audio/google-educator-level1/ja/welcome.mp3",
+            "ne": "./audio/google-educator-level1/ne/welcome.mp3",
+            "vi": "./audio/google-educator-level1/vi/welcome.mp3"
           }
         }
       },
       {
-        "id": "language",
-        "titleKey": "scene.language.title",
-        "bodyKey": "scene.language.body",
+        "id": "value",
+        "titleKey": "scene.value.title",
+        "bodyKey": "scene.value.body",
         "layout": "cards",
         "icon": "shield",
-        "animation": "scale",
+        "animation": "slide",
         "staggerMs": 160,
         "playback": {
-          "durationMs": 14000,
-          "revealEveryMs": 1800,
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
           "pauseAfter": false
         },
         "items": [
           {
-            "titleKey": "scene.language.item0.title",
-            "bodyKey": "scene.language.item0.body",
+            "titleKey": "scene.value.item0.title",
+            "bodyKey": "scene.value.item0.body",
+            "icon": "hand"
+          },
+          {
+            "titleKey": "scene.value.item1.title",
+            "bodyKey": "scene.value.item1.body",
             "icon": "file"
           },
           {
-            "titleKey": "scene.language.item1.title",
-            "bodyKey": "scene.language.item1.body",
-            "icon": "person"
+            "titleKey": "scene.value.item2.title",
+            "bodyKey": "scene.value.item2.body",
+            "icon": "sparkles"
           }
         ],
         "narration": {
-          "textKey": "scene.language.narration",
+          "textKey": "scene.value.narration",
           "audio": {
-            "ja": "./audio/contract-orientation-demo/ja/language.mp3",
-            "en": "./audio/contract-orientation-demo/en/language.mp3",
-            "ne": "./audio/contract-orientation-demo/ne/language.mp3",
-            "vi": "./audio/contract-orientation-demo/vi/language.mp3"
+            "ja": "./audio/google-educator-level1/ja/value.mp3",
+            "en": "./audio/google-educator-level1/en/value.mp3",
+            "ne": "./audio/google-educator-level1/ne/value.mp3",
+            "vi": "./audio/google-educator-level1/vi/value.mp3"
           }
         }
       },
       {
-        "id": "steps",
-        "titleKey": "scene.steps.title",
-        "bodyKey": "scene.steps.body",
-        "layout": "steps",
-        "icon": "layers",
+        "id": "cost",
+        "titleKey": "scene.cost.title",
+        "bodyKey": "scene.cost.body",
+        "layout": "quote",
+        "icon": "person",
         "animation": "slide",
         "staggerMs": 160,
         "playback": {
-          "durationMs": 14000,
-          "revealEveryMs": 1800,
-          "pauseAfter": false
-        },
-        "items": [
-          {
-            "titleKey": "scene.steps.item0.title",
-            "bodyKey": "scene.steps.item0.body",
-            "icon": "play"
-          },
-          {
-            "titleKey": "scene.steps.item1.title",
-            "bodyKey": "scene.steps.item1.body",
-            "icon": "file"
-          },
-          {
-            "titleKey": "scene.steps.item2.title",
-            "bodyKey": "scene.steps.item2.body",
-            "icon": "pen"
-          }
-        ],
-        "narration": {
-          "textKey": "scene.steps.narration",
-          "audio": {
-            "ja": "./audio/contract-orientation-demo/ja/steps.mp3",
-            "en": "./audio/contract-orientation-demo/en/steps.mp3",
-            "ne": "./audio/contract-orientation-demo/ne/steps.mp3",
-            "vi": "./audio/contract-orientation-demo/vi/steps.mp3"
-          }
-        }
-      },
-      {
-        "id": "documents",
-        "titleKey": "scene.documents.title",
-        "bodyKey": "scene.documents.body",
-        "layout": "intro",
-        "icon": "file",
-        "animation": "slide",
-        "staggerMs": 160,
-        "playback": {
-          "durationMs": 14000,
-          "revealEveryMs": 1800,
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
           "pauseAfter": false
         },
         "items": [],
         "illustration": {
           "src": "./illustrations/reading.png",
-          "altKey": "scene.documents.alt"
+          "altKey": "scene.cost.alt"
         },
         "narration": {
-          "textKey": "scene.documents.narration",
+          "textKey": "scene.cost.narration",
           "audio": {
-            "ja": "./audio/contract-orientation-demo/ja/documents.mp3",
-            "en": "./audio/contract-orientation-demo/en/documents.mp3",
-            "ne": "./audio/contract-orientation-demo/ne/documents.mp3",
-            "vi": "./audio/contract-orientation-demo/vi/documents.mp3"
+            "ja": "./audio/google-educator-level1/ja/cost.mp3",
+            "en": "./audio/google-educator-level1/en/cost.mp3",
+            "ne": "./audio/google-educator-level1/ne/cost.mp3",
+            "vi": "./audio/google-educator-level1/vi/cost.mp3"
           }
-        },
-        "action": {
-          "type": "documents",
-          "labelKey": "scene.documents.action"
         }
       },
       {
-        "id": "complete",
-        "titleKey": "scene.complete.title",
-        "bodyKey": "scene.complete.body",
-        "layout": "finish",
-        "icon": "check",
-        "animation": "scale",
+        "id": "setup",
+        "titleKey": "scene.setup.title",
+        "bodyKey": "scene.setup.body",
+        "layout": "cards",
+        "icon": "person",
+        "animation": "slide",
         "staggerMs": 160,
         "playback": {
-          "durationMs": 14000,
-          "revealEveryMs": 1800,
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.setup.item0.title",
+            "bodyKey": "scene.setup.item0.body",
+            "icon": "person"
+          },
+          {
+            "titleKey": "scene.setup.item1.title",
+            "bodyKey": "scene.setup.item1.body",
+            "icon": "globe"
+          },
+          {
+            "titleKey": "scene.setup.item2.title",
+            "bodyKey": "scene.setup.item2.body",
+            "icon": "layers"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.setup.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/setup.mp3",
+            "en": "./audio/google-educator-level1/en/setup.mp3",
+            "ne": "./audio/google-educator-level1/ne/setup.mp3",
+            "vi": "./audio/google-educator-level1/vi/setup.mp3"
+          }
+        }
+      },
+      {
+        "id": "incognito",
+        "titleKey": "scene.incognito.title",
+        "bodyKey": "scene.incognito.body",
+        "layout": "compare",
+        "icon": "shield",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.incognito.item0.title",
+            "bodyKey": "scene.incognito.item0.body",
+            "icon": "person"
+          },
+          {
+            "titleKey": "scene.incognito.item1.title",
+            "bodyKey": "scene.incognito.item1.body",
+            "icon": "shield"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.incognito.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/incognito.mp3",
+            "en": "./audio/google-educator-level1/en/incognito.mp3",
+            "ne": "./audio/google-educator-level1/ne/incognito.mp3",
+            "vi": "./audio/google-educator-level1/vi/incognito.mp3"
+          }
+        }
+      },
+      {
+        "id": "register",
+        "titleKey": "scene.register.title",
+        "bodyKey": "scene.register.body",
+        "layout": "steps",
+        "icon": "person",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.register.item0.title",
+            "bodyKey": "scene.register.item0.body",
+            "icon": "person"
+          },
+          {
+            "titleKey": "scene.register.item1.title",
+            "bodyKey": "scene.register.item1.body",
+            "icon": "check"
+          },
+          {
+            "titleKey": "scene.register.item2.title",
+            "bodyKey": "scene.register.item2.body",
+            "icon": "globe"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.register.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/register.mp3",
+            "en": "./audio/google-educator-level1/en/register.mp3",
+            "ne": "./audio/google-educator-level1/ne/register.mp3",
+            "vi": "./audio/google-educator-level1/vi/register.mp3"
+          }
+        }
+      },
+      {
+        "id": "exam-day",
+        "titleKey": "scene.exam-day.title",
+        "bodyKey": "scene.exam-day.body",
+        "layout": "steps",
+        "icon": "person",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.exam-day.item0.title",
+            "bodyKey": "scene.exam-day.item0.body",
+            "icon": "file"
+          },
+          {
+            "titleKey": "scene.exam-day.item1.title",
+            "bodyKey": "scene.exam-day.item1.body",
+            "icon": "pen"
+          },
+          {
+            "titleKey": "scene.exam-day.item2.title",
+            "bodyKey": "scene.exam-day.item2.body",
+            "icon": "check"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.exam-day.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/exam-day.mp3",
+            "en": "./audio/google-educator-level1/en/exam-day.mp3",
+            "ne": "./audio/google-educator-level1/ne/exam-day.mp3",
+            "vi": "./audio/google-educator-level1/vi/exam-day.mp3"
+          }
+        }
+      },
+      {
+        "id": "format",
+        "titleKey": "scene.format.title",
+        "bodyKey": "scene.format.body",
+        "layout": "compare",
+        "icon": "layers",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.format.item0.title",
+            "bodyKey": "scene.format.item0.body",
+            "icon": "check"
+          },
+          {
+            "titleKey": "scene.format.item1.title",
+            "bodyKey": "scene.format.item1.body",
+            "icon": "hand"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.format.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/format.mp3",
+            "ne": "./audio/google-educator-level1/ne/format.mp3",
+            "en": "./audio/google-educator-level1/en/format.mp3",
+            "vi": "./audio/google-educator-level1/vi/format.mp3"
+          }
+        }
+      },
+      {
+        "id": "reasoning",
+        "titleKey": "scene.reasoning.title",
+        "bodyKey": "scene.reasoning.body",
+        "layout": "steps",
+        "icon": "person",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.reasoning.item0.title",
+            "bodyKey": "scene.reasoning.item0.body",
+            "icon": "person"
+          },
+          {
+            "titleKey": "scene.reasoning.item1.title",
+            "bodyKey": "scene.reasoning.item1.body",
+            "icon": "check"
+          },
+          {
+            "titleKey": "scene.reasoning.item2.title",
+            "bodyKey": "scene.reasoning.item2.body",
+            "icon": "arrow"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.reasoning.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/reasoning.mp3",
+            "en": "./audio/google-educator-level1/en/reasoning.mp3",
+            "ne": "./audio/google-educator-level1/ne/reasoning.mp3",
+            "vi": "./audio/google-educator-level1/vi/reasoning.mp3"
+          }
+        }
+      },
+      {
+        "id": "themes-work",
+        "titleKey": "scene.themes-work.title",
+        "bodyKey": "scene.themes-work.body",
+        "layout": "cards",
+        "icon": "person",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.themes-work.item0.title",
+            "bodyKey": "scene.themes-work.item0.body",
+            "icon": "layers"
+          },
+          {
+            "titleKey": "scene.themes-work.item1.title",
+            "bodyKey": "scene.themes-work.item1.body",
+            "icon": "person"
+          },
+          {
+            "titleKey": "scene.themes-work.item2.title",
+            "bodyKey": "scene.themes-work.item2.body",
+            "icon": "shield"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.themes-work.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/themes-work.mp3",
+            "ne": "./audio/google-educator-level1/ne/themes-work.mp3",
+            "en": "./audio/google-educator-level1/en/themes-work.mp3",
+            "vi": "./audio/google-educator-level1/vi/themes-work.mp3"
+          }
+        }
+      },
+      {
+        "id": "themes-access",
+        "titleKey": "scene.themes-access.title",
+        "bodyKey": "scene.themes-access.body",
+        "layout": "cards",
+        "icon": "person",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.themes-access.item0.title",
+            "bodyKey": "scene.themes-access.item0.body",
+            "icon": "globe"
+          },
+          {
+            "titleKey": "scene.themes-access.item1.title",
+            "bodyKey": "scene.themes-access.item1.body",
+            "icon": "hand"
+          },
+          {
+            "titleKey": "scene.themes-access.item2.title",
+            "bodyKey": "scene.themes-access.item2.body",
+            "icon": "file"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.themes-access.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/themes-access.mp3",
+            "en": "./audio/google-educator-level1/en/themes-access.mp3",
+            "ne": "./audio/google-educator-level1/ne/themes-access.mp3",
+            "vi": "./audio/google-educator-level1/vi/themes-access.mp3"
+          }
+        }
+      },
+      {
+        "id": "meet-chat",
+        "titleKey": "scene.meet-chat.title",
+        "bodyKey": "scene.meet-chat.body",
+        "layout": "compare",
+        "icon": "globe",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.meet-chat.item0.title",
+            "bodyKey": "scene.meet-chat.item0.body",
+            "icon": "person"
+          },
+          {
+            "titleKey": "scene.meet-chat.item1.title",
+            "bodyKey": "scene.meet-chat.item1.body",
+            "icon": "pen"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.meet-chat.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/meet-chat.mp3",
+            "en": "./audio/google-educator-level1/en/meet-chat.mp3",
+            "ne": "./audio/google-educator-level1/ne/meet-chat.mp3",
+            "vi": "./audio/google-educator-level1/vi/meet-chat.mp3"
+          }
+        }
+      },
+      {
+        "id": "classroom-forms",
+        "titleKey": "scene.classroom-forms.title",
+        "bodyKey": "scene.classroom-forms.body",
+        "layout": "compare",
+        "icon": "person",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.classroom-forms.item0.title",
+            "bodyKey": "scene.classroom-forms.item0.body",
+            "icon": "file"
+          },
+          {
+            "titleKey": "scene.classroom-forms.item1.title",
+            "bodyKey": "scene.classroom-forms.item1.body",
+            "icon": "check"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.classroom-forms.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/classroom-forms.mp3",
+            "en": "./audio/google-educator-level1/en/classroom-forms.mp3",
+            "ne": "./audio/google-educator-level1/ne/classroom-forms.mp3",
+            "vi": "./audio/google-educator-level1/vi/classroom-forms.mp3"
+          }
+        }
+      },
+      {
+        "id": "docs-drive",
+        "titleKey": "scene.docs-drive.title",
+        "bodyKey": "scene.docs-drive.body",
+        "layout": "compare",
+        "icon": "person",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.docs-drive.item0.title",
+            "bodyKey": "scene.docs-drive.item0.body",
+            "icon": "pen"
+          },
+          {
+            "titleKey": "scene.docs-drive.item1.title",
+            "bodyKey": "scene.docs-drive.item1.body",
+            "icon": "shield"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.docs-drive.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/docs-drive.mp3",
+            "ne": "./audio/google-educator-level1/ne/docs-drive.mp3",
+            "en": "./audio/google-educator-level1/en/docs-drive.mp3",
+            "vi": "./audio/google-educator-level1/vi/docs-drive.mp3"
+          }
+        }
+      },
+      {
+        "id": "lab-classroom",
+        "titleKey": "scene.lab-classroom.title",
+        "bodyKey": "scene.lab-classroom.body",
+        "layout": "cards",
+        "icon": "hand",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.lab-classroom.item0.title",
+            "bodyKey": "scene.lab-classroom.item0.body",
+            "icon": "file"
+          },
+          {
+            "titleKey": "scene.lab-classroom.item1.title",
+            "bodyKey": "scene.lab-classroom.item1.body",
+            "icon": "person"
+          },
+          {
+            "titleKey": "scene.lab-classroom.item2.title",
+            "bodyKey": "scene.lab-classroom.item2.body",
+            "icon": "check"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.lab-classroom.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/lab-classroom.mp3",
+            "en": "./audio/google-educator-level1/en/lab-classroom.mp3",
+            "ne": "./audio/google-educator-level1/ne/lab-classroom.mp3",
+            "vi": "./audio/google-educator-level1/vi/lab-classroom.mp3"
+          }
+        }
+      },
+      {
+        "id": "lab-drive",
+        "titleKey": "scene.lab-drive.title",
+        "bodyKey": "scene.lab-drive.body",
+        "layout": "cards",
+        "icon": "hand",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.lab-drive.item0.title",
+            "bodyKey": "scene.lab-drive.item0.body",
+            "icon": "shield"
+          },
+          {
+            "titleKey": "scene.lab-drive.item1.title",
+            "bodyKey": "scene.lab-drive.item1.body",
+            "icon": "pen"
+          },
+          {
+            "titleKey": "scene.lab-drive.item2.title",
+            "bodyKey": "scene.lab-drive.item2.body",
+            "icon": "file"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.lab-drive.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/lab-drive.mp3",
+            "en": "./audio/google-educator-level1/en/lab-drive.mp3",
+            "ne": "./audio/google-educator-level1/ne/lab-drive.mp3",
+            "vi": "./audio/google-educator-level1/vi/lab-drive.mp3"
+          }
+        }
+      },
+      {
+        "id": "lab-forms",
+        "titleKey": "scene.lab-forms.title",
+        "bodyKey": "scene.lab-forms.body",
+        "layout": "cards",
+        "icon": "hand",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.lab-forms.item0.title",
+            "bodyKey": "scene.lab-forms.item0.body",
+            "icon": "check"
+          },
+          {
+            "titleKey": "scene.lab-forms.item1.title",
+            "bodyKey": "scene.lab-forms.item1.body",
+            "icon": "person"
+          },
+          {
+            "titleKey": "scene.lab-forms.item2.title",
+            "bodyKey": "scene.lab-forms.item2.body",
+            "icon": "file"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.lab-forms.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/lab-forms.mp3",
+            "en": "./audio/google-educator-level1/en/lab-forms.mp3",
+            "ne": "./audio/google-educator-level1/ne/lab-forms.mp3",
+            "vi": "./audio/google-educator-level1/vi/lab-forms.mp3"
+          }
+        }
+      },
+      {
+        "id": "study-cycle",
+        "titleKey": "scene.study-cycle.title",
+        "bodyKey": "scene.study-cycle.body",
+        "layout": "steps",
+        "icon": "person",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.study-cycle.item0.title",
+            "bodyKey": "scene.study-cycle.item0.body",
+            "icon": "layers"
+          },
+          {
+            "titleKey": "scene.study-cycle.item1.title",
+            "bodyKey": "scene.study-cycle.item1.body",
+            "icon": "check"
+          },
+          {
+            "titleKey": "scene.study-cycle.item2.title",
+            "bodyKey": "scene.study-cycle.item2.body",
+            "icon": "hand"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.study-cycle.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/study-cycle.mp3",
+            "en": "./audio/google-educator-level1/en/study-cycle.mp3",
+            "ne": "./audio/google-educator-level1/ne/study-cycle.mp3",
+            "vi": "./audio/google-educator-level1/vi/study-cycle.mp3"
+          }
+        }
+      },
+      {
+        "id": "review",
+        "titleKey": "scene.review.title",
+        "bodyKey": "scene.review.body",
+        "layout": "quote",
+        "icon": "person",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
+          "pauseAfter": false
+        },
+        "items": [],
+        "illustration": {
+          "src": "./illustrations/reading.png",
+          "altKey": "scene.review.alt"
+        },
+        "narration": {
+          "textKey": "scene.review.narration",
+          "audio": {
+            "ja": "./audio/google-educator-level1/ja/review.mp3",
+            "en": "./audio/google-educator-level1/en/review.mp3",
+            "ne": "./audio/google-educator-level1/ne/review.mp3",
+            "vi": "./audio/google-educator-level1/vi/review.mp3"
+          }
+        }
+      },
+      {
+        "id": "next",
+        "titleKey": "scene.next.title",
+        "bodyKey": "scene.next.body",
+        "layout": "finish",
+        "icon": "person",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 16000,
+          "revealEveryMs": 1500,
           "pauseAfter": false
         },
         "items": [],
         "illustration": {
           "src": "./illustrations/strolling.png",
-          "altKey": "scene.complete.alt"
+          "altKey": "scene.next.alt"
         },
         "narration": {
-          "textKey": "scene.complete.narration",
+          "textKey": "scene.next.narration",
           "audio": {
-            "ja": "./audio/contract-orientation-demo/ja/complete.mp3",
-            "en": "./audio/contract-orientation-demo/en/complete.mp3",
-            "ne": "./audio/contract-orientation-demo/ne/complete.mp3",
-            "vi": "./audio/contract-orientation-demo/vi/complete.mp3"
+            "ja": "./audio/google-educator-level1/ja/next.mp3",
+            "en": "./audio/google-educator-level1/en/next.mp3",
+            "ne": "./audio/google-educator-level1/ne/next.mp3",
+            "vi": "./audio/google-educator-level1/vi/next.mp3"
           }
         },
         "action": {
-          "type": "documents",
-          "labelKey": "scene.complete.action"
+          "type": "link",
+          "labelKey": "scene.next.action",
+          "href": "https://educertifications.google/registration/1?lang=ja"
         }
       }
     ],
     "documents": [
       {
-        "id": "sample",
-        "titleKey": "document.sample.title",
-        "descriptionKey": "document.sample.body",
+        "id": "source-pdf",
+        "titleKey": "document.source-pdf.title",
+        "descriptionKey": "document.source-pdf.body",
         "kind": "pdf",
-        "href": "./documents/sample.pdf"
+        "href": "./documents/google-educator-level1.pdf"
+      },
+      {
+        "id": "official-certifications",
+        "titleKey": "document.official-certifications.title",
+        "descriptionKey": "document.official-certifications.body",
+        "kind": "web",
+        "href": "https://edu.google.com/intl/ALL_jp/learning-center/certifications/"
+      },
+      {
+        "id": "official-registration",
+        "titleKey": "document.official-registration.title",
+        "descriptionKey": "document.official-registration.body",
+        "kind": "web",
+        "href": "https://educertifications.google/registration/1?lang=ja"
       }
     ]
   },
   "locales": {
     "ja": {
-      "scene.welcome.title": "契約内容を、\n一緒に確認しましょう。",
-      "scene.welcome.body": "はじめに説明を見てから、契約書を確認します。これは制作例で、実際の契約条件は含まれていません。",
-      "scene.welcome.alt": "説明を受ける人物のイラスト",
-      "scene.welcome.narration": "これから契約前の確認事項をご案内します。説明を見たあと、契約書の内容を確認してください。この動画は制作例であり、実際の契約条件は含まれていません。",
-      "scene.language.title": "大切な条件を\n確認してください。",
-      "scene.language.body": "実際の書類に書かれた条件を、担当者と確認しましょう。",
-      "scene.language.item0.title": "条件を確認",
-      "scene.language.item0.body": "契約書の記載内容を確認します。",
-      "scene.language.item1.title": "不明点を相談",
-      "scene.language.item1.body": "署名前に担当者へ確認します。",
-      "scene.language.narration": "契約する前に、実際の契約書に書かれた条件を確認してください。内容がわからない場合や、説明と異なる場合は、署名する前に担当者に相談してください。",
-      "scene.steps.title": "契約までの\n3つのステップ。",
-      "scene.steps.body": "説明・書類の確認・署名の順で進めます。",
-      "scene.steps.item0.title": "説明を見る",
-      "scene.steps.item0.body": "内容の流れを確認します。",
-      "scene.steps.item1.title": "書類を確認する",
-      "scene.steps.item1.body": "原本の条件を確認します。",
-      "scene.steps.item2.title": "契約手続きへ進む",
-      "scene.steps.item2.body": "案内された方法で署名します。",
-      "scene.steps.narration": "手続きは三つのステップで進めます。まず説明を確認します。次に契約書と関連資料を確認します。最後に、不明点を解消したうえで、案内された方法で署名します。",
-      "scene.documents.title": "契約書と資料を、\nここから確認。",
-      "scene.documents.body": "ボタンを押して書類を開けます。確認後は、元のスライドへ戻れます。",
-      "scene.documents.alt": "書類を読む人物のイラスト",
-      "scene.documents.action": "契約書・資料を見る",
-      "scene.documents.narration": "ここから契約書と関連資料を開けます。PDFはブラウザの保存機能でダウンロードできます。書類を確認したら、説明に戻るボタンで続きへ戻ってください。",
-      "scene.complete.title": "わからない点は、\n署名前に確認。",
-      "scene.complete.body": "納得した内容を確認してから、担当者の案内する契約手続きへ進んでください。",
-      "scene.complete.alt": "手続きを進める人物のイラスト",
-      "scene.complete.action": "契約書・資料を見る",
-      "scene.complete.narration": "説明はここまでです。わからない点は、署名する前に担当者へ確認してください。この説明の閲覧だけで契約が成立することはありません。",
-      "guide.title": "契約前のご案内",
-      "guide.description": "契約書と関連資料を確認し、わからないことは担当者に相談してください。",
-      "document.sample.title": "サンプル契約書",
-      "document.sample.body": "表示確認用のPDFです。実際の契約書ではありません。"
+      "scene.welcome.title": "Google 認定教育者\nLevel 1 攻略ガイド",
+      "scene.welcome.body": "教育現場での実践力を、資格で証明する。受験準備から学習の進め方まで確認しましょう。",
+      "scene.welcome.alt": "学習する人物のイラスト",
+      "scene.welcome.narration": "Google 認定教育者、レベルワンの攻略ガイドです。教育現場での実践スキルを証明するために、資格の特徴、受験準備、ツールの使い分け、学習の進め方を順番に確認しましょう。",
+      "scene.value.title": "資格が証明する\n3つの価値",
+      "scene.value.body": "知識に加えて、授業で使える実践力を示します。",
+      "scene.value.item0.title": "実践重視",
+      "scene.value.item0.body": "目的に合うツールを選び、操作する。",
+      "scene.value.item1.title": "証明書とバッジ",
+      "scene.value.item1.body": "合格後、履歴書や署名欄に活用。",
+      "scene.value.item2.title": "継続的な学び",
+      "scene.value.item2.body": "有効期間は3年間。スキルを更新する。",
+      "scene.value.narration": "資格が証明する 3つの価値。 知識に加えて、授業で使える実践力を示します。。 実践重視。 目的に合うツールを選び、操作する。。 証明書とバッジ。 合格後、履歴書や署名欄に活用。。 継続的な学び。 有効期間は3年間。スキルを更新する。",
+      "scene.cost.title": "日本語で、\n無料の受験へ。",
+      "scene.cost.body": "公式案内は「無償・3年間有効」。古い料金情報ではなく、登録時の最新案内を確認しましょう。",
+      "scene.cost.alt": "学習する人物のイラスト",
+      "scene.cost.narration": "日本語版は無料で受験できます。二〇二六年十月四日に確認した公式案内でも、レベルワンは無償、有効期間は三年間とされています。古い記事にある十ドルという料金ではなく、登録時の最新案内を確認してください。",
+      "scene.setup.title": "受験前に\n環境を整える",
+      "scene.setup.body": "実技を行えるパソコンで、ログインと接続を確認します。",
+      "scene.setup.item0.title": "Google アカウント",
+      "scene.setup.item0.body": "ログインできることを事前に確認。",
+      "scene.setup.item1.title": "最新の Chrome",
+      "scene.setup.item1.body": "ブラウザを最新の状態にする。",
+      "scene.setup.item2.title": "PC と安定した回線",
+      "scene.setup.item2.body": "ラボを操作できる環境を用意。",
+      "scene.setup.narration": "受験前に 環境を整える。 実技を行えるパソコンで、ログインと接続を確認します。。 Google アカウント。 ログインできることを事前に確認。。 最新の Chrome。 ブラウザを最新の状態にする。。 PC と安定した回線。 ラボを操作できる環境を用意。",
+      "scene.incognito.title": "アカウントの混在を\n防ぎましょう",
+      "scene.incognito.body": "資料ではシークレットウィンドウを推奨。学校の制限や利用可能なアカウントも事前に確認します。",
+      "scene.incognito.item0.title": "通常のウィンドウ",
+      "scene.incognito.item0.body": "学校・個人のログイン状態が残ることがあります。",
+      "scene.incognito.item1.title": "シークレット",
+      "scene.incognito.item1.body": "試験用のログインを分けて操作します。",
+      "scene.incognito.narration": "アカウントの混在を 防ぎましょう。 資料ではシークレットウィンドウを推奨。学校の制限や利用可能なアカウントも事前に確認します。。 通常のウィンドウ。 学校・個人のログイン状態が残ることがあります。。 シークレット。 試験用のログインを分けて操作します。",
+      "scene.register.title": "登録までの\n3ステップ",
+      "scene.register.body": "公式の登録ページから、Level 1 と日本語を選びます。",
+      "scene.register.item0.title": "1 ログイン",
+      "scene.register.item0.body": "Google アカウントでログイン。",
+      "scene.register.item1.title": "2 Level 1 を選ぶ",
+      "scene.register.item1.body": "認定ページで対象の試験を選択。",
+      "scene.register.item2.title": "3 日本語を選ぶ",
+      "scene.register.item2.body": "表示された案内に従って登録。",
+      "scene.register.narration": "登録までの 3ステップ。 公式の登録ページから、Level 1 と日本語を選びます。。 1 ログイン。 Google アカウントでログイン。。 2 Level 1 を選ぶ。 認定ページで対象の試験を選択。。 3 日本語を選ぶ。 表示された案内に従って登録。",
+      "scene.exam-day.title": "準備・受験・\n結果の確認へ",
+      "scene.exam-day.body": "登録後は公式資料で準備。結果通知の時期は、受験時の案内を確認してください。",
+      "scene.exam-day.item0.title": "公式資料で準備",
+      "scene.exam-day.item0.body": "試験ガイドとタスクカードを確認。",
+      "scene.exam-day.item1.title": "試験を受ける",
+      "scene.exam-day.item1.body": "知識と実際の操作を確かめます。",
+      "scene.exam-day.item2.title": "メールで結果確認",
+      "scene.exam-day.item2.body": "資料の目安は3営業日以内。最新案内を優先。",
+      "scene.exam-day.narration": "準備・受験・ 結果の確認へ。 登録後は公式資料で準備。結果通知の時期は、受験時の案内を確認してください。。 公式資料で準備。 試験ガイドとタスクカードを確認。。 試験を受ける。 知識と実際の操作を確かめます。。 メールで結果確認。 資料の目安は3営業日以内。最新案内を優先。",
+      "scene.format.title": "知識と操作、\n2つの視点で準備",
+      "scene.format.body": "37問・3シナリオは資料内の実施例です。毎回固定の数ではありません。",
+      "scene.format.item0.title": "選択式問題",
+      "scene.format.item0.body": "機能・ツールの選択・教育場面の判断。",
+      "scene.format.item1.title": "ラボ実技",
+      "scene.format.item1.body": "用意された Workspace 環境で課題を完成。",
+      "scene.format.narration": "知識と操作、 2つの視点で準備。 37問・3シナリオは資料内の実施例です。毎回固定の数ではありません。。 選択式問題。 機能・ツールの選択・教育場面の判断。。 ラボ実技。 用意された Workspace 環境で課題を完成。",
+      "scene.reasoning.title": "機能名よりも、\n目的から考える",
+      "scene.reasoning.body": "「この場面で何を実現したいか」を言葉にしてから、ツールを選びます。",
+      "scene.reasoning.item0.title": "場面を読む",
+      "scene.reasoning.item0.body": "誰が、どこで、何をするのか。",
+      "scene.reasoning.item1.title": "目的を決める",
+      "scene.reasoning.item1.body": "配布・共同編集・会話などを整理。",
+      "scene.reasoning.item2.title": "最適なツールへ",
+      "scene.reasoning.item2.body": "目的に合う機能を選びます。",
+      "scene.reasoning.narration": "機能名よりも、 目的から考える。 「この場面で何を実現したいか」を言葉にしてから、ツールを選びます。。 場面を読む。 誰が、どこで、何をするのか。。 目的を決める。 配布・共同編集・会話などを整理。。 最適なツールへ。 目的に合う機能を選びます。",
+      "scene.themes-work.title": "選択式の重点\n使い分けと共有",
+      "scene.themes-work.body": "機能の暗記に偏らず、適した使い方を整理しましょう。",
+      "scene.themes-work.item0.title": "ツールの使い分け",
+      "scene.themes-work.item0.body": "Classroom と Sites などの目的の違い。",
+      "scene.themes-work.item1.title": "共同作業",
+      "scene.themes-work.item1.body": "リアルタイム編集とコメント。",
+      "scene.themes-work.item2.title": "共有権限",
+      "scene.themes-work.item2.body": "閲覧者・編集者・コピーの制限。",
+      "scene.themes-work.narration": "選択式の重点 使い分けと共有。 機能の暗記に偏らず、適した使い方を整理しましょう。。 ツールの使い分け。 Classroom と Sites などの目的の違い。。 共同作業。 リアルタイム編集とコメント。。 共有権限。 閲覧者・編集者・コピーの制限。",
+      "scene.themes-access.title": "選択式の重点\n伝える・支える",
+      "scene.themes-access.body": "授業に参加しやすく、資料を見つけやすい環境を考えます。",
+      "scene.themes-access.item0.title": "コミュニケーション",
+      "scene.themes-access.item0.body": "Meet・Chat・Gmail の役割。",
+      "scene.themes-access.item1.title": "アクセシビリティ",
+      "scene.themes-access.item1.body": "字幕・翻訳・ChromeVox。",
+      "scene.themes-access.item2.title": "ファイル整理",
+      "scene.themes-access.item2.body": "Drive の共有フォルダを活用。",
+      "scene.themes-access.narration": "選択式の重点 伝える・支える。 授業に参加しやすく、資料を見つけやすい環境を考えます。。 コミュニケーション。 Meet・Chat・Gmail の役割。。 アクセシビリティ。 字幕・翻訳・ChromeVox。。 ファイル整理。 Drive の共有フォルダを活用。",
+      "scene.meet-chat.title": "今すぐ話す？\n後でメッセージ？",
+      "scene.meet-chat.body": "同じ時間に集まるなら Meet。時間をずらして連絡するなら Chat。",
+      "scene.meet-chat.item0.title": "Google Meet",
+      "scene.meet-chat.item0.body": "同期型の双方向授業・会議。",
+      "scene.meet-chat.item1.title": "Google Chat",
+      "scene.meet-chat.item1.body": "非同期のチャット・短い連絡。",
+      "scene.meet-chat.narration": "今すぐ話す？ 後でメッセージ？。 同じ時間に集まるなら Meet。時間をずらして連絡するなら Chat。。 Google Meet。 同期型の双方向授業・会議。。 Google Chat。 非同期のチャット・短い連絡。",
+      "scene.classroom-forms.title": "課題を集める？\n回答を集める？",
+      "scene.classroom-forms.body": "学習課題の流れは Classroom。アンケートや自動採点は Forms。",
+      "scene.classroom-forms.item0.title": "Google Classroom",
+      "scene.classroom-forms.item0.body": "課題を配布し、提出物を回収。",
+      "scene.classroom-forms.item1.title": "Google Forms",
+      "scene.classroom-forms.item1.body": "アンケートと自動採点クイズ。",
+      "scene.classroom-forms.narration": "課題を集める？ 回答を集める？。 学習課題の流れは Classroom。アンケートや自動採点は Forms。。 Google Classroom。 課題を配布し、提出物を回収。。 Google Forms。 アンケートと自動採点クイズ。",
+      "scene.docs-drive.title": "一緒に作る？\n安全に保管する？",
+      "scene.docs-drive.body": "共同編集は Docs・Slides。教材の整理と共有は Drive。",
+      "scene.docs-drive.item0.title": "Docs / Slides",
+      "scene.docs-drive.item0.body": "文章・プレゼンをリアルタイム共同編集。",
+      "scene.docs-drive.item1.title": "Google Drive",
+      "scene.docs-drive.item1.body": "教材を共有フォルダで一元管理。",
+      "scene.docs-drive.narration": "一緒に作る？ 安全に保管する？。 共同編集は Docs・Slides。教材の整理と共有は Drive。。 Docs / Slides。 文章・プレゼンをリアルタイム共同編集。。 Google Drive。 教材を共有フォルダで一元管理。",
+      "scene.lab-classroom.title": "実技の準備\nClassroom",
+      "scene.lab-classroom.body": "クリック順より、指定された完成状態にできることが大切です。",
+      "scene.lab-classroom.item0.title": "課題と添付",
+      "scene.lab-classroom.item0.body": "課題を作成し、資料を添付。",
+      "scene.lab-classroom.item1.title": "生徒ごとのコピー",
+      "scene.lab-classroom.item1.body": "各生徒にコピーを作成する設定。",
+      "scene.lab-classroom.item2.title": "トピックと期限",
+      "scene.lab-classroom.item2.body": "分類と提出期限を設定。",
+      "scene.lab-classroom.narration": "実技の準備 Classroom。 クリック順より、指定された完成状態にできることが大切です。。 課題と添付。 課題を作成し、資料を添付。。 生徒ごとのコピー。 各生徒にコピーを作成する設定。。 トピックと期限。 分類と提出期限を設定。",
+      "scene.lab-drive.title": "実技の準備\nDocs / Drive",
+      "scene.lab-drive.body": "共有する相手と権限、ファイルの置き場所を確認します。",
+      "scene.lab-drive.item0.title": "共有権限",
+      "scene.lab-drive.item0.body": "閲覧者と編集者を使い分ける。",
+      "scene.lab-drive.item1.title": "コメント",
+      "scene.lab-drive.item1.body": "コメントとメンションを使う。",
+      "scene.lab-drive.item2.title": "フォルダ整理",
+      "scene.lab-drive.item2.body": "フォルダを作り、ファイルを移動。",
+      "scene.lab-drive.narration": "実技の準備 Docs / Drive。 共有する相手と権限、ファイルの置き場所を確認します。。 共有権限。 閲覧者と編集者を使い分ける。。 コメント。 コメントとメンションを使う。。 フォルダ整理。 フォルダを作り、ファイルを移動。",
+      "scene.lab-forms.title": "実技の準備\nForms / Sheets",
+      "scene.lab-forms.body": "クイズ設定から回答先まで、一連の操作を練習します。",
+      "scene.lab-forms.item0.title": "クイズと正解",
+      "scene.lab-forms.item0.body": "クイズ化し、正解を設定。",
+      "scene.lab-forms.item1.title": "共同編集者",
+      "scene.lab-forms.item1.body": "一緒に編集する人を追加。",
+      "scene.lab-forms.item2.title": "回答先",
+      "scene.lab-forms.item2.body": "回答を保存する Sheets を設定。",
+      "scene.lab-forms.narration": "実技の準備 Forms / Sheets。 クイズ設定から回答先まで、一連の操作を練習します。。 クイズと正解。 クイズ化し、正解を設定。。 共同編集者。 一緒に編集する人を追加。。 回答先。 回答を保存する Sheets を設定。",
+      "scene.study-cycle.title": "学習を\nひと巡りさせる",
+      "scene.study-cycle.body": "全体像 → 状況判断 → 実技。その後、弱点を補って繰り返します。",
+      "scene.study-cycle.item0.title": "全体像をつかむ",
+      "scene.study-cycle.item0.body": "資格と試験の目的を整理。",
+      "scene.study-cycle.item1.title": "状況判断を練習",
+      "scene.study-cycle.item1.body": "目的に合うツールを選ぶ練習。",
+      "scene.study-cycle.item2.title": "実際に操作する",
+      "scene.study-cycle.item2.body": "公式タスクカードで完成状態を作る。",
+      "scene.study-cycle.narration": "学習を ひと巡りさせる。 全体像 → 状況判断 → 実技。その後、弱点を補って繰り返します。。 全体像をつかむ。 資格と試験の目的を整理。。 状況判断を練習。 目的に合うツールを選ぶ練習。。 実際に操作する。 公式タスクカードで完成状態を作る。",
+      "scene.review.title": "弱点を見つけて、\nもう一度。",
+      "scene.review.body": "AIチャットへ「共有権限の問題を出して」「Meet と Chat の違いは？」と聞き、実操作で確かめましょう。",
+      "scene.review.alt": "学習する人物のイラスト",
+      "scene.review.narration": "学習サイクルの最後は、弱点の補強です。AIチャットに、共有権限の問題を出して、あるいは、Meet と Chat の違いは、と質問する方法が紹介されています。答えを読んだら、実際のツールと公式資料でも確かめて、もう一度練習しましょう。",
+      "scene.next.title": "準備ができたら、\n公式ページへ。",
+      "scene.next.body": "Google アカウントでログインし、日本語を選択。最新の試験案内を確認して進めましょう。",
+      "scene.next.alt": "学習する人物のイラスト",
+      "scene.next.action": "公式登録ページを開く",
+      "scene.next.narration": "ここまでで、資格の概要、受験準備、ツールの使い分け、実技対策、学習の進め方を確認しました。準備ができたら、公式登録ページを開き、Google アカウントでログインして日本語を選んでください。最新の案内を確認しながら進めましょう。",
+      "guide.title": "Google 認定教育者 Level 1 攻略ガイド",
+      "guide.description": "受験準備、ツールの使い分け、実技対策を音声と動きで学ぶガイドです。",
+      "document.source-pdf.title": "元資料：完全攻略ガイド",
+      "document.source-pdf.body": "アップロードされた11ページのPDF。閲覧・ダウンロードできます。",
+      "document.official-certifications.title": "Google 公式：認定資格の案内",
+      "document.official-certifications.body": "最新の資格情報、試験ガイドとタスクカードへの入口。",
+      "document.official-registration.title": "Google 公式：Level 1 登録",
+      "document.official-registration.body": "日本語版の公式登録ページを別タブで開きます。"
     },
     "en": {
-      "scene.welcome.title": "Let’s review\nthe contract together.",
-      "scene.welcome.body": "Watch the explanation, then read the contract. This is a production example and contains no actual contract terms.",
-      "scene.welcome.alt": "Illustration of a person receiving guidance",
-      "scene.welcome.narration": "We will walk through what to check before signing. After the explanation, read the contract. This is a production example and contains no actual contract terms.",
-      "scene.language.title": "Check the\nimportant terms.",
-      "scene.language.body": "Review the terms in the actual documents with your contact person.",
-      "scene.language.item0.title": "Check the terms",
-      "scene.language.item0.body": "Read the terms in the contract.",
-      "scene.language.item1.title": "Ask questions",
-      "scene.language.item1.body": "Contact the responsible person before signing.",
-      "scene.language.narration": "Before signing, check the terms in the actual contract. If anything is unclear or differs from the explanation, ask your contact person before signing.",
-      "scene.steps.title": "Three steps\nto signing.",
-      "scene.steps.body": "Follow the explanation, document review and signing steps.",
-      "scene.steps.item0.title": "Watch the explanation",
-      "scene.steps.item0.body": "Understand the overall process.",
-      "scene.steps.item1.title": "Review the documents",
-      "scene.steps.item1.body": "Check the terms in the original documents.",
-      "scene.steps.item2.title": "Proceed to signing",
-      "scene.steps.item2.body": "Sign using the method you are given.",
-      "scene.steps.narration": "There are three steps. First, watch the explanation. Next, review the contract and supporting documents. Finally, resolve any questions and sign using the method you are given.",
-      "scene.documents.title": "Review your contract\nand documents here.",
-      "scene.documents.body": "Open the documents with the button. Return to this slide after reviewing them.",
-      "scene.documents.alt": "Illustration of a person reading documents",
-      "scene.documents.action": "View contract and documents",
-      "scene.documents.narration": "Open the contract and related documents here. You can download PDFs using your browser’s save function. After reviewing them, use Back to the guide to return to this slide.",
-      "scene.complete.title": "Ask questions\nbefore signing.",
-      "scene.complete.body": "Once you understand the terms, follow the signing instructions from your contact person.",
-      "scene.complete.alt": "Illustration of a person moving through the process",
-      "scene.complete.action": "View contract and documents",
-      "scene.complete.narration": "The explanation is complete. Ask your contact person about anything unclear before signing. Viewing this explanation alone does not conclude a contract.",
-      "guide.title": "Before you sign",
-      "guide.description": "Review the contract and related documents. Ask the contact person about anything unclear.",
-      "document.sample.title": "Sample contract document",
-      "document.sample.body": "A PDF for testing the viewer. It is not an actual contract."
+      "scene.welcome.title": "Google Certified Educator\nLevel 1 guide",
+      "scene.welcome.body": "Demonstrate practical teaching skills. Explore exam preparation and a focused study plan.",
+      "scene.welcome.alt": "Illustration of a person studying",
+      "scene.welcome.narration": "Google Certified Educator Level 1 guide. Demonstrate practical teaching skills. Explore exam preparation and a focused study plan.",
+      "scene.value.title": "Three reasons\nto get certified",
+      "scene.value.body": "Show both knowledge and the ability to apply it in teaching.",
+      "scene.value.item0.title": "Practical skills",
+      "scene.value.item0.body": "Choose and use the right tool.",
+      "scene.value.item1.title": "Certificate and badge",
+      "scene.value.item1.body": "Add it to your résumé or email.",
+      "scene.value.item2.title": "Continued learning",
+      "scene.value.item2.body": "Valid for three years.",
+      "scene.value.narration": "Three reasons to get certified. Show both knowledge and the ability to apply it in teaching.. Practical skills. Choose and use the right tool for the task.. Certificate and badge. Use the award on your résumé or email signature.. Continued learning. Valid for three years. Keep skills up to date.",
+      "scene.cost.title": "Free exam\nin Japanese.",
+      "scene.cost.body": "The official page lists free certification, valid for three years. Check current registration details.",
+      "scene.cost.alt": "Illustration of a person studying",
+      "scene.cost.narration": "Take the exam in Japanese, for free.. The official page lists free certification, valid for three years. Check current registration details.",
+      "scene.setup.title": "Prepare your\nexam environment",
+      "scene.setup.body": "Use a computer suitable for hands-on tasks. Check access and connectivity.",
+      "scene.setup.item0.title": "Google account",
+      "scene.setup.item0.body": "Check sign-in before the exam.",
+      "scene.setup.item1.title": "Updated Chrome",
+      "scene.setup.item1.body": "Keep your browser up to date.",
+      "scene.setup.item2.title": "Computer and connection",
+      "scene.setup.item2.body": "Prepare a reliable lab setup.",
+      "scene.setup.narration": "Prepare your exam environment. Use a computer suitable for hands-on tasks. Check access and connectivity.. Google account. Verify that you can sign in before the exam.. Updated Chrome. Update your browser to the latest version.. Computer and connection. Prepare a reliable setup for lab tasks.",
+      "scene.incognito.title": "Keep exam accounts\nseparate",
+      "scene.incognito.body": "The source recommends an incognito window. Check school restrictions and usable accounts in advance.",
+      "scene.incognito.item0.title": "Regular window",
+      "scene.incognito.item0.body": "School or personal sign-in sessions may remain active.",
+      "scene.incognito.item1.title": "Incognito window",
+      "scene.incognito.item1.body": "Use a separate sign-in session for the exam.",
+      "scene.incognito.narration": "Keep exam accounts separate. The source recommends an incognito window. Check school restrictions and usable accounts in advance.. Regular window. School or personal sign-in sessions may remain active.. Incognito window. Use a separate sign-in session for the exam.",
+      "scene.register.title": "Three steps\nto registration",
+      "scene.register.body": "On the official registration page, choose Level 1 and Japanese.",
+      "scene.register.item0.title": "1 Sign in",
+      "scene.register.item0.body": "Sign in with your Google account.",
+      "scene.register.item1.title": "2 Choose Level 1",
+      "scene.register.item1.body": "Select the certification exam.",
+      "scene.register.item2.title": "3 Choose Japanese",
+      "scene.register.item2.body": "Follow the instructions to register.",
+      "scene.register.narration": "Three steps to registration. On the official registration page, choose Level 1 and Japanese.. 1 Sign in. Sign in with your Google account.. 2 Choose Level 1. Select the certification exam.. 3 Choose Japanese. Follow the instructions to register.",
+      "scene.exam-day.title": "Prepare, take the exam,\ncheck the result",
+      "scene.exam-day.body": "Prepare with official materials after registering. Check the exam instructions for result timing.",
+      "scene.exam-day.item0.title": "Prepare with guides",
+      "scene.exam-day.item0.body": "Review the exam guide and task cards.",
+      "scene.exam-day.item1.title": "Take the exam",
+      "scene.exam-day.item1.body": "Demonstrate knowledge and hands-on skills.",
+      "scene.exam-day.item2.title": "Check your email",
+      "scene.exam-day.item2.body": "Source estimate: within 3 business days. Follow current instructions.",
+      "scene.exam-day.narration": "Prepare, take the exam, check the result. Prepare with official materials after registering. Check the exam instructions for result timing.. Prepare with guides. Review the exam guide and task cards.. Take the exam. Demonstrate knowledge and hands-on skills.. Check your email. Source estimate: within 3 business days. Follow current instructions.",
+      "scene.format.title": "Prepare for knowledge\nand hands-on tasks",
+      "scene.format.body": "The source gives an example of 37 questions and 3 scenarios. These counts are not guaranteed.",
+      "scene.format.item0.title": "Multiple-choice questions",
+      "scene.format.item0.body": "Features, tool selection and teaching decisions.",
+      "scene.format.item1.title": "Hands-on lab",
+      "scene.format.item1.body": "Complete tasks in the provided Workspace environment.",
+      "scene.format.narration": "Prepare for knowledge and hands-on tasks. The source gives an example of 37 questions and 3 scenarios. These counts are not guaranteed.. Multiple-choice questions. Features, tool selection and teaching decisions.. Hands-on lab. Complete tasks in the provided Workspace environment.",
+      "scene.reasoning.title": "Choose by purpose,\nnot feature names.",
+      "scene.reasoning.body": "Name the goal, then choose the tool.",
+      "scene.reasoning.item0.title": "Read the scenario",
+      "scene.reasoning.item0.body": "Who does what, and where?",
+      "scene.reasoning.item1.title": "Identify the goal",
+      "scene.reasoning.item1.body": "Distribution, collaboration or conversation.",
+      "scene.reasoning.item2.title": "Choose the right tool",
+      "scene.reasoning.item2.body": "Match the tool to the goal.",
+      "scene.reasoning.narration": "Start with the goal, not the feature name. Describe what you want to achieve in the situation, then select the tool.. Read the scenario. Who is doing what, and where?. Identify the goal. Identify distribution, collaboration or communication.. Choose the right tool. Match the tool to the intended outcome.",
+      "scene.themes-work.title": "Key topics:\ntool choice and sharing",
+      "scene.themes-work.body": "Focus on appropriate use, not just memorizing features.",
+      "scene.themes-work.item0.title": "Tool selection",
+      "scene.themes-work.item0.body": "Different purposes of tools such as Classroom and Sites.",
+      "scene.themes-work.item1.title": "Collaboration",
+      "scene.themes-work.item1.body": "Real-time editing and comments.",
+      "scene.themes-work.item2.title": "Sharing permissions",
+      "scene.themes-work.item2.body": "Viewer, editor and copy restrictions.",
+      "scene.themes-work.narration": "Key topics: tool choice and sharing. Focus on appropriate use, not just memorizing features.. Tool selection. Different purposes of tools such as Classroom and Sites.. Collaboration. Real-time editing and comments.. Sharing permissions. Viewer, editor and copy restrictions.",
+      "scene.themes-access.title": "Key topics:\ncommunication and access",
+      "scene.themes-access.body": "Think about participation, access and easy file discovery.",
+      "scene.themes-access.item0.title": "Communication",
+      "scene.themes-access.item0.body": "Roles of Meet, Chat and Gmail.",
+      "scene.themes-access.item1.title": "Accessibility",
+      "scene.themes-access.item1.body": "Captions, translation and ChromeVox.",
+      "scene.themes-access.item2.title": "File organization",
+      "scene.themes-access.item2.body": "Use shared folders in Drive.",
+      "scene.themes-access.narration": "Key topics: communication and access. Think about participation, access and easy file discovery.. Communication. Roles of Meet, Chat and Gmail.. Accessibility. Captions, translation and ChromeVox.. File organization. Use shared folders in Drive.",
+      "scene.meet-chat.title": "Talk live\nor message later?",
+      "scene.meet-chat.body": "Use Meet to gather at the same time. Use Chat for messages across schedules.",
+      "scene.meet-chat.item0.title": "Google Meet",
+      "scene.meet-chat.item0.body": "Live, two-way classes and meetings.",
+      "scene.meet-chat.item1.title": "Google Chat",
+      "scene.meet-chat.item1.body": "Asynchronous chat and quick messages.",
+      "scene.meet-chat.narration": "Talk live or message later?. Use Meet to gather at the same time. Use Chat for messages across schedules.. Google Meet. Live, two-way classes and meetings.. Google Chat. Asynchronous chat and quick messages.",
+      "scene.classroom-forms.title": "Collect assignments\nor responses?",
+      "scene.classroom-forms.body": "Use Classroom for assignment workflows. Use Forms for surveys and auto-grading.",
+      "scene.classroom-forms.item0.title": "Google Classroom",
+      "scene.classroom-forms.item0.body": "Distribute assignments and collect submissions.",
+      "scene.classroom-forms.item1.title": "Google Forms",
+      "scene.classroom-forms.item1.body": "Surveys and automatically graded quizzes.",
+      "scene.classroom-forms.narration": "Collect assignments or responses?. Use Classroom for assignment workflows. Use Forms for surveys and auto-grading.. Google Classroom. Distribute assignments and collect submissions.. Google Forms. Surveys and automatically graded quizzes.",
+      "scene.docs-drive.title": "Create together\nor organize safely?",
+      "scene.docs-drive.body": "Use Docs and Slides to collaborate. Use Drive to organize and share materials.",
+      "scene.docs-drive.item0.title": "Docs / Slides",
+      "scene.docs-drive.item0.body": "Co-edit documents and presentations in real time.",
+      "scene.docs-drive.item1.title": "Google Drive",
+      "scene.docs-drive.item1.body": "Manage teaching materials in shared folders.",
+      "scene.docs-drive.narration": "Create together or organize safely?. Use Docs and Slides to collaborate. Use Drive to organize and share materials.. Docs / Slides. Co-edit documents and presentations in real time.. Google Drive. Manage teaching materials in shared folders.",
+      "scene.lab-classroom.title": "Lab practice:\nClassroom",
+      "scene.lab-classroom.body": "Create the requested result. Don’t just memorize clicks.",
+      "scene.lab-classroom.item0.title": "Assignments and files",
+      "scene.lab-classroom.item0.body": "Create and attach materials.",
+      "scene.lab-classroom.item1.title": "Individual copies",
+      "scene.lab-classroom.item1.body": "Make one copy for each student.",
+      "scene.lab-classroom.item2.title": "Topics and due dates",
+      "scene.lab-classroom.item2.body": "Set topics and due dates.",
+      "scene.lab-classroom.narration": "Hands-on practice: Classroom. Focus on achieving the requested final state, rather than memorizing clicks.. Assignments and files. Create an assignment and attach materials.. Individual copies. Set a copy to be made for each student.. Topics and due dates. Set organization and submission deadlines.",
+      "scene.lab-drive.title": "Hands-on practice:\nDocs / Drive",
+      "scene.lab-drive.body": "Check who has access, their permissions and where files are stored.",
+      "scene.lab-drive.item0.title": "Sharing permissions",
+      "scene.lab-drive.item0.body": "Assign viewer or editor access appropriately.",
+      "scene.lab-drive.item1.title": "Comments",
+      "scene.lab-drive.item1.body": "Use comments and mentions.",
+      "scene.lab-drive.item2.title": "Folder organization",
+      "scene.lab-drive.item2.body": "Create folders and move files.",
+      "scene.lab-drive.narration": "Hands-on practice: Docs / Drive. Check who has access, their permissions and where files are stored.. Sharing permissions. Assign viewer or editor access appropriately.. Comments. Use comments and mentions.. Folder organization. Create folders and move files.",
+      "scene.lab-forms.title": "Hands-on practice:\nForms / Sheets",
+      "scene.lab-forms.body": "Practice the full workflow from quiz settings to the response destination.",
+      "scene.lab-forms.item0.title": "Quiz and answer key",
+      "scene.lab-forms.item0.body": "Enable quiz mode and set the answer key.",
+      "scene.lab-forms.item1.title": "Collaborators",
+      "scene.lab-forms.item1.body": "Add people who can edit together.",
+      "scene.lab-forms.item2.title": "Response destination",
+      "scene.lab-forms.item2.body": "Choose the spreadsheet that stores responses.",
+      "scene.lab-forms.narration": "Hands-on practice: Forms / Sheets. Practice the full workflow from quiz settings to the response destination.. Quiz and answer key. Enable quiz mode and set the answer key.. Collaborators. Add people who can edit together.. Response destination. Choose the spreadsheet that stores responses.",
+      "scene.study-cycle.title": "Build a\nstudy cycle",
+      "scene.study-cycle.body": "Overview, scenario decisions, hands-on practice. Then address weaknesses and repeat.",
+      "scene.study-cycle.item0.title": "Get the overview",
+      "scene.study-cycle.item0.body": "Understand the certification and exam goals.",
+      "scene.study-cycle.item1.title": "Practice decisions",
+      "scene.study-cycle.item1.body": "Practice choosing tools for a purpose.",
+      "scene.study-cycle.item2.title": "Practice hands-on",
+      "scene.study-cycle.item2.body": "Use official task cards to practice outcomes.",
+      "scene.study-cycle.narration": "Build a study cycle. Overview, scenario decisions, hands-on practice. Then address weaknesses and repeat.. Get the overview. Understand the certification and exam goals.. Practice decisions. Practice choosing tools for a purpose.. Practice hands-on. Use official task cards to practice outcomes.",
+      "scene.review.title": "Find weak points.\nPractice again.",
+      "scene.review.body": "Ask an AI chat for sharing-permission questions or Meet versus Chat differences. Verify by using the tools.",
+      "scene.review.alt": "Illustration of a person studying",
+      "scene.review.narration": "Find weak points. Practice again.. Ask an AI chat for sharing-permission questions or Meet versus Chat differences. Verify by using the tools.",
+      "scene.next.title": "Ready? Go to the\nofficial registration.",
+      "scene.next.body": "Sign in with Google and choose Japanese. Check the latest exam instructions before proceeding.",
+      "scene.next.alt": "Illustration of a person studying",
+      "scene.next.action": "Open official registration",
+      "scene.next.narration": "Ready? Go to the official registration.. Sign in with Google and choose Japanese. Check the latest exam instructions before proceeding.",
+      "guide.title": "Google Certified Educator Level 1 guide",
+      "guide.description": "An animated, narrated guide to preparation, tool selection and hands-on practice.",
+      "document.source-pdf.title": "Source: complete study guide",
+      "document.source-pdf.body": "The supplied 11-page PDF. View or download it.",
+      "document.official-certifications.title": "Google: official certifications",
+      "document.official-certifications.body": "Current certification information and links to the exam guide and task cards.",
+      "document.official-registration.title": "Google: Level 1 registration",
+      "document.official-registration.body": "Open the official Japanese registration page in a new tab."
     },
     "ne": {
-      "scene.welcome.title": "सम्झौता सँगै\nजाँच गरौँ।",
-      "scene.welcome.body": "पहिले व्याख्या हेर्नुहोस्, त्यसपछि सम्झौता पढ्नुहोस्। यो नमुना हो र यसमा वास्तविक सम्झौताका सर्त छैनन्।",
-      "scene.welcome.alt": "जानकारी लिइरहेको व्यक्तिको चित्र",
-      "scene.welcome.narration": "हस्ताक्षर गर्नुअघि जाँच गर्नुपर्ने कुरा बताउँछौँ। व्याख्यापछि सम्झौता पढ्नुहोस्। यो नमुना हो, यसमा वास्तविक सम्झौताका सर्त छैनन्।",
-      "scene.language.title": "महत्त्वपूर्ण सर्तहरू\nजाँच गर्नुहोस्।",
-      "scene.language.body": "वास्तविक कागजातका सर्त जिम्मेवार व्यक्तिसँग जाँच गर्नुहोस्।",
-      "scene.language.item0.title": "सर्त जाँच गर्नुहोस्",
-      "scene.language.item0.body": "सम्झौताका सर्त पढ्नुहोस्।",
-      "scene.language.item1.title": "प्रश्न सोध्नुहोस्",
-      "scene.language.item1.body": "हस्ताक्षर गर्नुअघि जिम्मेवार व्यक्तिलाई सोध्नुहोस्।",
-      "scene.language.narration": "हस्ताक्षर गर्नुअघि वास्तविक सम्झौताका सर्त जाँच गर्नुहोस्। नबुझेको कुरा वा व्याख्याभन्दा फरक कुरा भए हस्ताक्षर गर्नुअघि जिम्मेवार व्यक्तिलाई सोध्नुहोस्।",
-      "scene.steps.title": "सम्झौता गर्ने\nतीन चरण।",
-      "scene.steps.body": "व्याख्या, कागजात जाँच र हस्ताक्षरको क्रममा अघि बढ्नुहोस्।",
-      "scene.steps.item0.title": "व्याख्या हेर्नुहोस्",
-      "scene.steps.item0.body": "समग्र प्रक्रिया बुझ्नुहोस्।",
-      "scene.steps.item1.title": "कागजात जाँच गर्नुहोस्",
-      "scene.steps.item1.body": "मूल कागजातका सर्त जाँच गर्नुहोस्।",
-      "scene.steps.item2.title": "हस्ताक्षरतर्फ जानुहोस्",
-      "scene.steps.item2.body": "तोकिएको विधिबाट हस्ताक्षर गर्नुहोस्।",
-      "scene.steps.narration": "तीन चरण छन्। पहिले व्याख्या हेर्नुहोस्। त्यसपछि सम्झौता र सम्बन्धित कागजात जाँच गर्नुहोस्। अन्त्यमा प्रश्नहरू समाधान गरेर तोकिएको विधिबाट हस्ताक्षर गर्नुहोस्।",
-      "scene.documents.title": "सम्झौता र कागजात\nयहाँ हेर्नुहोस्।",
-      "scene.documents.body": "बटन थिचेर कागजात खोल्नुहोस्। जाँचपछि यही स्लाइडमा फर्कनुहोस्।",
-      "scene.documents.alt": "कागजात पढिरहेको व्यक्तिको चित्र",
-      "scene.documents.action": "सम्झौता र कागजात हेर्नुहोस्",
-      "scene.documents.narration": "यहाँ सम्झौता र सम्बन्धित कागजात खोल्नुहोस्। ब्राउजरको सेभ सुविधाबाट पीडीएफ डाउनलोड गर्न सकिन्छ। जाँचपछि व्याख्यामा फर्कने बटनबाट यही स्लाइडमा फर्कनुहोस्।",
-      "scene.complete.title": "हस्ताक्षर गर्नुअघि\nप्रश्न सोध्नुहोस्।",
-      "scene.complete.body": "सर्त बुझेपछि जिम्मेवार व्यक्तिले दिएको हस्ताक्षरको निर्देशन पालना गर्नुहोस्।",
-      "scene.complete.alt": "प्रक्रियामा अघि बढिरहेको व्यक्तिको चित्र",
-      "scene.complete.action": "सम्झौता र कागजात हेर्नुहोस्",
-      "scene.complete.narration": "व्याख्या सकियो। नबुझेका कुरा हस्ताक्षर गर्नुअघि जिम्मेवार व्यक्तिलाई सोध्नुहोस्। यो व्याख्या हेर्दैमा सम्झौता सम्पन्न हुँदैन।",
-      "guide.title": "हस्ताक्षर गर्नुअघि",
-      "guide.description": "सम्झौता र सम्बन्धित कागजात हेर्नुहोस्। नबुझेका कुरा जिम्मेवार व्यक्तिलाई सोध्नुहोस्।",
-      "document.sample.title": "नमुना सम्झौता कागजात",
-      "document.sample.body": "हेर्नका लागि नमुना पीडीएफ। वास्तविक सम्झौता होइन।"
+      "scene.welcome.title": "Google प्रमाणित शिक्षक\nLevel 1 मार्गदर्शिका",
+      "scene.welcome.body": "शिक्षणको व्यावहारिक सीप प्रमाणित गर्नुहोस्। परीक्षा तयारी र अध्ययन योजना बुझौँ।",
+      "scene.welcome.alt": "अध्ययन गरिरहेको व्यक्तिको चित्र",
+      "scene.welcome.narration": "Google प्रमाणित शिक्षक Level 1 मार्गदर्शिका. शिक्षणको व्यावहारिक सीप प्रमाणित गर्नुहोस्। परीक्षा तयारी र अध्ययन योजना बुझौँ।",
+      "scene.value.title": "प्रमाणपत्रका\nतीन महत्त्व",
+      "scene.value.body": "ज्ञानसँगै कक्षामा प्रयोग गर्ने क्षमता देखाउनुहोस्।",
+      "scene.value.item0.title": "व्यावहारिक सीप",
+      "scene.value.item0.body": "उद्देश्यअनुसार साधन छानेर चलाउनुहोस्।",
+      "scene.value.item1.title": "प्रमाणपत्र र ब्याज",
+      "scene.value.item1.body": "उत्तीर्ण भएपछि विवरण वा इमेल हस्ताक्षरमा प्रयोग गर्नुहोस्।",
+      "scene.value.item2.title": "निरन्तर सिकाइ",
+      "scene.value.item2.body": "तीन वर्ष मान्य। सीप अद्यावधिक राख्नुहोस्।",
+      "scene.value.narration": "प्रमाणपत्रका तीन महत्त्व. ज्ञानसँगै कक्षामा प्रयोग गर्ने क्षमता देखाउनुहोस्।. व्यावहारिक सीप. उद्देश्यअनुसार साधन छानेर चलाउनुहोस्।. प्रमाणपत्र र ब्याज. उत्तीर्ण भएपछि विवरण वा इमेल हस्ताक्षरमा प्रयोग गर्नुहोस्।. निरन्तर सिकाइ. तीन वर्ष मान्य। सीप अद्यावधिक राख्नुहोस्।",
+      "scene.cost.title": "जापानी भाषामा\nनिःशुल्क परीक्षा।",
+      "scene.cost.body": "आधिकारिक पृष्ठमा निःशुल्क र तीन वर्ष मान्य भनिएको छ। दर्ताको नवीनतम जानकारी हेर्नुहोस्।",
+      "scene.cost.alt": "अध्ययन गरिरहेको व्यक्तिको चित्र",
+      "scene.cost.narration": "जापानी भाषामा निःशुल्क परीक्षा।. आधिकारिक पृष्ठमा निःशुल्क र तीन वर्ष मान्य भनिएको छ। दर्ताको नवीनतम जानकारी हेर्नुहोस्।",
+      "scene.setup.title": "परीक्षाअघि\nवातावरण तयार गर्नुहोस्",
+      "scene.setup.body": "व्यावहारिक काम गर्न मिल्ने कम्प्युटरमा लगइन र जडान जाँच्नुहोस्।",
+      "scene.setup.item0.title": "Google खाता",
+      "scene.setup.item0.body": "परीक्षाअघि लगइन गर्न सकिन्छ कि जाँच्नुहोस्।",
+      "scene.setup.item1.title": "अद्यावधिक Chrome",
+      "scene.setup.item1.body": "ब्राउजर नवीनतम संस्करणमा राख्नुहोस्।",
+      "scene.setup.item2.title": "कम्प्युटर र स्थिर जडान",
+      "scene.setup.item2.body": "ल्याबका काम गर्न भरपर्दो वातावरण बनाउनुहोस्।",
+      "scene.setup.narration": "परीक्षाअघि वातावरण तयार गर्नुहोस्. व्यावहारिक काम गर्न मिल्ने कम्प्युटरमा लगइन र जडान जाँच्नुहोस्।. Google खाता. परीक्षाअघि लगइन गर्न सकिन्छ कि जाँच्नुहोस्।. अद्यावधिक Chrome. ब्राउजर नवीनतम संस्करणमा राख्नुहोस्।. कम्प्युटर र स्थिर जडान. ल्याबका काम गर्न भरपर्दो वातावरण बनाउनुहोस्।",
+      "scene.incognito.title": "परीक्षाका खाताहरू\nअलग राख्नुहोस्",
+      "scene.incognito.body": "स्रोतले इन्कग्निटो विन्डो सिफारिस गर्छ। विद्यालयका प्रतिबन्ध र प्रयोगयोग्य खाता पहिले जाँच्नुहोस्।",
+      "scene.incognito.item0.title": "सामान्य विन्डो",
+      "scene.incognito.item0.body": "विद्यालय वा व्यक्तिगत खाताको लगइन बाँकी हुन सक्छ।",
+      "scene.incognito.item1.title": "इन्कग्निटो विन्डो",
+      "scene.incognito.item1.body": "परीक्षाका लागि अलग लगइन सत्र प्रयोग गर्नुहोस्।",
+      "scene.incognito.narration": "परीक्षाका खाताहरू अलग राख्नुहोस्. स्रोतले इन्कग्निटो विन्डो सिफारिस गर्छ। विद्यालयका प्रतिबन्ध र प्रयोगयोग्य खाता पहिले जाँच्नुहोस्।. सामान्य विन्डो. विद्यालय वा व्यक्तिगत खाताको लगइन बाँकी हुन सक्छ।. इन्कग्निटो विन्डो. परीक्षाका लागि अलग लगइन सत्र प्रयोग गर्नुहोस्।",
+      "scene.register.title": "दर्तासम्मका\nतीन चरण",
+      "scene.register.body": "आधिकारिक दर्ता पृष्ठमा Level 1 र जापानी छान्नुहोस्।",
+      "scene.register.item0.title": "१ लगइन",
+      "scene.register.item0.body": "Google खाताबाट लगइन गर्नुहोस्।",
+      "scene.register.item1.title": "२ Level 1 छान्नुहोस्",
+      "scene.register.item1.body": "प्रमाणीकरण परीक्षा छान्नुहोस्।",
+      "scene.register.item2.title": "३ जापानी छान्नुहोस्",
+      "scene.register.item2.body": "दर्ताका लागि देखाइएका निर्देशन पालना गर्नुहोस्।",
+      "scene.register.narration": "दर्तासम्मका तीन चरण. आधिकारिक दर्ता पृष्ठमा Level 1 र जापानी छान्नुहोस्।. १ लगइन. Google खाताबाट लगइन गर्नुहोस्।. २ Level 1 छान्नुहोस्. प्रमाणीकरण परीक्षा छान्नुहोस्।. ३ जापानी छान्नुहोस्. दर्ताका लागि देखाइएका निर्देशन पालना गर्नुहोस्।",
+      "scene.exam-day.title": "तयारी, परीक्षा\nर नतिजा",
+      "scene.exam-day.body": "दर्तापछि आधिकारिक सामग्रीबाट तयारी गर्नुहोस्। नतिजाको समय परीक्षा निर्देशनमा हेर्नुहोस्।",
+      "scene.exam-day.item0.title": "मार्गदर्शिकाबाट तयारी",
+      "scene.exam-day.item0.body": "परीक्षा मार्गदर्शिका र टास्क कार्ड हेर्नुहोस्।",
+      "scene.exam-day.item1.title": "परीक्षा दिनुहोस्",
+      "scene.exam-day.item1.body": "ज्ञान र व्यावहारिक सीप देखाउनुहोस्।",
+      "scene.exam-day.item2.title": "इमेलमा नतिजा हेर्नुहोस्",
+      "scene.exam-day.item2.body": "स्रोतको अनुमान: ३ कार्यदिनभित्र। नवीनतम निर्देशन मान्नुहोस्।",
+      "scene.exam-day.narration": "तयारी, परीक्षा र नतिजा. दर्तापछि आधिकारिक सामग्रीबाट तयारी गर्नुहोस्। नतिजाको समय परीक्षा निर्देशनमा हेर्नुहोस्।. मार्गदर्शिकाबाट तयारी. परीक्षा मार्गदर्शिका र टास्क कार्ड हेर्नुहोस्।. परीक्षा दिनुहोस्. ज्ञान र व्यावहारिक सीप देखाउनुहोस्।. इमेलमा नतिजा हेर्नुहोस्. स्रोतको अनुमान: ३ कार्यदिनभित्र। नवीनतम निर्देशन मान्नुहोस्।",
+      "scene.format.title": "ज्ञान र व्यावहारिक\nकामको तयारी",
+      "scene.format.body": "स्रोतमा ३७ प्रश्न र ३ परिदृश्यको उदाहरण छ। यी संख्या सधैँ निश्चित होइनन्।",
+      "scene.format.item0.title": "बहुविकल्पीय प्रश्न",
+      "scene.format.item0.body": "सुविधा, साधन छनोट र शिक्षण निर्णय।",
+      "scene.format.item1.title": "व्यावहारिक ल्याब",
+      "scene.format.item1.body": "दिइएको Workspace वातावरणमा काम पूरा गर्नुहोस्।",
+      "scene.format.narration": "ज्ञान र व्यावहारिक कामको तयारी. स्रोतमा ३७ प्रश्न र ३ परिदृश्यको उदाहरण छ। यी संख्या सधैँ निश्चित होइनन्।. बहुविकल्पीय प्रश्न. सुविधा, साधन छनोट र शिक्षण निर्णय।. व्यावहारिक ल्याब. दिइएको Workspace वातावरणमा काम पूरा गर्नुहोस्।",
+      "scene.reasoning.title": "सुविधाको नामभन्दा\nउद्देश्यबाट सोच्नुहोस्",
+      "scene.reasoning.body": "परिस्थितिमा के हासिल गर्ने हो बुझेर साधन छान्नुहोस्।",
+      "scene.reasoning.item0.title": "परिस्थिति पढ्नुहोस्",
+      "scene.reasoning.item0.body": "कसले, कहाँ, के गर्ने हो?",
+      "scene.reasoning.item1.title": "उद्देश्य पहिचान गर्नुहोस्",
+      "scene.reasoning.item1.body": "वितरण, सहकार्य वा संवाद छुट्याउनुहोस्।",
+      "scene.reasoning.item2.title": "उपयुक्त साधन छान्नुहोस्",
+      "scene.reasoning.item2.body": "साधनलाई अपेक्षित नतिजासँग मिलाउनुहोस्।",
+      "scene.reasoning.narration": "सुविधाको नामभन्दा उद्देश्यबाट सोच्नुहोस्. परिस्थितिमा के हासिल गर्ने हो बुझेर साधन छान्नुहोस्।. परिस्थिति पढ्नुहोस्. कसले, कहाँ, के गर्ने हो?. उद्देश्य पहिचान गर्नुहोस्. वितरण, सहकार्य वा संवाद छुट्याउनुहोस्।. उपयुक्त साधन छान्नुहोस्. साधनलाई अपेक्षित नतिजासँग मिलाउनुहोस्।",
+      "scene.themes-work.title": "मुख्य विषय:\nसाधन र साझेदारी",
+      "scene.themes-work.body": "सुविधा कण्ठ पार्ने मात्र होइन, उचित प्रयोग बुझ्नुहोस्।",
+      "scene.themes-work.item0.title": "साधन छनोट",
+      "scene.themes-work.item0.body": "Classroom र Sites जस्ता साधनका फरक उद्देश्य।",
+      "scene.themes-work.item1.title": "सहकार्य",
+      "scene.themes-work.item1.body": "वास्तविक समयमा सम्पादन र टिप्पणी।",
+      "scene.themes-work.item2.title": "साझेदारी अनुमति",
+      "scene.themes-work.item2.body": "दर्शक, सम्पादक र प्रतिलिपि प्रतिबन्ध।",
+      "scene.themes-work.narration": "मुख्य विषय: साधन र साझेदारी. सुविधा कण्ठ पार्ने मात्र होइन, उचित प्रयोग बुझ्नुहोस्।. साधन छनोट. Classroom र Sites जस्ता साधनका फरक उद्देश्य।. सहकार्य. वास्तविक समयमा सम्पादन र टिप्पणी।. साझेदारी अनुमति. दर्शक, सम्पादक र प्रतिलिपि प्रतिबन्ध।",
+      "scene.themes-access.title": "मुख्य विषय:\nसंवाद र पहुँच",
+      "scene.themes-access.body": "सहभागिता, पहुँच र सजिलो फाइल खोजबारे सोच्नुहोस्।",
+      "scene.themes-access.item0.title": "संवाद",
+      "scene.themes-access.item0.body": "Meet, Chat र Gmail का भूमिका।",
+      "scene.themes-access.item1.title": "पहुँचयोग्यता",
+      "scene.themes-access.item1.body": "उपशीर्षक, अनुवाद र ChromeVox।",
+      "scene.themes-access.item2.title": "फाइल व्यवस्थापन",
+      "scene.themes-access.item2.body": "Drive का साझा फोल्डर प्रयोग गर्नुहोस्।",
+      "scene.themes-access.narration": "मुख्य विषय: संवाद र पहुँच. सहभागिता, पहुँच र सजिलो फाइल खोजबारे सोच्नुहोस्।. संवाद. Meet, Chat र Gmail का भूमिका।. पहुँचयोग्यता. उपशीर्षक, अनुवाद र ChromeVox।. फाइल व्यवस्थापन. Drive का साझा फोल्डर प्रयोग गर्नुहोस्।",
+      "scene.meet-chat.title": "अहिले कुरा गर्ने कि\nपछि सन्देश पठाउने?",
+      "scene.meet-chat.body": "एकै समयमा भेला हुन Meet। फरक समयमा सन्देशका लागि Chat।",
+      "scene.meet-chat.item0.title": "Google Meet",
+      "scene.meet-chat.item0.body": "प्रत्यक्ष, दोहोरो कक्षा र बैठक।",
+      "scene.meet-chat.item1.title": "Google Chat",
+      "scene.meet-chat.item1.body": "असमकालिक कुराकानी र छोटा सन्देश।",
+      "scene.meet-chat.narration": "अहिले कुरा गर्ने कि पछि सन्देश पठाउने?. एकै समयमा भेला हुन Meet। फरक समयमा सन्देशका लागि Chat।. Google Meet. प्रत्यक्ष, दोहोरो कक्षा र बैठक।. Google Chat. असमकालिक कुराकानी र छोटा सन्देश।",
+      "scene.classroom-forms.title": "असाइनमेन्ट कि\nउत्तर सङ्कलन गर्ने?",
+      "scene.classroom-forms.body": "असाइनमेन्टका लागि Classroom। सर्वेक्षण र स्वचालित मूल्याङ्कनका लागि Forms।",
+      "scene.classroom-forms.item0.title": "Google Classroom",
+      "scene.classroom-forms.item0.body": "असाइनमेन्ट दिनुहोस् र बुझाएका काम सङ्कलन गर्नुहोस्।",
+      "scene.classroom-forms.item1.title": "Google Forms",
+      "scene.classroom-forms.item1.body": "सर्वेक्षण र स्वचालित अङ्क दिने क्विज।",
+      "scene.classroom-forms.narration": "असाइनमेन्ट कि उत्तर सङ्कलन गर्ने?. असाइनमेन्टका लागि Classroom। सर्वेक्षण र स्वचालित मूल्याङ्कनका लागि Forms।. Google Classroom. असाइनमेन्ट दिनुहोस् र बुझाएका काम सङ्कलन गर्नुहोस्।. Google Forms. सर्वेक्षण र स्वचालित अङ्क दिने क्विज।",
+      "scene.docs-drive.title": "सँगै बनाउने कि\nसुरक्षित राख्ने?",
+      "scene.docs-drive.body": "सहकार्यका लागि Docs र Slides। सामग्री मिलाउन र साझा गर्न Drive।",
+      "scene.docs-drive.item0.title": "Docs / Slides",
+      "scene.docs-drive.item0.body": "कागजात र प्रस्तुति वास्तविक समयमा सँगै सम्पादन गर्नुहोस्।",
+      "scene.docs-drive.item1.title": "Google Drive",
+      "scene.docs-drive.item1.body": "शिक्षण सामग्री साझा फोल्डरमा व्यवस्थापन गर्नुहोस्।",
+      "scene.docs-drive.narration": "सँगै बनाउने कि सुरक्षित राख्ने?. सहकार्यका लागि Docs र Slides। सामग्री मिलाउन र साझा गर्न Drive।. Docs / Slides. कागजात र प्रस्तुति वास्तविक समयमा सँगै सम्पादन गर्नुहोस्।. Google Drive. शिक्षण सामग्री साझा फोल्डरमा व्यवस्थापन गर्नुहोस्।",
+      "scene.lab-classroom.title": "व्यावहारिक तयारी:\nClassroom",
+      "scene.lab-classroom.body": "क्लिकको क्रम कण्ठ पार्नुभन्दा मागिएको अन्तिम अवस्था बनाउनुहोस्।",
+      "scene.lab-classroom.item0.title": "असाइनमेन्ट र फाइल",
+      "scene.lab-classroom.item0.body": "असाइनमेन्ट बनाएर सामग्री जोड्नुहोस्।",
+      "scene.lab-classroom.item1.title": "हरेक विद्यार्थीलाई प्रति",
+      "scene.lab-classroom.item1.body": "हरेक विद्यार्थीलाई प्रतिलिपि दिने सेटिङ।",
+      "scene.lab-classroom.item2.title": "विषय र म्याद",
+      "scene.lab-classroom.item2.body": "वर्गीकरण र बुझाउने म्याद तोक्नुहोस्।",
+      "scene.lab-classroom.narration": "व्यावहारिक तयारी: Classroom. क्लिकको क्रम कण्ठ पार्नुभन्दा मागिएको अन्तिम अवस्था बनाउनुहोस्।. असाइनमेन्ट र फाइल. असाइनमेन्ट बनाएर सामग्री जोड्नुहोस्।. हरेक विद्यार्थीलाई प्रति. हरेक विद्यार्थीलाई प्रतिलिपि दिने सेटिङ।. विषय र म्याद. वर्गीकरण र बुझाउने म्याद तोक्नुहोस्।",
+      "scene.lab-drive.title": "व्यावहारिक तयारी:\nDocs / Drive",
+      "scene.lab-drive.body": "पहुँच पाउने व्यक्ति, अनुमति र फाइलको स्थान जाँच्नुहोस्।",
+      "scene.lab-drive.item0.title": "साझेदारी अनुमति",
+      "scene.lab-drive.item0.body": "दर्शक वा सम्पादक अनुमति उचित रूपमा दिनुहोस्।",
+      "scene.lab-drive.item1.title": "टिप्पणी",
+      "scene.lab-drive.item1.body": "टिप्पणी र मेन्सन प्रयोग गर्नुहोस्।",
+      "scene.lab-drive.item2.title": "फोल्डर व्यवस्थापन",
+      "scene.lab-drive.item2.body": "फोल्डर बनाएर फाइल सार्नुहोस्।",
+      "scene.lab-drive.narration": "व्यावहारिक तयारी: Docs / Drive. पहुँच पाउने व्यक्ति, अनुमति र फाइलको स्थान जाँच्नुहोस्।. साझेदारी अनुमति. दर्शक वा सम्पादक अनुमति उचित रूपमा दिनुहोस्।. टिप्पणी. टिप्पणी र मेन्सन प्रयोग गर्नुहोस्।. फोल्डर व्यवस्थापन. फोल्डर बनाएर फाइल सार्नुहोस्।",
+      "scene.lab-forms.title": "व्यावहारिक तयारी:\nForms / Sheets",
+      "scene.lab-forms.body": "क्विज सेटिङदेखि उत्तरको गन्तव्यसम्म अभ्यास गर्नुहोस्।",
+      "scene.lab-forms.item0.title": "क्विज र सही उत्तर",
+      "scene.lab-forms.item0.body": "क्विज मोड राखेर सही उत्तर तोक्नुहोस्।",
+      "scene.lab-forms.item1.title": "सहसम्पादक",
+      "scene.lab-forms.item1.body": "सँगै सम्पादन गर्ने व्यक्ति थप्नुहोस्।",
+      "scene.lab-forms.item2.title": "उत्तरको गन्तव्य",
+      "scene.lab-forms.item2.body": "उत्तर भण्डारण गर्ने स्प्रेडसिट छान्नुहोस्।",
+      "scene.lab-forms.narration": "व्यावहारिक तयारी: Forms / Sheets. क्विज सेटिङदेखि उत्तरको गन्तव्यसम्म अभ्यास गर्नुहोस्।. क्विज र सही उत्तर. क्विज मोड राखेर सही उत्तर तोक्नुहोस्।. सहसम्पादक. सँगै सम्पादन गर्ने व्यक्ति थप्नुहोस्।. उत्तरको गन्तव्य. उत्तर भण्डारण गर्ने स्प्रेडसिट छान्नुहोस्।",
+      "scene.study-cycle.title": "अध्ययनको\nचक्र बनाउनुहोस्",
+      "scene.study-cycle.body": "समग्र बुझाइ, परिस्थिति निर्णय, व्यावहारिक अभ्यास। त्यसपछि कमजोरी सुधारेर दोहोर्‍याउनुहोस्।",
+      "scene.study-cycle.item0.title": "समग्र बुझ्नुहोस्",
+      "scene.study-cycle.item0.body": "प्रमाणपत्र र परीक्षाका उद्देश्य बुझ्नुहोस्।",
+      "scene.study-cycle.item1.title": "निर्णयको अभ्यास",
+      "scene.study-cycle.item1.body": "उद्देश्यअनुसार साधन छान्ने अभ्यास गर्नुहोस्।",
+      "scene.study-cycle.item2.title": "आफैँ प्रयोग गर्नुहोस्",
+      "scene.study-cycle.item2.body": "आधिकारिक टास्क कार्डबाट नतिजा बनाउने अभ्यास गर्नुहोस्।",
+      "scene.study-cycle.narration": "अध्ययनको चक्र बनाउनुहोस्. समग्र बुझाइ, परिस्थिति निर्णय, व्यावहारिक अभ्यास। त्यसपछि कमजोरी सुधारेर दोहोर्‍याउनुहोस्।. समग्र बुझ्नुहोस्. प्रमाणपत्र र परीक्षाका उद्देश्य बुझ्नुहोस्।. निर्णयको अभ्यास. उद्देश्यअनुसार साधन छान्ने अभ्यास गर्नुहोस्।. आफैँ प्रयोग गर्नुहोस्. आधिकारिक टास्क कार्डबाट नतिजा बनाउने अभ्यास गर्नुहोस्।",
+      "scene.review.title": "कमजोरी खोज्नुहोस्।\nफेरि अभ्यास गर्नुहोस्।",
+      "scene.review.body": "AI च्याटसँग साझेदारी अनुमतिको प्रश्न वा Meet र Chat को फरक सोध्नुहोस्। साधन प्रयोग गरेर जाँच्नुहोस्।",
+      "scene.review.alt": "अध्ययन गरिरहेको व्यक्तिको चित्र",
+      "scene.review.narration": "कमजोरी खोज्नुहोस्। फेरि अभ्यास गर्नुहोस्।. AI च्याटसँग साझेदारी अनुमतिको प्रश्न वा Meet र Chat को फरक सोध्नुहोस्। साधन प्रयोग गरेर जाँच्नुहोस्।",
+      "scene.next.title": "तयार भएपछि\nआधिकारिक दर्तामा जानुहोस्।",
+      "scene.next.body": "Google बाट लगइन गरी जापानी छान्नुहोस्। अघि बढ्नुअघि नवीनतम परीक्षा निर्देशन हेर्नुहोस्।",
+      "scene.next.alt": "अध्ययन गरिरहेको व्यक्तिको चित्र",
+      "scene.next.action": "आधिकारिक दर्ता खोल्नुहोस्",
+      "scene.next.narration": "तयार भएपछि आधिकारिक दर्तामा जानुहोस्।. Google बाट लगइन गरी जापानी छान्नुहोस्। अघि बढ्नुअघि नवीनतम परीक्षा निर्देशन हेर्नुहोस्।",
+      "guide.title": "Google प्रमाणित शिक्षक Level 1 मार्गदर्शिका",
+      "guide.description": "तयारी, साधन छनोट र व्यावहारिक अभ्यासका लागि आवाजसहितको चलायमान मार्गदर्शिका।",
+      "document.source-pdf.title": "मूल सामग्री: पूर्ण मार्गदर्शिका",
+      "document.source-pdf.body": "दिइएको ११ पृष्ठको PDF। हेर्न वा डाउनलोड गर्न सकिन्छ।",
+      "document.official-certifications.title": "Google: आधिकारिक प्रमाणपत्र",
+      "document.official-certifications.body": "नवीनतम प्रमाणपत्र जानकारी, परीक्षा मार्गदर्शिका र टास्क कार्डका लिङ्क।",
+      "document.official-registration.title": "Google: Level 1 दर्ता",
+      "document.official-registration.body": "आधिकारिक जापानी दर्ता पृष्ठ नयाँ ट्याबमा खोल्नुहोस्।"
     },
     "vi": {
-      "scene.welcome.title": "Cùng xem lại\nnội dung hợp đồng.",
-      "scene.welcome.body": "Xem phần giải thích rồi đọc hợp đồng. Đây là ví dụ minh họa, không chứa điều khoản hợp đồng thực tế.",
-      "scene.welcome.alt": "Minh họa người đang được hướng dẫn",
-      "scene.welcome.narration": "Chúng tôi sẽ hướng dẫn những điều cần kiểm tra trước khi ký. Sau phần giải thích, hãy đọc hợp đồng. Đây là ví dụ minh họa và không chứa điều khoản thực tế.",
-      "scene.language.title": "Kiểm tra những\nđiều khoản quan trọng.",
-      "scene.language.body": "Cùng người phụ trách kiểm tra điều khoản trong tài liệu thực tế.",
-      "scene.language.item0.title": "Kiểm tra điều khoản",
-      "scene.language.item0.body": "Đọc các điều khoản trong hợp đồng.",
-      "scene.language.item1.title": "Hỏi điều chưa rõ",
-      "scene.language.item1.body": "Liên hệ người phụ trách trước khi ký.",
-      "scene.language.narration": "Trước khi ký, hãy kiểm tra điều khoản trong hợp đồng thực tế. Nếu chưa hiểu hoặc có khác biệt với phần giải thích, hãy hỏi người phụ trách trước khi ký.",
-      "scene.steps.title": "Ba bước\nđể ký hợp đồng.",
-      "scene.steps.body": "Lần lượt xem giải thích, kiểm tra tài liệu và ký.",
-      "scene.steps.item0.title": "Xem giải thích",
-      "scene.steps.item0.body": "Hiểu quy trình tổng thể.",
-      "scene.steps.item1.title": "Kiểm tra tài liệu",
-      "scene.steps.item1.body": "Kiểm tra điều khoản trong bản gốc.",
-      "scene.steps.item2.title": "Tiến hành ký",
-      "scene.steps.item2.body": "Ký theo phương thức được hướng dẫn.",
-      "scene.steps.narration": "Có ba bước. Đầu tiên xem phần giải thích. Tiếp theo kiểm tra hợp đồng và tài liệu liên quan. Cuối cùng giải quyết các thắc mắc và ký theo phương thức được hướng dẫn.",
-      "scene.documents.title": "Xem hợp đồng\nvà tài liệu tại đây.",
-      "scene.documents.body": "Nhấn nút để mở tài liệu. Xem xong có thể quay lại slide này.",
-      "scene.documents.alt": "Minh họa người đang đọc tài liệu",
-      "scene.documents.action": "Xem hợp đồng và tài liệu",
-      "scene.documents.narration": "Mở hợp đồng và tài liệu liên quan tại đây. Bạn có thể tải PDF bằng chức năng lưu của trình duyệt. Sau khi xem, nhấn Quay lại hướng dẫn để trở về slide này.",
-      "scene.complete.title": "Hỏi rõ\ntrước khi ký.",
-      "scene.complete.body": "Khi đã hiểu điều khoản, hãy làm theo hướng dẫn ký của người phụ trách.",
-      "scene.complete.alt": "Minh họa người đang thực hiện quy trình",
-      "scene.complete.action": "Xem hợp đồng và tài liệu",
-      "scene.complete.narration": "Phần giải thích đã kết thúc. Hãy hỏi người phụ trách về những điều chưa rõ trước khi ký. Chỉ xem phần giải thích này không có nghĩa là hợp đồng đã được ký kết.",
-      "guide.title": "Trước khi ký hợp đồng",
-      "guide.description": "Xem hợp đồng và tài liệu liên quan. Hỏi người phụ trách về những điều chưa rõ.",
-      "document.sample.title": "Tài liệu hợp đồng mẫu",
-      "document.sample.body": "PDF để kiểm tra hiển thị. Đây không phải hợp đồng thực tế."
+      "scene.welcome.title": "Hướng dẫn Google\nCertified Educator Level 1",
+      "scene.welcome.body": "Chứng minh kỹ năng giảng dạy thực tế. Cùng tìm hiểu cách chuẩn bị và học tập.",
+      "scene.welcome.alt": "Minh họa người đang học",
+      "scene.welcome.narration": "Hướng dẫn Google Certified Educator Level 1. Chứng minh kỹ năng giảng dạy thực tế. Cùng tìm hiểu cách chuẩn bị và học tập.",
+      "scene.value.title": "Ba giá trị\ncủa chứng nhận",
+      "scene.value.body": "Thể hiện kiến thức và khả năng áp dụng trong lớp học.",
+      "scene.value.item0.title": "Kỹ năng thực tế",
+      "scene.value.item0.body": "Chọn và dùng công cụ phù hợp.",
+      "scene.value.item1.title": "Chứng chỉ và huy hiệu",
+      "scene.value.item1.body": "Dùng trong hồ sơ hoặc chữ ký email.",
+      "scene.value.item2.title": "Học tập liên tục",
+      "scene.value.item2.body": "Hiệu lực ba năm. Tiếp tục học.",
+      "scene.value.narration": "Ba giá trị của chứng nhận. Thể hiện kiến thức và khả năng áp dụng trong lớp học.. Kỹ năng thực tế. Chọn và sử dụng công cụ phù hợp.. Chứng chỉ và huy hiệu. Dùng trong hồ sơ hoặc chữ ký email.. Học tập liên tục. Có hiệu lực ba năm. Cập nhật kỹ năng.",
+      "scene.cost.title": "Thi bằng tiếng Nhật,\nkhông mất phí.",
+      "scene.cost.body": "Trang chính thức ghi miễn phí, hiệu lực ba năm. Kiểm tra thông tin mới nhất khi đăng ký.",
+      "scene.cost.alt": "Minh họa người đang học",
+      "scene.cost.narration": "Thi bằng tiếng Nhật, không mất phí.. Trang chính thức ghi miễn phí, hiệu lực ba năm. Kiểm tra thông tin mới nhất khi đăng ký.",
+      "scene.setup.title": "Chuẩn bị\nmôi trường thi",
+      "scene.setup.body": "Dùng máy tính làm được bài thực hành. Kiểm tra đăng nhập và kết nối.",
+      "scene.setup.item0.title": "Tài khoản Google",
+      "scene.setup.item0.body": "Kiểm tra đăng nhập trước khi thi.",
+      "scene.setup.item1.title": "Chrome mới nhất",
+      "scene.setup.item1.body": "Cập nhật trình duyệt.",
+      "scene.setup.item2.title": "Máy tính và mạng ổn định",
+      "scene.setup.item2.body": "Môi trường ổn định cho thực hành.",
+      "scene.setup.narration": "Chuẩn bị môi trường thi. Dùng máy tính làm được bài thực hành. Kiểm tra đăng nhập và kết nối.. Tài khoản Google. Kiểm tra khả năng đăng nhập trước khi thi.. Chrome mới nhất. Cập nhật trình duyệt lên bản mới nhất.. Máy tính và mạng ổn định. Chuẩn bị môi trường ổn định cho bài thực hành.",
+      "scene.incognito.title": "Tránh nhầm lẫn\ngiữa các tài khoản",
+      "scene.incognito.body": "Tài liệu khuyên dùng cửa sổ ẩn danh. Kiểm tra hạn chế của trường và tài khoản dùng được.",
+      "scene.incognito.item0.title": "Cửa sổ thông thường",
+      "scene.incognito.item0.body": "Có thể còn phiên đăng nhập trường học hoặc cá nhân.",
+      "scene.incognito.item1.title": "Cửa sổ ẩn danh",
+      "scene.incognito.item1.body": "Dùng phiên đăng nhập riêng cho kỳ thi.",
+      "scene.incognito.narration": "Tránh nhầm lẫn giữa các tài khoản. Tài liệu khuyên dùng cửa sổ ẩn danh. Kiểm tra hạn chế của trường và tài khoản dùng được.. Cửa sổ thông thường. Có thể còn phiên đăng nhập trường học hoặc cá nhân.. Cửa sổ ẩn danh. Dùng phiên đăng nhập riêng cho kỳ thi.",
+      "scene.register.title": "Ba bước\nđến đăng ký",
+      "scene.register.body": "Trên trang đăng ký chính thức, chọn Level 1 và tiếng Nhật.",
+      "scene.register.item0.title": "1 Đăng nhập",
+      "scene.register.item0.body": "Đăng nhập bằng tài khoản Google.",
+      "scene.register.item1.title": "2 Chọn Level 1",
+      "scene.register.item1.body": "Chọn kỳ thi chứng nhận.",
+      "scene.register.item2.title": "3 Chọn tiếng Nhật",
+      "scene.register.item2.body": "Làm theo hướng dẫn để đăng ký.",
+      "scene.register.narration": "Ba bước đến đăng ký. Trên trang đăng ký chính thức, chọn Level 1 và tiếng Nhật.. 1 Đăng nhập. Đăng nhập bằng tài khoản Google.. 2 Chọn Level 1. Chọn kỳ thi chứng nhận.. 3 Chọn tiếng Nhật. Làm theo hướng dẫn để đăng ký.",
+      "scene.exam-day.title": "Chuẩn bị, thi\nvà xem kết quả",
+      "scene.exam-day.body": "Sau đăng ký, ôn bằng tài liệu chính thức. Xem hướng dẫn kỳ thi để biết thời gian trả kết quả.",
+      "scene.exam-day.item0.title": "Ôn tài liệu chính thức",
+      "scene.exam-day.item0.body": "Xem hướng dẫn thi và thẻ nhiệm vụ.",
+      "scene.exam-day.item1.title": "Làm bài thi",
+      "scene.exam-day.item1.body": "Thể hiện kiến thức và kỹ năng thực hành.",
+      "scene.exam-day.item2.title": "Kiểm tra email",
+      "scene.exam-day.item2.body": "Tài liệu nêu khoảng 3 ngày làm việc. Ưu tiên hướng dẫn mới nhất.",
+      "scene.exam-day.narration": "Chuẩn bị, thi và xem kết quả. Sau đăng ký, ôn bằng tài liệu chính thức. Xem hướng dẫn kỳ thi để biết thời gian trả kết quả.. Ôn tài liệu chính thức. Xem hướng dẫn thi và thẻ nhiệm vụ.. Làm bài thi. Thể hiện kiến thức và kỹ năng thực hành.. Kiểm tra email. Tài liệu nêu khoảng 3 ngày làm việc. Ưu tiên hướng dẫn mới nhất.",
+      "scene.format.title": "Chuẩn bị kiến thức\nvà thực hành",
+      "scene.format.body": "37 câu hỏi và 3 tình huống là ví dụ trong tài liệu, không phải số lượng cố định.",
+      "scene.format.item0.title": "Câu hỏi trắc nghiệm",
+      "scene.format.item0.body": "Tính năng, chọn công cụ, xử lý tình huống dạy học.",
+      "scene.format.item1.title": "Bài thực hành",
+      "scene.format.item1.body": "Hoàn thành nhiệm vụ trong môi trường Workspace được cấp.",
+      "scene.format.narration": "Chuẩn bị kiến thức và thực hành. 37 câu hỏi và 3 tình huống là ví dụ trong tài liệu, không phải số lượng cố định.. Câu hỏi trắc nghiệm. Tính năng, chọn công cụ, xử lý tình huống dạy học.. Bài thực hành. Hoàn thành nhiệm vụ trong môi trường Workspace được cấp.",
+      "scene.reasoning.title": "Bắt đầu từ mục tiêu,\nrồi chọn công cụ",
+      "scene.reasoning.body": "Xác định điều cần đạt trong tình huống, rồi chọn công cụ.",
+      "scene.reasoning.item0.title": "Đọc tình huống",
+      "scene.reasoning.item0.body": "Ai làm gì, ở đâu?",
+      "scene.reasoning.item1.title": "Xác định mục tiêu",
+      "scene.reasoning.item1.body": "Phân biệt phát tài liệu, cộng tác hay giao tiếp.",
+      "scene.reasoning.item2.title": "Chọn công cụ phù hợp",
+      "scene.reasoning.item2.body": "Ghép công cụ với kết quả cần đạt.",
+      "scene.reasoning.narration": "Bắt đầu từ mục tiêu, rồi chọn công cụ. Xác định điều cần đạt trong tình huống, rồi chọn công cụ.. Đọc tình huống. Ai làm gì, ở đâu?. Xác định mục tiêu. Phân biệt phát tài liệu, cộng tác hay giao tiếp.. Chọn công cụ phù hợp. Ghép công cụ với kết quả cần đạt.",
+      "scene.themes-work.title": "Chủ đề trọng tâm:\ncông cụ và chia sẻ",
+      "scene.themes-work.body": "Hiểu cách dùng phù hợp.",
+      "scene.themes-work.item0.title": "Chọn công cụ",
+      "scene.themes-work.item0.body": "Classroom, Sites: mục đích khác nhau.",
+      "scene.themes-work.item1.title": "Cộng tác",
+      "scene.themes-work.item1.body": "Chỉnh sửa trực tiếp và nhận xét.",
+      "scene.themes-work.item2.title": "Quyền chia sẻ",
+      "scene.themes-work.item2.body": "Quyền xem, sửa và hạn chế sao chép.",
+      "scene.themes-work.narration": "Chủ đề trọng tâm: công cụ và chia sẻ. Hiểu cách dùng phù hợp, thay vì chỉ ghi nhớ tính năng.. Chọn công cụ. Mục đích khác nhau của Classroom, Sites và các công cụ khác.. Cộng tác. Chỉnh sửa thời gian thực và nhận xét.. Quyền chia sẻ. Người xem, người chỉnh sửa và hạn chế sao chép.",
+      "scene.themes-access.title": "Chủ đề trọng tâm:\ngiao tiếp và hỗ trợ",
+      "scene.themes-access.body": "Tạo môi trường dễ tham gia và dễ tìm tài liệu.",
+      "scene.themes-access.item0.title": "Giao tiếp",
+      "scene.themes-access.item0.body": "Vai trò của Meet, Chat và Gmail.",
+      "scene.themes-access.item1.title": "Khả năng tiếp cận",
+      "scene.themes-access.item1.body": "Phụ đề, dịch và ChromeVox.",
+      "scene.themes-access.item2.title": "Sắp xếp tệp",
+      "scene.themes-access.item2.body": "Sử dụng thư mục chia sẻ trong Drive.",
+      "scene.themes-access.narration": "Chủ đề trọng tâm: giao tiếp và hỗ trợ. Tạo môi trường dễ tham gia và dễ tìm tài liệu.. Giao tiếp. Vai trò của Meet, Chat và Gmail.. Khả năng tiếp cận. Phụ đề, dịch và ChromeVox.. Sắp xếp tệp. Sử dụng thư mục chia sẻ trong Drive.",
+      "scene.meet-chat.title": "Trao đổi trực tiếp\nhay nhắn tin?",
+      "scene.meet-chat.body": "Dùng Meet khi cùng tham gia một lúc. Dùng Chat để nhắn tin khác thời điểm.",
+      "scene.meet-chat.item0.title": "Google Meet",
+      "scene.meet-chat.item0.body": "Lớp học và cuộc họp tương tác trực tiếp.",
+      "scene.meet-chat.item1.title": "Google Chat",
+      "scene.meet-chat.item1.body": "Trò chuyện không đồng bộ và thông báo ngắn.",
+      "scene.meet-chat.narration": "Trao đổi trực tiếp hay nhắn tin?. Dùng Meet khi cùng tham gia một lúc. Dùng Chat để nhắn tin khác thời điểm.. Google Meet. Lớp học và cuộc họp tương tác trực tiếp.. Google Chat. Trò chuyện không đồng bộ và thông báo ngắn.",
+      "scene.classroom-forms.title": "Thu bài tập\nhay câu trả lời?",
+      "scene.classroom-forms.body": "Classroom quản lý bài tập. Forms dùng cho khảo sát và chấm điểm tự động.",
+      "scene.classroom-forms.item0.title": "Google Classroom",
+      "scene.classroom-forms.item0.body": "Giao bài tập và thu bài nộp.",
+      "scene.classroom-forms.item1.title": "Google Forms",
+      "scene.classroom-forms.item1.body": "Khảo sát và câu đố chấm điểm tự động.",
+      "scene.classroom-forms.narration": "Thu bài tập hay câu trả lời?. Classroom quản lý bài tập. Forms dùng cho khảo sát và chấm điểm tự động.. Google Classroom. Giao bài tập và thu bài nộp.. Google Forms. Khảo sát và câu đố chấm điểm tự động.",
+      "scene.docs-drive.title": "Cùng tạo nội dung\nhay lưu trữ an toàn?",
+      "scene.docs-drive.body": "Docs và Slides để cộng tác. Drive để sắp xếp và chia sẻ tài liệu.",
+      "scene.docs-drive.item0.title": "Docs / Slides",
+      "scene.docs-drive.item0.body": "Cùng chỉnh sửa tài liệu, bài trình bày theo thời gian thực.",
+      "scene.docs-drive.item1.title": "Google Drive",
+      "scene.docs-drive.item1.body": "Quản lý tài liệu giảng dạy trong thư mục chia sẻ.",
+      "scene.docs-drive.narration": "Cùng tạo nội dung hay lưu trữ an toàn?. Docs và Slides để cộng tác. Drive để sắp xếp và chia sẻ tài liệu.. Docs / Slides. Cùng chỉnh sửa tài liệu, bài trình bày theo thời gian thực.. Google Drive. Quản lý tài liệu giảng dạy trong thư mục chia sẻ.",
+      "scene.lab-classroom.title": "Luyện thực hành:\nClassroom",
+      "scene.lab-classroom.body": "Tập trung tạo đúng trạng thái cuối, thay vì chỉ nhớ thứ tự nhấp.",
+      "scene.lab-classroom.item0.title": "Bài tập và tệp đính kèm",
+      "scene.lab-classroom.item0.body": "Tạo bài tập và đính kèm tài liệu.",
+      "scene.lab-classroom.item1.title": "Bản sao cho từng học sinh",
+      "scene.lab-classroom.item1.body": "Cài đặt tạo bản sao cho mỗi học sinh.",
+      "scene.lab-classroom.item2.title": "Chủ đề và hạn nộp",
+      "scene.lab-classroom.item2.body": "Đặt cách phân loại và thời hạn nộp.",
+      "scene.lab-classroom.narration": "Luyện thực hành: Classroom. Tập trung tạo đúng trạng thái cuối, thay vì chỉ nhớ thứ tự nhấp.. Bài tập và tệp đính kèm. Tạo bài tập và đính kèm tài liệu.. Bản sao cho từng học sinh. Cài đặt tạo bản sao cho mỗi học sinh.. Chủ đề và hạn nộp. Đặt cách phân loại và thời hạn nộp.",
+      "scene.lab-drive.title": "Luyện thực hành:\nDocs / Drive",
+      "scene.lab-drive.body": "Kiểm tra người được chia sẻ, quyền và vị trí lưu tệp.",
+      "scene.lab-drive.item0.title": "Quyền chia sẻ",
+      "scene.lab-drive.item0.body": "Phân quyền người xem hoặc chỉnh sửa phù hợp.",
+      "scene.lab-drive.item1.title": "Nhận xét",
+      "scene.lab-drive.item1.body": "Sử dụng nhận xét và nhắc tên.",
+      "scene.lab-drive.item2.title": "Sắp xếp thư mục",
+      "scene.lab-drive.item2.body": "Tạo thư mục và di chuyển tệp.",
+      "scene.lab-drive.narration": "Luyện thực hành: Docs / Drive. Kiểm tra người được chia sẻ, quyền và vị trí lưu tệp.. Quyền chia sẻ. Phân quyền người xem hoặc chỉnh sửa phù hợp.. Nhận xét. Sử dụng nhận xét và nhắc tên.. Sắp xếp thư mục. Tạo thư mục và di chuyển tệp.",
+      "scene.lab-forms.title": "Luyện thực hành:\nForms / Sheets",
+      "scene.lab-forms.body": "Luyện toàn bộ quy trình từ cài đặt câu đố đến nơi lưu câu trả lời.",
+      "scene.lab-forms.item0.title": "Câu đố và đáp án",
+      "scene.lab-forms.item0.body": "Bật chế độ câu đố và đặt đáp án.",
+      "scene.lab-forms.item1.title": "Người cộng tác",
+      "scene.lab-forms.item1.body": "Thêm người có thể cùng chỉnh sửa.",
+      "scene.lab-forms.item2.title": "Nơi lưu câu trả lời",
+      "scene.lab-forms.item2.body": "Chọn bảng tính lưu các câu trả lời.",
+      "scene.lab-forms.narration": "Luyện thực hành: Forms / Sheets. Luyện toàn bộ quy trình từ cài đặt câu đố đến nơi lưu câu trả lời.. Câu đố và đáp án. Bật chế độ câu đố và đặt đáp án.. Người cộng tác. Thêm người có thể cùng chỉnh sửa.. Nơi lưu câu trả lời. Chọn bảng tính lưu các câu trả lời.",
+      "scene.study-cycle.title": "Xây dựng\nchu trình học",
+      "scene.study-cycle.body": "Nắm tổng quan, xử lý tình huống, thực hành. Sau đó khắc phục điểm yếu và lặp lại.",
+      "scene.study-cycle.item0.title": "Nắm tổng quan",
+      "scene.study-cycle.item0.body": "Hiểu mục tiêu chứng nhận và kỳ thi.",
+      "scene.study-cycle.item1.title": "Luyện xử lý tình huống",
+      "scene.study-cycle.item1.body": "Luyện chọn công cụ theo mục tiêu.",
+      "scene.study-cycle.item2.title": "Thực hành thao tác",
+      "scene.study-cycle.item2.body": "Dùng thẻ nhiệm vụ chính thức để luyện tạo kết quả.",
+      "scene.study-cycle.narration": "Xây dựng chu trình học. Nắm tổng quan, xử lý tình huống, thực hành. Sau đó khắc phục điểm yếu và lặp lại.. Nắm tổng quan. Hiểu mục tiêu chứng nhận và kỳ thi.. Luyện xử lý tình huống. Luyện chọn công cụ theo mục tiêu.. Thực hành thao tác. Dùng thẻ nhiệm vụ chính thức để luyện tạo kết quả.",
+      "scene.review.title": "Tìm điểm yếu.\nLuyện tập lại.",
+      "scene.review.body": "Hỏi AI về quyền chia sẻ hoặc sự khác nhau giữa Meet và Chat. Kiểm chứng bằng thao tác thực tế.",
+      "scene.review.alt": "Minh họa người đang học",
+      "scene.review.narration": "Tìm điểm yếu. Luyện tập lại.. Hỏi AI về quyền chia sẻ hoặc sự khác nhau giữa Meet và Chat. Kiểm chứng bằng thao tác thực tế.",
+      "scene.next.title": "Sẵn sàng? Đến trang\nđăng ký chính thức.",
+      "scene.next.body": "Đăng nhập bằng Google và chọn tiếng Nhật. Xem hướng dẫn thi mới nhất trước khi tiếp tục.",
+      "scene.next.alt": "Minh họa người đang học",
+      "scene.next.action": "Mở trang đăng ký chính thức",
+      "scene.next.narration": "Sẵn sàng? Đến trang đăng ký chính thức.. Đăng nhập bằng Google và chọn tiếng Nhật. Xem hướng dẫn thi mới nhất trước khi tiếp tục.",
+      "guide.title": "Hướng dẫn Google Certified Educator Level 1",
+      "guide.description": "Hướng dẫn có hoạt ảnh và thuyết minh về chuẩn bị thi, chọn công cụ và thực hành.",
+      "document.source-pdf.title": "Tài liệu gốc: hướng dẫn đầy đủ",
+      "document.source-pdf.body": "PDF 11 trang được cung cấp. Có thể xem hoặc tải xuống.",
+      "document.official-certifications.title": "Google: thông tin chứng nhận chính thức",
+      "document.official-certifications.body": "Thông tin chứng nhận mới nhất, liên kết hướng dẫn thi và thẻ nhiệm vụ.",
+      "document.official-registration.title": "Google: đăng ký Level 1",
+      "document.official-registration.body": "Mở trang đăng ký tiếng Nhật chính thức trong tab mới."
     }
   }
 }
