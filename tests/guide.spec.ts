@@ -3,14 +3,70 @@ import fs from 'node:fs';
 const template = JSON.parse(fs.readFileSync('public/templates/guide.bundle.json', 'utf8'));
 const jsonFile = (data: unknown) => ({ name: 'guide.bundle.json', mimeType: 'application/json', buffer: Buffer.from(JSON.stringify(data)) });
 
+test('playback pauses motion, reveals items in order and resumes', async ({ page }) => {
+  await page.goto('/#/guide/steps');
+  await page.getByRole('button', { name: '一時停止', exact: true }).click();
+  const timeline = page.getByRole('slider', { name: '再生位置' });
+  await timeline.fill('2000');
+  await expect(page.locator('.slide-items .slide-item').first()).toHaveAttribute('aria-hidden', 'true');
+  const clock = await timeline.inputValue();
+  const titleOpacity = await page.locator('.slide-title').evaluate(element => getComputedStyle(element.parentElement!).opacity);
+  await page.waitForTimeout(400);
+  expect(await timeline.inputValue()).toBe(clock);
+  expect(await page.locator('.slide-title').evaluate(element => getComputedStyle(element.parentElement!).opacity)).toBe(titleOpacity);
+  await timeline.fill('6000');
+  await expect(page.locator('.slide-items .slide-item').nth(0)).toHaveAttribute('aria-hidden', 'false');
+  await expect(page.locator('.slide-items .slide-item').nth(1)).toHaveAttribute('aria-hidden', 'true');
+  await timeline.fill('10000');
+  await expect(page.locator('.slide-items .slide-item').nth(2)).toHaveAttribute('aria-hidden', 'false');
+  await page.getByRole('button', { name: '再生', exact: true }).click();
+  await expect.poll(async () => Number(await timeline.inputValue())).toBeGreaterThan(10000);
+});
+
+test('automatic playback advances, then pauses at a document action', async ({ page }) => {
+  await page.goto('/#/guide/steps');
+  await page.getByRole('button', { name: '一時停止', exact: true }).click();
+  const timeline = page.getByRole('slider', { name: '再生位置' });
+  await expect.poll(async () => Number(await timeline.getAttribute('max'))).toBeGreaterThan(16500);
+  await timeline.fill(String(Math.floor(Number(await timeline.getAttribute('max')) / 50) * 50 - 100));
+  await page.getByRole('button', { name: '再生', exact: true }).click();
+  await expect(page).toHaveURL(/guide\/documents$/);
+  await page.getByRole('button', { name: '一時停止', exact: true }).click();
+  await expect.poll(() => page.locator('audio').evaluate((element: HTMLAudioElement) => element.readyState)).toBeGreaterThan(0);
+  await timeline.fill(String(Math.floor(Number(await timeline.getAttribute('max')) / 50) * 50 - 100));
+  await page.getByRole('button', { name: '再生', exact: true }).click();
+  await expect(page.getByRole('button', { name: '再生', exact: true })).toBeVisible();
+  await expect(page).toHaveURL(/guide\/documents$/);
+  await expect(page.getByRole('link', { name: '契約書・資料を見る', exact: true })).toBeVisible();
+});
+
+test('narration pauses and switches to audio in the selected language', async ({ page }) => {
+  await page.goto('/#/guide/welcome');
+  const audio = page.locator('audio');
+  await page.getByRole('button', { name: '音声をオン', exact: true }).click();
+  await expect.poll(() => audio.evaluate((element: HTMLAudioElement) => element.paused)).toBe(false);
+  await page.getByRole('button', { name: '一時停止', exact: true }).click();
+  await expect.poll(() => audio.evaluate((element: HTMLAudioElement) => element.paused)).toBe(true);
+  const before = await audio.evaluate((element: HTMLAudioElement) => element.currentTime);
+  await page.waitForTimeout(300);
+  expect(await audio.evaluate((element: HTMLAudioElement) => element.currentTime)).toBeCloseTo(before, 1);
+  await page.getByRole('combobox').selectOption('en');
+  await expect(audio).toHaveAttribute('src', /\/en\/welcome\.mp3$/);
+  await expect(page).toHaveURL(/guide\/welcome$/);
+  await page.getByRole('button', { name: 'Play', exact: true }).click();
+  await expect.poll(() => audio.evaluate((element: HTMLAudioElement) => element.paused)).toBe(false);
+  await page.getByRole('button', { name: 'Replay this slide', exact: true }).click();
+  await expect.poll(() => audio.evaluate((element: HTMLAudioElement) => element.currentTime)).toBeLessThan(1);
+});
+
 test('language switches preserve the slide and documents return after refresh', async ({ page }) => {
   const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
   await page.goto('/#/guide/documents');
   await expect(page.locator('article[data-slide-id="documents"]')).toBeVisible();
   await page.getByRole('combobox').selectOption('en');
   await expect(page).toHaveURL(/guide\/documents$/);
-  await expect(page.getByRole('heading', { level: 1 })).toContainText('Your related documents');
-  await page.getByRole('link', { name: 'View related documents', exact: true }).click();
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Review your contract');
+  await page.getByRole('link', { name: 'View contract and documents', exact: true }).click();
   await expect(page).toHaveURL(/documents\?from=documents$/);
   await page.reload();
   await page.getByRole('link', { name: 'Back to the guide', exact: true }).first().click();
@@ -20,13 +76,13 @@ test('language switches preserve the slide and documents return after refresh', 
 });
 
 test('navigation, contents, browser back and completion work', async ({ page }, info) => {
-  await page.goto('/'); await page.getByRole('link', { name: '説明をはじめる', exact: true }).click();
+  await page.goto('/'); await page.getByRole('link', { name: 'スライド動画を見る', exact: true }).click();
   await expect(page.getByRole('button', { name: '前へ', exact: true })).toBeDisabled();
   await page.getByRole('button', { name: '次へ', exact: true }).click();
   await expect(page.locator('article[data-slide-id="language"]')).toBeVisible();
   await page.goBack(); await expect(page.locator('article[data-slide-id="welcome"]')).toBeVisible();
   if (info.project.name === 'mobile') await page.getByRole('button', { name: '目次', exact: true }).click();
-  await page.getByRole('button', { name: /05.*準備は/ }).click();
+  await page.getByRole('button', { name: /05.*わからない/ }).click();
   await expect(page.locator('article[data-slide-id="complete"]')).toBeVisible();
   await page.getByRole('link', { name: '完了', exact: true }).click(); await expect(page).toHaveURL(/#\/complete$/);
 });
@@ -50,12 +106,12 @@ test('valid JSON imports, persists, exports and resets', async ({ page }) => {
   await page.reload(); await expect(page).toHaveTitle(/投入テスト/);
   await page.goto('/#/studio'); const downloadPromise = page.waitForEvent('download'); await page.getByRole('button', { name: '設定JSONを書き出す', exact: true }).click();
   const download = await downloadPromise; const stream = await download.createReadStream(); const chunks: Buffer[] = []; for await (const chunk of stream!) chunks.push(chunk); const exported = JSON.parse(Buffer.concat(chunks).toString()); expect(exported.guide.id).toBe('custom'); expect(exported.guide.slides).toHaveLength(2);
-  page.on('dialog', dialog => dialog.accept()); await page.getByRole('button', { name: 'サンプルに戻す', exact: true }).click(); await expect(page.getByRole('heading', { name: 'はじめてのご案内', exact: true })).toBeVisible();
+  page.on('dialog', dialog => dialog.accept()); await page.getByRole('button', { name: 'サンプルに戻す', exact: true }).click(); await expect(page.getByRole('heading', { name: '契約前のご案内', exact: true })).toBeVisible();
 });
 
 test('invalid JSON and unsafe links preserve existing content', async ({ page }) => {
   await page.goto('/#/studio'); const invalid = structuredClone(template); invalid.guide.documents[0].href = 'javascript:alert(1)';
-  await page.locator('input[accept="application/json,.json"]').setInputFiles(jsonFile(invalid)); await expect(page.getByRole('alert')).toContainText('読み込めませんでした'); await expect(page.getByRole('heading', { name: 'はじめてのご案内', exact: true })).toBeVisible();
+  await page.locator('input[accept="application/json,.json"]').setInputFiles(jsonFile(invalid)); await expect(page.getByRole('alert')).toContainText('読み込めませんでした'); await expect(page.getByRole('heading', { name: '契約前のご案内', exact: true })).toBeVisible();
   await page.locator('input[accept="application/json,.json"]').setInputFiles({ name: 'bad.json', mimeType: 'application/json', buffer: Buffer.from('{bad') }); await expect(page.getByRole('alert')).toBeVisible();
 });
 

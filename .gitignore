@@ -5,3 +5,9 @@ playwright-report/
 .env*
 !.env.example
 artifacts/
+input/*
+!input/README.md
+!input/demo-source.md
+public/audio/**/*.tmp.mp3
+
+__pycache__/

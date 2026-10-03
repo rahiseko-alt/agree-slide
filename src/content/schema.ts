@@ -5,23 +5,35 @@ export const safeLink = (value: string) => /^(https:\/\/[^\s]+|\/(?!\/)[^\s]*|\.
   && !/[\\\u0000-\u0020]/.test(value);
 const imageSource = (value: string) => safeLink(value) || /^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/.test(value);
 const key = z.string().min(1).max(150);
-const icon = z.enum(['sparkles', 'globe', 'layers', 'file', 'check', 'arrow', 'play', 'hand', 'shield']);
+const icon = z.enum(['sparkles', 'globe', 'layers', 'file', 'check', 'arrow', 'play', 'hand', 'shield', 'person', 'pen']);
 const slideSchema = z.object({
   id: z.string().regex(/^[a-zA-Z0-9_-]+$/),
   titleKey: key, eyebrowKey: key.optional(), bodyKey: key.optional(),
-  layout: z.enum(['intro', 'steps', 'cards', 'image', 'finish']),
+  layout: z.enum(['intro', 'steps', 'cards', 'compare', 'quote', 'image', 'finish']),
   icon: icon.default('sparkles'),
   animation: z.enum(['fade', 'slide', 'scale']).default('slide'),
   staggerMs: z.number().min(0).max(2000).default(160),
+  playback: z.object({
+    durationMs: z.number().int().min(3000).max(120000).optional(),
+    revealEveryMs: z.number().int().min(300).max(10000).default(1200),
+    pauseAfter: z.boolean().default(false),
+  }).optional(),
   items: z.array(z.object({ titleKey: key, bodyKey: key.optional(), icon: icon.default('check') })).max(8).default([]),
   image: z.string().refine(imageSource, 'Image must be a local path, HTTPS URL or PNG/JPEG/WebP data URL').optional(),
   altKey: key.optional(),
+  illustration: z.object({ src: z.string().refine(imageSource, 'Unsafe illustration source'), altKey: key }).optional(),
+  narration: z.object({
+    textKey: key,
+    audio: z.record(z.string().regex(/^[a-z]{2,3}(-[A-Za-z]{2,4})?$/), z.string().refine(safeLink, 'Unsafe audio URL')).default({}),
+  }).optional(),
   action: z.discriminatedUnion('type', [
     z.object({ type: z.literal('documents'), labelKey: key }),
     z.object({ type: z.literal('link'), labelKey: key, href: z.string().refine(safeLink, 'Unsafe link') }),
   ]).optional(),
 }).superRefine((slide, ctx) => {
   if (slide.layout === 'image' && (!slide.image || !slide.altKey)) ctx.addIssue({ code: 'custom', message: 'Image slides require image and altKey' });
+  if (['steps', 'cards'].includes(slide.layout) && slide.items.length > 3) ctx.addIssue({ code: 'custom', message: 'Use at most 3 items per scene; split long explanations into multiple slides' });
+  if (slide.layout === 'compare' && slide.items.length !== 2) ctx.addIssue({ code: 'custom', message: 'Compare slides require exactly 2 items' });
 });
 export const guideSchema = z.object({
   id: z.string().regex(/^[a-zA-Z0-9_-]+$/), titleKey: key, descriptionKey: key,
@@ -42,7 +54,7 @@ export const bundleSchema = z.object({
 }).superRefine((bundle, ctx) => {
   if (!bundle.locales.ja) { ctx.addIssue({ code: 'custom', path: ['locales'], message: 'Japanese (ja) is the fallback locale and must be provided' }); return; }
   const keys = [bundle.guide.titleKey, bundle.guide.descriptionKey];
-  bundle.guide.slides.forEach(s => keys.push(s.titleKey, ...[s.eyebrowKey, s.bodyKey, s.altKey, s.action?.labelKey].filter((k): k is string => !!k), ...s.items.flatMap(item => [item.titleKey, ...(item.bodyKey ? [item.bodyKey] : [])])));
+  bundle.guide.slides.forEach(s => keys.push(s.titleKey, ...[s.eyebrowKey, s.bodyKey, s.altKey, s.illustration?.altKey, s.narration?.textKey, s.action?.labelKey].filter((k): k is string => !!k), ...s.items.flatMap(item => [item.titleKey, ...(item.bodyKey ? [item.bodyKey] : [])])));
   bundle.guide.documents.forEach(d => keys.push(d.titleKey, d.descriptionKey));
   for (const k of new Set(keys)) if (!bundle.locales.ja[k]?.trim()) ctx.addIssue({ code: 'custom', path: ['locales', 'ja', k], message: 'Missing Japanese content translation' });
 });

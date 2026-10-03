@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "name": "Open Doodles",
+      "pageHosts": ["www.opendoodles.com", "opendoodles.com"],
+      "downloadHosts": ["opendoodles.s3-us-west-1.amazonaws.com", "cdn.prod.website-files.com"],
+      "licenses": ["CC0-1.0"],
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "note": "Use original designer-created PNG artwork. Verify the source page before adding each asset."
+    }
+  ]
+}

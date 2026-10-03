@@ -1,15 +1,18 @@
 {
   "name": "interactive-guide",
   "version": "1.0.0",
-  "description": "Data-driven multilingual interactive slide guide",
+  "description": "Agent-authored multilingual animated slide presentations",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "npm run validate && npm run licenses && tsc --noEmit && vite build && node scripts/copy-notices.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "validate": "node scripts/validate-content.mjs",
-    "test": "playwright test",
+    "test": "node --test tests/content.test.mjs && playwright test",
     "licenses": "node scripts/licenses.mjs",
-    "content:publish": "node scripts/publish-content.mjs"
+    "content:publish": "node scripts/publish-content.mjs",
+    "content:compile": "node scripts/compile-content.mjs",
+    "assets:find": "python scripts/assets.py find",
+    "test:content": "node --test tests/content.test.mjs"
   },
   "keywords": [],
   "author": "",

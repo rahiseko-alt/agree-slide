@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "tracks": {
+    "audio/contract-orientation-demo/en/welcome.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "d45926d7ed36d5aa091191100536aea0d8c6dcdbb6e23d54a9bcfca6820977be",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/ja/welcome.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "8e199ba962b0ee9be025237a65d9c9a0438ad9ffd0993f8ba5e07373a61f4a34",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/ne/welcome.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "4f4ddbf4f297ca00a1e849581f3e5c95f13e0b8645fa4385e4257ec41df6c51f",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/ja/language.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "78630c2f4e6e03583087d7f1b187e45c56b01171b25dd76a66ff8f162f3dc354",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/en/language.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "aa5b62aa595a65488759909f387d43ade2fdbd7fc532d09a6d13d1234a567446",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/ne/language.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "5f11c4637bc17a93a1b839a6240d3572304593bc3f517e6430346dfe6c69902e",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/vi/welcome.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "ca5787d450eef77b2b9485cae1c405a6a02c0475201a834886ead1a16d01c779",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/ja/steps.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "9c98291b33242fca742e82356df144bc86346a8aab0ea499e67f5581e7b11d07",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/en/steps.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "0d2473db27ecec7420a25b3ec002a28fe5ec55e012d884c5275184d215d75b88",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/vi/language.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "2e7b2e560d565ff83217f92c8cc28155f111ea2ea1cc919a6041d57e8376eaf3",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/ne/steps.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "1c22055dd13776aa08bb068910d6078289ffb9b0b815f5b84ec672853c80509f",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/ja/documents.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "fbe458ffa2e6302e35430c1ccea0dc7601e27176f5398ff3013a77736f27c0eb",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/vi/steps.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "a961b41ba06c190c17d459f5628e00d02c51b523eb277713e712c4e55f7d3531",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/en/documents.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "8d0775f9c2c07831bcca651990f43da8fcb3891353f2531fe45c1e9d8d3054fa",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/ne/documents.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "330550f6a6c24e5b76067c538e02a29be097ee63e83e617c99580792b5fa9989",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/ja/complete.mp3": {
+      "provider": "edge",
+      "voice": "ja-JP-KeitaNeural",
+      "language": "ja",
+      "fingerprint": "08115430339be7d01094301729bf2ffb8894eac87208e25989d36f1f251f3e74",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/en/complete.mp3": {
+      "provider": "edge",
+      "voice": "en-US-GuyNeural",
+      "language": "en",
+      "fingerprint": "c9b97eba21c0efe635955523b8b7efd020105841493c64de06cbf36616c0c350",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/vi/documents.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "0f476cedd60f9bd75eddeeb79dcda3b39cb13dc0bdb5c5990a8dbe8ef6aee85c",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/ne/complete.mp3": {
+      "provider": "edge",
+      "voice": "ne-NP-SagarNeural",
+      "language": "ne",
+      "fingerprint": "28ae9cbebde7919d5841a32f152ea2253301a6d9bd609aca9009b395c2752b54",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    },
+    "audio/contract-orientation-demo/vi/complete.mp3": {
+      "provider": "edge",
+      "voice": "vi-VN-NamMinhNeural",
+      "language": "vi",
+      "fingerprint": "88e7151ccfaf58cee8fc5f6ef2d1f1097ca9ea4acc5014b172452b080d08fd31",
+      "rate": "-5%",
+      "style": "neutral business narration"
+    }
+  }
+}

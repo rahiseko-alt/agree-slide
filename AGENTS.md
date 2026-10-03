@@ -1,5 +1,15 @@
 # AGENTS.md
 
+## Agree Slide: source material → animated presentation
+
+When the user provides a script, contract explanation, orientation material, or asks to make a slide video, read `docs/AUTHORING.md` first and execute that production workflow. This is a content-production task using the existing player; the generic feature-development ceremonies below apply only when new application code is needed. Do not ask the user to write JSON or implement the presentation themselves.
+
+- You are the LLM authoring stage. Create `content/project.json`, select established layouts, reuse licensed stock illustrations, prepare translations and businesslike narration, compile, and check playback.
+- Never draw substitute character/scene illustrations with SVG, CSS, emoji collages or primitive shapes. Reuse `public/illustrations/catalog.json`; if needed, download an original designer-created asset from a permitted source and record its license. Standard UI icons and diagram connectors are allowed.
+- Do not add an in-app LLM API, AI generation backend, browser API key, or image generation dependency for normal content production.
+- The output is the existing interactive 16:9 web presentation with optional narration and contract links. Do not promise MP4 output: exporting MP4 is not implemented.
+- Preserve the source's contract terms. Never invent terms, imply that viewing concludes a contract, or treat placeholder documents as real contracts.
+
 ## Agent skills
 
 Skills come from [mattpocock/skills](https://github.com/mattpocock/skills), installed into `.claude/skills/` with `npx skills add mattpocock/skills` and pinned in `skills-lock.json`. Do not edit them locally; update with `npx skills update`.

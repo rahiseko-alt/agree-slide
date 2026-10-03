@@ -1,0 +1,335 @@
+{
+  "id": "contract-orientation-demo",
+  "title": {
+    "ja": "契約前のご案内",
+    "en": "Before you sign",
+    "ne": "हस्ताक्षर गर्नुअघि",
+    "vi": "Trước khi ký hợp đồng"
+  },
+  "description": {
+    "ja": "契約書と関連資料を確認し、わからないことは担当者に相談してください。",
+    "en": "Review the contract and related documents. Ask the contact person about anything unclear.",
+    "ne": "सम्झौता र सम्बन्धित कागजात हेर्नुहोस्। नबुझेका कुरा जिम्मेवार व्यक्तिलाई सोध्नुहोस्।",
+    "vi": "Xem hợp đồng và tài liệu liên quan. Hỏi người phụ trách về những điều chưa rõ."
+  },
+  "slides": [
+    {
+      "id": "welcome",
+      "pattern": "intro",
+      "title": {
+        "ja": "契約内容を、\n一緒に確認しましょう。",
+        "en": "Let’s review\nthe contract together.",
+        "ne": "सम्झौता सँगै\nजाँच गरौँ।",
+        "vi": "Cùng xem lại\nnội dung hợp đồng."
+      },
+      "body": {
+        "ja": "はじめに説明を見てから、契約書を確認します。これは制作例で、実際の契約条件は含まれていません。",
+        "en": "Watch the explanation, then read the contract. This is a production example and contains no actual contract terms.",
+        "ne": "पहिले व्याख्या हेर्नुहोस्, त्यसपछि सम्झौता पढ्नुहोस्। यो नमुना हो र यसमा वास्तविक सम्झौताका सर्त छैनन्।",
+        "vi": "Xem phần giải thích rồi đọc hợp đồng. Đây là ví dụ minh họa, không chứa điều khoản hợp đồng thực tế."
+      },
+      "icon": "person",
+      "animation": "scale",
+      "durationSeconds": 14,
+      "revealEverySeconds": 1.8,
+      "narration": {
+        "script": {
+          "ja": "これから契約前の確認事項をご案内します。説明を見たあと、契約書の内容を確認してください。この動画は制作例であり、実際の契約条件は含まれていません。",
+          "en": "We will walk through what to check before signing. After the explanation, read the contract. This is a production example and contains no actual contract terms.",
+          "ne": "हस्ताक्षर गर्नुअघि जाँच गर्नुपर्ने कुरा बताउँछौँ। व्याख्यापछि सम्झौता पढ्नुहोस्। यो नमुना हो, यसमा वास्तविक सम्झौताका सर्त छैनन्।",
+          "vi": "Chúng tôi sẽ hướng dẫn những điều cần kiểm tra trước khi ký. Sau phần giải thích, hãy đọc hợp đồng. Đây là ví dụ minh họa và không chứa điều khoản thực tế."
+        },
+        "audio": {
+          "en": "./audio/contract-orientation-demo/en/welcome.mp3",
+          "ja": "./audio/contract-orientation-demo/ja/welcome.mp3",
+          "ne": "./audio/contract-orientation-demo/ne/welcome.mp3",
+          "vi": "./audio/contract-orientation-demo/vi/welcome.mp3"
+        }
+      },
+      "source": "input/demo-source.md",
+      "illustration": {
+        "assetId": "doodles-sitting",
+        "alt": {
+          "ja": "説明を受ける人物のイラスト",
+          "en": "Illustration of a person receiving guidance",
+          "ne": "जानकारी लिइरहेको व्यक्तिको चित्र",
+          "vi": "Minh họa người đang được hướng dẫn"
+        }
+      }
+    },
+    {
+      "id": "language",
+      "pattern": "cards",
+      "title": {
+        "ja": "大切な条件を\n確認してください。",
+        "en": "Check the\nimportant terms.",
+        "ne": "महत्त्वपूर्ण सर्तहरू\nजाँच गर्नुहोस्।",
+        "vi": "Kiểm tra những\nđiều khoản quan trọng."
+      },
+      "body": {
+        "ja": "実際の書類に書かれた条件を、担当者と確認しましょう。",
+        "en": "Review the terms in the actual documents with your contact person.",
+        "ne": "वास्तविक कागजातका सर्त जिम्मेवार व्यक्तिसँग जाँच गर्नुहोस्।",
+        "vi": "Cùng người phụ trách kiểm tra điều khoản trong tài liệu thực tế."
+      },
+      "icon": "shield",
+      "animation": "scale",
+      "durationSeconds": 14,
+      "revealEverySeconds": 1.8,
+      "narration": {
+        "script": {
+          "ja": "契約する前に、実際の契約書に書かれた条件を確認してください。内容がわからない場合や、説明と異なる場合は、署名する前に担当者に相談してください。",
+          "en": "Before signing, check the terms in the actual contract. If anything is unclear or differs from the explanation, ask your contact person before signing.",
+          "ne": "हस्ताक्षर गर्नुअघि वास्तविक सम्झौताका सर्त जाँच गर्नुहोस्। नबुझेको कुरा वा व्याख्याभन्दा फरक कुरा भए हस्ताक्षर गर्नुअघि जिम्मेवार व्यक्तिलाई सोध्नुहोस्।",
+          "vi": "Trước khi ký, hãy kiểm tra điều khoản trong hợp đồng thực tế. Nếu chưa hiểu hoặc có khác biệt với phần giải thích, hãy hỏi người phụ trách trước khi ký."
+        },
+        "audio": {
+          "ja": "./audio/contract-orientation-demo/ja/language.mp3",
+          "en": "./audio/contract-orientation-demo/en/language.mp3",
+          "ne": "./audio/contract-orientation-demo/ne/language.mp3",
+          "vi": "./audio/contract-orientation-demo/vi/language.mp3"
+        }
+      },
+      "source": "input/demo-source.md",
+      "items": [
+        {
+          "title": {
+            "ja": "条件を確認",
+            "en": "Check the terms",
+            "ne": "सर्त जाँच गर्नुहोस्",
+            "vi": "Kiểm tra điều khoản"
+          },
+          "body": {
+            "ja": "契約書の記載内容を確認します。",
+            "en": "Read the terms in the contract.",
+            "ne": "सम्झौताका सर्त पढ्नुहोस्।",
+            "vi": "Đọc các điều khoản trong hợp đồng."
+          },
+          "icon": "file"
+        },
+        {
+          "title": {
+            "ja": "不明点を相談",
+            "en": "Ask questions",
+            "ne": "प्रश्न सोध्नुहोस्",
+            "vi": "Hỏi điều chưa rõ"
+          },
+          "body": {
+            "ja": "署名前に担当者へ確認します。",
+            "en": "Contact the responsible person before signing.",
+            "ne": "हस्ताक्षर गर्नुअघि जिम्मेवार व्यक्तिलाई सोध्नुहोस्।",
+            "vi": "Liên hệ người phụ trách trước khi ký."
+          },
+          "icon": "person"
+        }
+      ]
+    },
+    {
+      "id": "steps",
+      "pattern": "steps",
+      "title": {
+        "ja": "契約までの\n3つのステップ。",
+        "en": "Three steps\nto signing.",
+        "ne": "सम्झौता गर्ने\nतीन चरण।",
+        "vi": "Ba bước\nđể ký hợp đồng."
+      },
+      "body": {
+        "ja": "説明・書類の確認・署名の順で進めます。",
+        "en": "Follow the explanation, document review and signing steps.",
+        "ne": "व्याख्या, कागजात जाँच र हस्ताक्षरको क्रममा अघि बढ्नुहोस्।",
+        "vi": "Lần lượt xem giải thích, kiểm tra tài liệu và ký."
+      },
+      "icon": "layers",
+      "animation": "slide",
+      "durationSeconds": 14,
+      "revealEverySeconds": 1.8,
+      "narration": {
+        "script": {
+          "ja": "手続きは三つのステップで進めます。まず説明を確認します。次に契約書と関連資料を確認します。最後に、不明点を解消したうえで、案内された方法で署名します。",
+          "en": "There are three steps. First, watch the explanation. Next, review the contract and supporting documents. Finally, resolve any questions and sign using the method you are given.",
+          "ne": "तीन चरण छन्। पहिले व्याख्या हेर्नुहोस्। त्यसपछि सम्झौता र सम्बन्धित कागजात जाँच गर्नुहोस्। अन्त्यमा प्रश्नहरू समाधान गरेर तोकिएको विधिबाट हस्ताक्षर गर्नुहोस्।",
+          "vi": "Có ba bước. Đầu tiên xem phần giải thích. Tiếp theo kiểm tra hợp đồng và tài liệu liên quan. Cuối cùng giải quyết các thắc mắc và ký theo phương thức được hướng dẫn."
+        },
+        "audio": {
+          "ja": "./audio/contract-orientation-demo/ja/steps.mp3",
+          "en": "./audio/contract-orientation-demo/en/steps.mp3",
+          "ne": "./audio/contract-orientation-demo/ne/steps.mp3",
+          "vi": "./audio/contract-orientation-demo/vi/steps.mp3"
+        }
+      },
+      "source": "input/demo-source.md",
+      "items": [
+        {
+          "title": {
+            "ja": "説明を見る",
+            "en": "Watch the explanation",
+            "ne": "व्याख्या हेर्नुहोस्",
+            "vi": "Xem giải thích"
+          },
+          "body": {
+            "ja": "内容の流れを確認します。",
+            "en": "Understand the overall process.",
+            "ne": "समग्र प्रक्रिया बुझ्नुहोस्।",
+            "vi": "Hiểu quy trình tổng thể."
+          },
+          "icon": "play"
+        },
+        {
+          "title": {
+            "ja": "書類を確認する",
+            "en": "Review the documents",
+            "ne": "कागजात जाँच गर्नुहोस्",
+            "vi": "Kiểm tra tài liệu"
+          },
+          "body": {
+            "ja": "原本の条件を確認します。",
+            "en": "Check the terms in the original documents.",
+            "ne": "मूल कागजातका सर्त जाँच गर्नुहोस्।",
+            "vi": "Kiểm tra điều khoản trong bản gốc."
+          },
+          "icon": "file"
+        },
+        {
+          "title": {
+            "ja": "契約手続きへ進む",
+            "en": "Proceed to signing",
+            "ne": "हस्ताक्षरतर्फ जानुहोस्",
+            "vi": "Tiến hành ký"
+          },
+          "body": {
+            "ja": "案内された方法で署名します。",
+            "en": "Sign using the method you are given.",
+            "ne": "तोकिएको विधिबाट हस्ताक्षर गर्नुहोस्।",
+            "vi": "Ký theo phương thức được hướng dẫn."
+          },
+          "icon": "pen"
+        }
+      ]
+    },
+    {
+      "id": "documents",
+      "pattern": "intro",
+      "title": {
+        "ja": "契約書と資料を、\nここから確認。",
+        "en": "Review your contract\nand documents here.",
+        "ne": "सम्झौता र कागजात\nयहाँ हेर्नुहोस्।",
+        "vi": "Xem hợp đồng\nvà tài liệu tại đây."
+      },
+      "body": {
+        "ja": "ボタンを押して書類を開けます。確認後は、元のスライドへ戻れます。",
+        "en": "Open the documents with the button. Return to this slide after reviewing them.",
+        "ne": "बटन थिचेर कागजात खोल्नुहोस्। जाँचपछि यही स्लाइडमा फर्कनुहोस्।",
+        "vi": "Nhấn nút để mở tài liệu. Xem xong có thể quay lại slide này."
+      },
+      "icon": "file",
+      "animation": "slide",
+      "durationSeconds": 14,
+      "revealEverySeconds": 1.8,
+      "narration": {
+        "script": {
+          "ja": "ここから契約書と関連資料を開けます。PDFはブラウザの保存機能でダウンロードできます。書類を確認したら、説明に戻るボタンで続きへ戻ってください。",
+          "en": "Open the contract and related documents here. You can download PDFs using your browser’s save function. After reviewing them, use Back to the guide to return to this slide.",
+          "ne": "यहाँ सम्झौता र सम्बन्धित कागजात खोल्नुहोस्। ब्राउजरको सेभ सुविधाबाट पीडीएफ डाउनलोड गर्न सकिन्छ। जाँचपछि व्याख्यामा फर्कने बटनबाट यही स्लाइडमा फर्कनुहोस्।",
+          "vi": "Mở hợp đồng và tài liệu liên quan tại đây. Bạn có thể tải PDF bằng chức năng lưu của trình duyệt. Sau khi xem, nhấn Quay lại hướng dẫn để trở về slide này."
+        },
+        "audio": {
+          "ja": "./audio/contract-orientation-demo/ja/documents.mp3",
+          "en": "./audio/contract-orientation-demo/en/documents.mp3",
+          "ne": "./audio/contract-orientation-demo/ne/documents.mp3",
+          "vi": "./audio/contract-orientation-demo/vi/documents.mp3"
+        }
+      },
+      "source": "input/demo-source.md",
+      "illustration": {
+        "assetId": "doodles-reading",
+        "alt": {
+          "ja": "書類を読む人物のイラスト",
+          "en": "Illustration of a person reading documents",
+          "ne": "कागजात पढिरहेको व्यक्तिको चित्र",
+          "vi": "Minh họa người đang đọc tài liệu"
+        }
+      },
+      "action": {
+        "type": "documents",
+        "label": {
+          "ja": "契約書・資料を見る",
+          "en": "View contract and documents",
+          "ne": "सम्झौता र कागजात हेर्नुहोस्",
+          "vi": "Xem hợp đồng và tài liệu"
+        }
+      }
+    },
+    {
+      "id": "complete",
+      "pattern": "finish",
+      "title": {
+        "ja": "わからない点は、\n署名前に確認。",
+        "en": "Ask questions\nbefore signing.",
+        "ne": "हस्ताक्षर गर्नुअघि\nप्रश्न सोध्नुहोस्।",
+        "vi": "Hỏi rõ\ntrước khi ký."
+      },
+      "body": {
+        "ja": "納得した内容を確認してから、担当者の案内する契約手続きへ進んでください。",
+        "en": "Once you understand the terms, follow the signing instructions from your contact person.",
+        "ne": "सर्त बुझेपछि जिम्मेवार व्यक्तिले दिएको हस्ताक्षरको निर्देशन पालना गर्नुहोस्।",
+        "vi": "Khi đã hiểu điều khoản, hãy làm theo hướng dẫn ký của người phụ trách."
+      },
+      "icon": "check",
+      "animation": "scale",
+      "durationSeconds": 14,
+      "revealEverySeconds": 1.8,
+      "narration": {
+        "script": {
+          "ja": "説明はここまでです。わからない点は、署名する前に担当者へ確認してください。この説明の閲覧だけで契約が成立することはありません。",
+          "en": "The explanation is complete. Ask your contact person about anything unclear before signing. Viewing this explanation alone does not conclude a contract.",
+          "ne": "व्याख्या सकियो। नबुझेका कुरा हस्ताक्षर गर्नुअघि जिम्मेवार व्यक्तिलाई सोध्नुहोस्। यो व्याख्या हेर्दैमा सम्झौता सम्पन्न हुँदैन।",
+          "vi": "Phần giải thích đã kết thúc. Hãy hỏi người phụ trách về những điều chưa rõ trước khi ký. Chỉ xem phần giải thích này không có nghĩa là hợp đồng đã được ký kết."
+        },
+        "audio": {
+          "ja": "./audio/contract-orientation-demo/ja/complete.mp3",
+          "en": "./audio/contract-orientation-demo/en/complete.mp3",
+          "ne": "./audio/contract-orientation-demo/ne/complete.mp3",
+          "vi": "./audio/contract-orientation-demo/vi/complete.mp3"
+        }
+      },
+      "source": "input/demo-source.md",
+      "illustration": {
+        "assetId": "doodles-strolling",
+        "alt": {
+          "ja": "手続きを進める人物のイラスト",
+          "en": "Illustration of a person moving through the process",
+          "ne": "प्रक्रियामा अघि बढिरहेको व्यक्तिको चित्र",
+          "vi": "Minh họa người đang thực hiện quy trình"
+        }
+      },
+      "action": {
+        "type": "documents",
+        "label": {
+          "ja": "契約書・資料を見る",
+          "en": "View contract and documents",
+          "ne": "सम्झौता र कागजात हेर्नुहोस्",
+          "vi": "Xem hợp đồng và tài liệu"
+        }
+      }
+    }
+  ],
+  "documents": [
+    {
+      "id": "sample",
+      "title": {
+        "ja": "サンプル契約書",
+        "en": "Sample contract document",
+        "ne": "नमुना सम्झौता कागजात",
+        "vi": "Tài liệu hợp đồng mẫu"
+      },
+      "description": {
+        "ja": "表示確認用のPDFです。実際の契約書ではありません。",
+        "en": "A PDF for testing the viewer. It is not an actual contract.",
+        "ne": "हेर्नका लागि नमुना पीडीएफ। वास्तविक सम्झौता होइन।",
+        "vi": "PDF để kiểm tra hiển thị. Đây không phải hợp đồng thực tế."
+      },
+      "kind": "pdf",
+      "href": "./documents/sample.pdf"
+    }
+  ]
+}

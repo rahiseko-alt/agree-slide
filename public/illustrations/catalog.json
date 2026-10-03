@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "doodles-reading",
+      "path": "./illustrations/reading.png",
+      "tags": [
+        "契約",
+        "書類",
+        "読む",
+        "contract",
+        "documents"
+      ],
+      "creator": "Pablo Stanley",
+      "sourcePage": "https://www.opendoodles.com/",
+      "downloadUrl": "https://opendoodles.s3-us-west-1.amazonaws.com/reading.png",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadedAt": "2026-10-03",
+      "attributionRequired": false
+    },
+    {
+      "id": "doodles-sitting-reading",
+      "path": "./illustrations/sitting-reading.png",
+      "tags": [
+        "確認",
+        "説明",
+        "オリエンテーション",
+        "review",
+        "orientation"
+      ],
+      "creator": "Pablo Stanley",
+      "sourcePage": "https://www.opendoodles.com/",
+      "downloadUrl": "https://opendoodles.s3-us-west-1.amazonaws.com/sitting-reading.png",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadedAt": "2026-10-03",
+      "attributionRequired": false
+    },
+    {
+      "id": "doodles-sitting",
+      "path": "./illustrations/sitting.png",
+      "tags": [
+        "相談",
+        "案内",
+        "discussion",
+        "support"
+      ],
+      "creator": "Pablo Stanley",
+      "sourcePage": "https://www.opendoodles.com/",
+      "downloadUrl": "https://opendoodles.s3-us-west-1.amazonaws.com/sitting.png",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadedAt": "2026-10-03",
+      "attributionRequired": false
+    },
+    {
+      "id": "doodles-strolling",
+      "path": "./illustrations/strolling.png",
+      "tags": [
+        "開始",
+        "流れ",
+        "start",
+        "process"
+      ],
+      "creator": "Pablo Stanley",
+      "sourcePage": "https://www.opendoodles.com/",
+      "downloadUrl": "https://opendoodles.s3-us-west-1.amazonaws.com/strolling.png",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadedAt": "2026-10-03",
+      "attributionRequired": false
+    },
+    {
+      "id": "doodles-coffee",
+      "path": "./illustrations/coffee.png",
+      "tags": [
+        "休憩",
+        "案内",
+        "break",
+        "welcome"
+      ],
+      "creator": "Pablo Stanley",
+      "sourcePage": "https://www.opendoodles.com/",
+      "downloadUrl": "https://opendoodles.s3-us-west-1.amazonaws.com/coffee.png",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "downloadedAt": "2026-10-03",
+      "attributionRequired": false
+    }
+  ]
+}

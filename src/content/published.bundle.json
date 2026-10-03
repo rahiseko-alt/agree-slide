@@ -1,0 +1,332 @@
+{
+  "version": 1,
+  "guide": {
+    "id": "contract-orientation-demo",
+    "titleKey": "guide.title",
+    "descriptionKey": "guide.description",
+    "slides": [
+      {
+        "id": "welcome",
+        "titleKey": "scene.welcome.title",
+        "bodyKey": "scene.welcome.body",
+        "layout": "intro",
+        "icon": "person",
+        "animation": "scale",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 14000,
+          "revealEveryMs": 1800,
+          "pauseAfter": false
+        },
+        "items": [],
+        "illustration": {
+          "src": "./illustrations/sitting.png",
+          "altKey": "scene.welcome.alt"
+        },
+        "narration": {
+          "textKey": "scene.welcome.narration",
+          "audio": {
+            "en": "./audio/contract-orientation-demo/en/welcome.mp3",
+            "ja": "./audio/contract-orientation-demo/ja/welcome.mp3",
+            "ne": "./audio/contract-orientation-demo/ne/welcome.mp3",
+            "vi": "./audio/contract-orientation-demo/vi/welcome.mp3"
+          }
+        }
+      },
+      {
+        "id": "language",
+        "titleKey": "scene.language.title",
+        "bodyKey": "scene.language.body",
+        "layout": "cards",
+        "icon": "shield",
+        "animation": "scale",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 14000,
+          "revealEveryMs": 1800,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.language.item0.title",
+            "bodyKey": "scene.language.item0.body",
+            "icon": "file"
+          },
+          {
+            "titleKey": "scene.language.item1.title",
+            "bodyKey": "scene.language.item1.body",
+            "icon": "person"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.language.narration",
+          "audio": {
+            "ja": "./audio/contract-orientation-demo/ja/language.mp3",
+            "en": "./audio/contract-orientation-demo/en/language.mp3",
+            "ne": "./audio/contract-orientation-demo/ne/language.mp3",
+            "vi": "./audio/contract-orientation-demo/vi/language.mp3"
+          }
+        }
+      },
+      {
+        "id": "steps",
+        "titleKey": "scene.steps.title",
+        "bodyKey": "scene.steps.body",
+        "layout": "steps",
+        "icon": "layers",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 14000,
+          "revealEveryMs": 1800,
+          "pauseAfter": false
+        },
+        "items": [
+          {
+            "titleKey": "scene.steps.item0.title",
+            "bodyKey": "scene.steps.item0.body",
+            "icon": "play"
+          },
+          {
+            "titleKey": "scene.steps.item1.title",
+            "bodyKey": "scene.steps.item1.body",
+            "icon": "file"
+          },
+          {
+            "titleKey": "scene.steps.item2.title",
+            "bodyKey": "scene.steps.item2.body",
+            "icon": "pen"
+          }
+        ],
+        "narration": {
+          "textKey": "scene.steps.narration",
+          "audio": {
+            "ja": "./audio/contract-orientation-demo/ja/steps.mp3",
+            "en": "./audio/contract-orientation-demo/en/steps.mp3",
+            "ne": "./audio/contract-orientation-demo/ne/steps.mp3",
+            "vi": "./audio/contract-orientation-demo/vi/steps.mp3"
+          }
+        }
+      },
+      {
+        "id": "documents",
+        "titleKey": "scene.documents.title",
+        "bodyKey": "scene.documents.body",
+        "layout": "intro",
+        "icon": "file",
+        "animation": "slide",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 14000,
+          "revealEveryMs": 1800,
+          "pauseAfter": false
+        },
+        "items": [],
+        "illustration": {
+          "src": "./illustrations/reading.png",
+          "altKey": "scene.documents.alt"
+        },
+        "narration": {
+          "textKey": "scene.documents.narration",
+          "audio": {
+            "ja": "./audio/contract-orientation-demo/ja/documents.mp3",
+            "en": "./audio/contract-orientation-demo/en/documents.mp3",
+            "ne": "./audio/contract-orientation-demo/ne/documents.mp3",
+            "vi": "./audio/contract-orientation-demo/vi/documents.mp3"
+          }
+        },
+        "action": {
+          "type": "documents",
+          "labelKey": "scene.documents.action"
+        }
+      },
+      {
+        "id": "complete",
+        "titleKey": "scene.complete.title",
+        "bodyKey": "scene.complete.body",
+        "layout": "finish",
+        "icon": "check",
+        "animation": "scale",
+        "staggerMs": 160,
+        "playback": {
+          "durationMs": 14000,
+          "revealEveryMs": 1800,
+          "pauseAfter": false
+        },
+        "items": [],
+        "illustration": {
+          "src": "./illustrations/strolling.png",
+          "altKey": "scene.complete.alt"
+        },
+        "narration": {
+          "textKey": "scene.complete.narration",
+          "audio": {
+            "ja": "./audio/contract-orientation-demo/ja/complete.mp3",
+            "en": "./audio/contract-orientation-demo/en/complete.mp3",
+            "ne": "./audio/contract-orientation-demo/ne/complete.mp3",
+            "vi": "./audio/contract-orientation-demo/vi/complete.mp3"
+          }
+        },
+        "action": {
+          "type": "documents",
+          "labelKey": "scene.complete.action"
+        }
+      }
+    ],
+    "documents": [
+      {
+        "id": "sample",
+        "titleKey": "document.sample.title",
+        "descriptionKey": "document.sample.body",
+        "kind": "pdf",
+        "href": "./documents/sample.pdf"
+      }
+    ]
+  },
+  "locales": {
+    "ja": {
+      "scene.welcome.title": "契約内容を、\n一緒に確認しましょう。",
+      "scene.welcome.body": "はじめに説明を見てから、契約書を確認します。これは制作例で、実際の契約条件は含まれていません。",
+      "scene.welcome.alt": "説明を受ける人物のイラスト",
+      "scene.welcome.narration": "これから契約前の確認事項をご案内します。説明を見たあと、契約書の内容を確認してください。この動画は制作例であり、実際の契約条件は含まれていません。",
+      "scene.language.title": "大切な条件を\n確認してください。",
+      "scene.language.body": "実際の書類に書かれた条件を、担当者と確認しましょう。",
+      "scene.language.item0.title": "条件を確認",
+      "scene.language.item0.body": "契約書の記載内容を確認します。",
+      "scene.language.item1.title": "不明点を相談",
+      "scene.language.item1.body": "署名前に担当者へ確認します。",
+      "scene.language.narration": "契約する前に、実際の契約書に書かれた条件を確認してください。内容がわからない場合や、説明と異なる場合は、署名する前に担当者に相談してください。",
+      "scene.steps.title": "契約までの\n3つのステップ。",
+      "scene.steps.body": "説明・書類の確認・署名の順で進めます。",
+      "scene.steps.item0.title": "説明を見る",
+      "scene.steps.item0.body": "内容の流れを確認します。",
+      "scene.steps.item1.title": "書類を確認する",
+      "scene.steps.item1.body": "原本の条件を確認します。",
+      "scene.steps.item2.title": "契約手続きへ進む",
+      "scene.steps.item2.body": "案内された方法で署名します。",
+      "scene.steps.narration": "手続きは三つのステップで進めます。まず説明を確認します。次に契約書と関連資料を確認します。最後に、不明点を解消したうえで、案内された方法で署名します。",
+      "scene.documents.title": "契約書と資料を、\nここから確認。",
+      "scene.documents.body": "ボタンを押して書類を開けます。確認後は、元のスライドへ戻れます。",
+      "scene.documents.alt": "書類を読む人物のイラスト",
+      "scene.documents.action": "契約書・資料を見る",
+      "scene.documents.narration": "ここから契約書と関連資料を開けます。PDFはブラウザの保存機能でダウンロードできます。書類を確認したら、説明に戻るボタンで続きへ戻ってください。",
+      "scene.complete.title": "わからない点は、\n署名前に確認。",
+      "scene.complete.body": "納得した内容を確認してから、担当者の案内する契約手続きへ進んでください。",
+      "scene.complete.alt": "手続きを進める人物のイラスト",
+      "scene.complete.action": "契約書・資料を見る",
+      "scene.complete.narration": "説明はここまでです。わからない点は、署名する前に担当者へ確認してください。この説明の閲覧だけで契約が成立することはありません。",
+      "guide.title": "契約前のご案内",
+      "guide.description": "契約書と関連資料を確認し、わからないことは担当者に相談してください。",
+      "document.sample.title": "サンプル契約書",
+      "document.sample.body": "表示確認用のPDFです。実際の契約書ではありません。"
+    },
+    "en": {
+      "scene.welcome.title": "Let’s review\nthe contract together.",
+      "scene.welcome.body": "Watch the explanation, then read the contract. This is a production example and contains no actual contract terms.",
+      "scene.welcome.alt": "Illustration of a person receiving guidance",
+      "scene.welcome.narration": "We will walk through what to check before signing. After the explanation, read the contract. This is a production example and contains no actual contract terms.",
+      "scene.language.title": "Check the\nimportant terms.",
+      "scene.language.body": "Review the terms in the actual documents with your contact person.",
+      "scene.language.item0.title": "Check the terms",
+      "scene.language.item0.body": "Read the terms in the contract.",
+      "scene.language.item1.title": "Ask questions",
+      "scene.language.item1.body": "Contact the responsible person before signing.",
+      "scene.language.narration": "Before signing, check the terms in the actual contract. If anything is unclear or differs from the explanation, ask your contact person before signing.",
+      "scene.steps.title": "Three steps\nto signing.",
+      "scene.steps.body": "Follow the explanation, document review and signing steps.",
+      "scene.steps.item0.title": "Watch the explanation",
+      "scene.steps.item0.body": "Understand the overall process.",
+      "scene.steps.item1.title": "Review the documents",
+      "scene.steps.item1.body": "Check the terms in the original documents.",
+      "scene.steps.item2.title": "Proceed to signing",
+      "scene.steps.item2.body": "Sign using the method you are given.",
+      "scene.steps.narration": "There are three steps. First, watch the explanation. Next, review the contract and supporting documents. Finally, resolve any questions and sign using the method you are given.",
+      "scene.documents.title": "Review your contract\nand documents here.",
+      "scene.documents.body": "Open the documents with the button. Return to this slide after reviewing them.",
+      "scene.documents.alt": "Illustration of a person reading documents",
+      "scene.documents.action": "View contract and documents",
+      "scene.documents.narration": "Open the contract and related documents here. You can download PDFs using your browser’s save function. After reviewing them, use Back to the guide to return to this slide.",
+      "scene.complete.title": "Ask questions\nbefore signing.",
+      "scene.complete.body": "Once you understand the terms, follow the signing instructions from your contact person.",
+      "scene.complete.alt": "Illustration of a person moving through the process",
+      "scene.complete.action": "View contract and documents",
+      "scene.complete.narration": "The explanation is complete. Ask your contact person about anything unclear before signing. Viewing this explanation alone does not conclude a contract.",
+      "guide.title": "Before you sign",
+      "guide.description": "Review the contract and related documents. Ask the contact person about anything unclear.",
+      "document.sample.title": "Sample contract document",
+      "document.sample.body": "A PDF for testing the viewer. It is not an actual contract."
+    },
+    "ne": {
+      "scene.welcome.title": "सम्झौता सँगै\nजाँच गरौँ।",
+      "scene.welcome.body": "पहिले व्याख्या हेर्नुहोस्, त्यसपछि सम्झौता पढ्नुहोस्। यो नमुना हो र यसमा वास्तविक सम्झौताका सर्त छैनन्।",
+      "scene.welcome.alt": "जानकारी लिइरहेको व्यक्तिको चित्र",
+      "scene.welcome.narration": "हस्ताक्षर गर्नुअघि जाँच गर्नुपर्ने कुरा बताउँछौँ। व्याख्यापछि सम्झौता पढ्नुहोस्। यो नमुना हो, यसमा वास्तविक सम्झौताका सर्त छैनन्।",
+      "scene.language.title": "महत्त्वपूर्ण सर्तहरू\nजाँच गर्नुहोस्।",
+      "scene.language.body": "वास्तविक कागजातका सर्त जिम्मेवार व्यक्तिसँग जाँच गर्नुहोस्।",
+      "scene.language.item0.title": "सर्त जाँच गर्नुहोस्",
+      "scene.language.item0.body": "सम्झौताका सर्त पढ्नुहोस्।",
+      "scene.language.item1.title": "प्रश्न सोध्नुहोस्",
+      "scene.language.item1.body": "हस्ताक्षर गर्नुअघि जिम्मेवार व्यक्तिलाई सोध्नुहोस्।",
+      "scene.language.narration": "हस्ताक्षर गर्नुअघि वास्तविक सम्झौताका सर्त जाँच गर्नुहोस्। नबुझेको कुरा वा व्याख्याभन्दा फरक कुरा भए हस्ताक्षर गर्नुअघि जिम्मेवार व्यक्तिलाई सोध्नुहोस्।",
+      "scene.steps.title": "सम्झौता गर्ने\nतीन चरण।",
+      "scene.steps.body": "व्याख्या, कागजात जाँच र हस्ताक्षरको क्रममा अघि बढ्नुहोस्।",
+      "scene.steps.item0.title": "व्याख्या हेर्नुहोस्",
+      "scene.steps.item0.body": "समग्र प्रक्रिया बुझ्नुहोस्।",
+      "scene.steps.item1.title": "कागजात जाँच गर्नुहोस्",
+      "scene.steps.item1.body": "मूल कागजातका सर्त जाँच गर्नुहोस्।",
+      "scene.steps.item2.title": "हस्ताक्षरतर्फ जानुहोस्",
+      "scene.steps.item2.body": "तोकिएको विधिबाट हस्ताक्षर गर्नुहोस्।",
+      "scene.steps.narration": "तीन चरण छन्। पहिले व्याख्या हेर्नुहोस्। त्यसपछि सम्झौता र सम्बन्धित कागजात जाँच गर्नुहोस्। अन्त्यमा प्रश्नहरू समाधान गरेर तोकिएको विधिबाट हस्ताक्षर गर्नुहोस्।",
+      "scene.documents.title": "सम्झौता र कागजात\nयहाँ हेर्नुहोस्।",
+      "scene.documents.body": "बटन थिचेर कागजात खोल्नुहोस्। जाँचपछि यही स्लाइडमा फर्कनुहोस्।",
+      "scene.documents.alt": "कागजात पढिरहेको व्यक्तिको चित्र",
+      "scene.documents.action": "सम्झौता र कागजात हेर्नुहोस्",
+      "scene.documents.narration": "यहाँ सम्झौता र सम्बन्धित कागजात खोल्नुहोस्। ब्राउजरको सेभ सुविधाबाट पीडीएफ डाउनलोड गर्न सकिन्छ। जाँचपछि व्याख्यामा फर्कने बटनबाट यही स्लाइडमा फर्कनुहोस्।",
+      "scene.complete.title": "हस्ताक्षर गर्नुअघि\nप्रश्न सोध्नुहोस्।",
+      "scene.complete.body": "सर्त बुझेपछि जिम्मेवार व्यक्तिले दिएको हस्ताक्षरको निर्देशन पालना गर्नुहोस्।",
+      "scene.complete.alt": "प्रक्रियामा अघि बढिरहेको व्यक्तिको चित्र",
+      "scene.complete.action": "सम्झौता र कागजात हेर्नुहोस्",
+      "scene.complete.narration": "व्याख्या सकियो। नबुझेका कुरा हस्ताक्षर गर्नुअघि जिम्मेवार व्यक्तिलाई सोध्नुहोस्। यो व्याख्या हेर्दैमा सम्झौता सम्पन्न हुँदैन।",
+      "guide.title": "हस्ताक्षर गर्नुअघि",
+      "guide.description": "सम्झौता र सम्बन्धित कागजात हेर्नुहोस्। नबुझेका कुरा जिम्मेवार व्यक्तिलाई सोध्नुहोस्।",
+      "document.sample.title": "नमुना सम्झौता कागजात",
+      "document.sample.body": "हेर्नका लागि नमुना पीडीएफ। वास्तविक सम्झौता होइन।"
+    },
+    "vi": {
+      "scene.welcome.title": "Cùng xem lại\nnội dung hợp đồng.",
+      "scene.welcome.body": "Xem phần giải thích rồi đọc hợp đồng. Đây là ví dụ minh họa, không chứa điều khoản hợp đồng thực tế.",
+      "scene.welcome.alt": "Minh họa người đang được hướng dẫn",
+      "scene.welcome.narration": "Chúng tôi sẽ hướng dẫn những điều cần kiểm tra trước khi ký. Sau phần giải thích, hãy đọc hợp đồng. Đây là ví dụ minh họa và không chứa điều khoản thực tế.",
+      "scene.language.title": "Kiểm tra những\nđiều khoản quan trọng.",
+      "scene.language.body": "Cùng người phụ trách kiểm tra điều khoản trong tài liệu thực tế.",
+      "scene.language.item0.title": "Kiểm tra điều khoản",
+      "scene.language.item0.body": "Đọc các điều khoản trong hợp đồng.",
+      "scene.language.item1.title": "Hỏi điều chưa rõ",
+      "scene.language.item1.body": "Liên hệ người phụ trách trước khi ký.",
+      "scene.language.narration": "Trước khi ký, hãy kiểm tra điều khoản trong hợp đồng thực tế. Nếu chưa hiểu hoặc có khác biệt với phần giải thích, hãy hỏi người phụ trách trước khi ký.",
+      "scene.steps.title": "Ba bước\nđể ký hợp đồng.",
+      "scene.steps.body": "Lần lượt xem giải thích, kiểm tra tài liệu và ký.",
+      "scene.steps.item0.title": "Xem giải thích",
+      "scene.steps.item0.body": "Hiểu quy trình tổng thể.",
+      "scene.steps.item1.title": "Kiểm tra tài liệu",
+      "scene.steps.item1.body": "Kiểm tra điều khoản trong bản gốc.",
+      "scene.steps.item2.title": "Tiến hành ký",
+      "scene.steps.item2.body": "Ký theo phương thức được hướng dẫn.",
+      "scene.steps.narration": "Có ba bước. Đầu tiên xem phần giải thích. Tiếp theo kiểm tra hợp đồng và tài liệu liên quan. Cuối cùng giải quyết các thắc mắc và ký theo phương thức được hướng dẫn.",
+      "scene.documents.title": "Xem hợp đồng\nvà tài liệu tại đây.",
+      "scene.documents.body": "Nhấn nút để mở tài liệu. Xem xong có thể quay lại slide này.",
+      "scene.documents.alt": "Minh họa người đang đọc tài liệu",
+      "scene.documents.action": "Xem hợp đồng và tài liệu",
+      "scene.documents.narration": "Mở hợp đồng và tài liệu liên quan tại đây. Bạn có thể tải PDF bằng chức năng lưu của trình duyệt. Sau khi xem, nhấn Quay lại hướng dẫn để trở về slide này.",
+      "scene.complete.title": "Hỏi rõ\ntrước khi ký.",
+      "scene.complete.body": "Khi đã hiểu điều khoản, hãy làm theo hướng dẫn ký của người phụ trách.",
+      "scene.complete.alt": "Minh họa người đang thực hiện quy trình",
+      "scene.complete.action": "Xem hợp đồng và tài liệu",
+      "scene.complete.narration": "Phần giải thích đã kết thúc. Hãy hỏi người phụ trách về những điều chưa rõ trước khi ký. Chỉ xem phần giải thích này không có nghĩa là hợp đồng đã được ký kết.",
+      "guide.title": "Trước khi ký hợp đồng",
+      "guide.description": "Xem hợp đồng và tài liệu liên quan. Hỏi người phụ trách về những điều chưa rõ.",
+      "document.sample.title": "Tài liệu hợp đồng mẫu",
+      "document.sample.body": "PDF để kiểm tra hiển thị. Đây không phải hợp đồng thực tế."
+    }
+  }
+}
